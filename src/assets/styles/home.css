@@ -1,0 +1,187 @@
+/* *{
+    border:  red solid;
+} */
+.service{
+    background-color: rgba(0, 0, 0, 0.466);
+    color: white;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+a{
+    text-decoration: none;
+}
+.p{
+    padding: 0 30px 0 30px;
+}
+.logo{
+    width: 500px;
+}
+.dbimg{
+
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-color: rgba(2, 11, 34, 0.404);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.dbimg main{
+    width: 600px;
+
+}
+.construction{
+    font-family: 'Montserrat';
+    font-size: small;
+   color: rgb(245,173,13);
+   /* bor */
+}
+.global{
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.experience{
+    color: whitesmoke;
+    font-family: 'Montserrat';
+    /* font-size: small; */
+}
+.btnget{
+   background-color: rgb(245,173,13);
+   color: white;
+   padding: 10px;
+   border: 0;
+   border-radius: 2px;
+
+}
+.safety{
+    height: 85vh;
+    background-color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.safety main{
+    background-color: rgb(245,173,13);
+    width: 350px;
+    height: 420px;
+    padding: 15px 0 0 15px;
+
+}
+.safety main img{
+    background-color: rgb(245,173,13);
+    width: 350px;
+    height: 420px;
+}
+.safety div{
+    width: 450px;
+
+}
+.at{
+}
+.list{
+    font-size: small;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.list ~ .btnget{
+    width: 150px;
+}
+
+.we{
+    height: 150vh;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    background-color: whitesmoke;
+    
+}
+.Diffrientiated{
+    width: 700px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.listimg{
+    width: 840px;  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.listimg div{
+    border-top: 6px solid rgb(245,173,13);
+    width: 260px;
+    height: 300px;
+    margin-bottom: 20px;
+    box-shadow: 2px 1px 6px rgb(0, 0, 0);
+
+}
+.cardimg1,.cardimg2, .cardimg3,.cardimg4, .cardimg5, .cardimg6{
+
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.cardimg1:hover,.cardimg2:hover, .cardimg3:hover,.cardimg4:hover, .cardimg5:hover, .cardimg6:hover{
+    background-color: rgba(5, 5, 26, 0.226);
+}
+
+
+.usbgimg{
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-color: rgba(2, 11, 34, 0.404);
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.usbgimg main{
+    background-color: rgb(245,173,13);
+    width: 350px;
+    height: 420px;
+    padding: 15px 0 0 15px;
+
+}
+.usimg{
+    background-color: rgb(245,173,13);
+    width: 350px;
+    height: 420px;
+    padding: 15px 0 0 15px;
+
+}
+.usbgimg div{
+    color: white;
+    width: 450px;
+
+}
+.usimg img{
+    background-color: rgb(245,173,13);
+    width: 350px;
+    height: 420px;
+}
+
+@media (max-width: 995px) {
+    .dbimg main{
+        width: 100%;
+    }
+    .safety{
+        display: block !important;
+        height: 100% !important;
+    }
+}
