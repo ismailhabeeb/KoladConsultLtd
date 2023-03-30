@@ -5,7 +5,9 @@ import '../../assets/styles/home.css'
 import logo from '../../assets/images/Untitled-1.svg'
 import logo2 from '../../assets/images/logor.png'
 import house from '../../assets/images/house.jpg'
+import house1 from '../../assets/images/draw.jpg'
 import bg from '../../assets/images/luxuryproperty.avif'
+import bg1 from '../../assets/images/building-n-h.jpg'
 import { ArrowRightOutlined, CheckOutlined, FallOutlined, HighlightOutlined, MailFilled, SmileOutlined } from '@ant-design/icons'
 
 function Main() {
@@ -20,7 +22,7 @@ function Main() {
           className="logo react"
       
       */}
-            <section className='dbimg' style={{ backgroundImage: `url(${bg})`, }}>
+            <section className='dbimg' style={{ backgroundImage: `url(${bg1})`, }}>
 
                 {/* <div className='logo'>
                     <img className='w-100' src={logo} alt="" />
@@ -221,7 +223,7 @@ function Main() {
                     </div>
                 </div>
                 <main className='usimg'>
-                    <img src={house} alt="" />
+                    <img src={house1} alt="" />
                 </main>
             </section>
 
