@@ -21,6 +21,7 @@ import Main from './pages/home/main'
 // import Add_listing from './pages/profile/add_to_listing'
 // import Profile from './pages/profile/profile'
 import Textprovider from './components/context'
+import Architectural from './pages/home/architecture'
 // import Blog from './pages/dashboard/blog'
 // import Favorites from './pages/profile/favorites'
 // import My_listing from './pages/profile/my_listing'
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: '',
         element: <Main />
+      },
+      {
+        path: 'architecture',
+        element: <Architectural />
       },
       // {
       //   path: 'blog',

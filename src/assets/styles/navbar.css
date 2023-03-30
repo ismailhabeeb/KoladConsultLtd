@@ -1,13 +1,15 @@
-.sticky-topp{
+.sticky-topp {
     top: -40px;
 }
-.sticky-bottom{
+
+.sticky-bottom {
     bottom: 20px;
     left: 80%;
 
 }
+
 /* //////////// */
-.sticky-bottom .btn{
+.sticky-bottom .btn {
     border-radius: 3px !important;
     color: rgb(4, 63, 4);
     border: solid 1px black !important;
@@ -18,27 +20,30 @@
     /* border: solid green 1px !important; */
 
 }
-.sticky-bottom button:hover{
+
+.sticky-bottom button:hover {
     border: solid blue 1px !important;
     background-color: rgba(255, 255, 255, 0.521) !important;
     background-color: white !important;
-  transform: scale(0.90);
+    transform: scale(0.90);
 
 
 }
 
 /* /////////////////////////////////// */
-#top .beforlogin{
+#top .beforlogin {
     position: absolute;
     right: 15px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
 }
-#top div a{
-    color: white ;
+
+#top div a {
+    color: white;
 
 }
+
 /* // */
 #top {
     /* background-color: rgb(3, 80, 3); */
@@ -68,32 +73,41 @@
 }
 
 /* ////// */
- .secondtop{
+.secondtop {
     /* background-color: rgba(255, 255, 255, 0.705) !important; */
     z-index: 9999999999;
     position: sticky;
     top: 0;
+    color: white !important;
     /* box-shadow: 2px 1px 6px rgb(228, 55, 3); */
-    
-} 
-.nav-item{
+
+}
+
+.nav-item {
     color: red !important;
-} 
-.l1:hover,.l2:hover,.l3:hover,.l4:hover,.l5:hover{
+}
+
+.l1:hover,
+.l2:hover,
+.l3:hover,
+.l4:hover,
+.l5:hover {
     font-weight: 700 !important;
-    border-bottom: solid rgb(114,127,162) 2px !important;
+    border-bottom: solid rgb(114, 127, 162) 2px !important;
     /* color: rgb(114,127,162) !important; */
 }
-.profile{
+
+.profile {
     width: 40px !important;
     border-radius: 50%;
 
 }
-.profile img{
+
+.profile img {
     width: 100%;
 }
 
-.addlisting{
+.addlisting {
     border: dotted 2px !important;
     /* justify-content: center; */
     gap: 5px;
@@ -104,23 +118,26 @@
 
 
 
-.secondtop_scroll{
+.secondtop_scroll {
     background-color: rgb(167, 253, 167);
 }
-.hov{
+
+.hov {
     transition: all 0.5s linear;
 }
+
 .hov:hover {
     box-shadow: 0px 5px 10px #8AB4F8;
     border-radius: 8px;
 }
-.map{
+
+.map {
     width: 600px;
     height: 100%;
     background-color: #8AB4F8;
 }
 
-#mapimg{
+#mapimg {
     /* background-image: url(); */
     background-repeat: no-repeat;
     background-position: center;
@@ -129,7 +146,8 @@
     width: 100% !important;
     height: 500px !important;
 }
-.sticky-to{
+
+.sticky-to {
     box-shadow: 0px 5px 10px #080808;
 
     /* border: solid 1px ; */
@@ -142,7 +160,7 @@
 }
 
 
-.navbar-brand{
+.navbar-brand {
     /* width: 70px;
     height: 70px; */
     /* background: #000; */
@@ -150,7 +168,8 @@
     font-family: serif;
 
 }
-.navbar-brand span{
+
+.navbar-brand span {
     font-size: xx-large !important;
     font-weight: bolder;
 }
@@ -160,13 +179,15 @@
     height: 70px;
 } */
 
-.navsearch{
+.navsearch {
     width: 300px;
     border: none;
     border-bottom: solid 2px #eee;
     /* border-bottom: solid 2px rgb(255,193,7); */
 }
-.navsearch input, .navsearch div{
+
+.navsearch input,
+.navsearch div {
     background-color: transparent !important;
     border: none;
     box-shadow: none !important;
