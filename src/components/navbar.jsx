@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 // import profile from '/src/assets/images/profile-icon.jpg'
 import { useContext, useRef, useState } from 'react';
 import { Textcontext } from './context';
-import { UserOutlined, PlusOutlined, SaveOutlined, PlusCircleOutlined, MailOutlined, MailTwoTone, MailFilled, EnvironmentFilled, PhoneFilled, FacebookFilled, TwitterCircleFilled, InstagramFilled, LinkedinFilled, SearchOutlined } from '@ant-design/icons';
+import {SaveOutlined, SearchOutlined } from '@ant-design/icons';
 
 
 export default function Navbar(params) {
@@ -79,44 +79,14 @@ export default function Navbar(params) {
     // }
     return (
         <div className=''>
-            <nav style={{ fontSize: '12px' }} className='d-flex navbar bg-primary text-white ps-5 pe-5' id='top'>
-
-                <div className='text-info d-flex gap-2'>
-
-                    <div className='d-flex'><FacebookFilled className='my-auto text-info' /></div>
-                    <div className='d-flex'><TwitterCircleFilled className='my-auto text-info' /></div>
-                    <div className='d-flex'><LinkedinFilled className='my-auto text-info' /></div>
-                    <div className='d-flex'><InstagramFilled className='my-auto text-info' /></div>
-                </div>
-
-                <div className='navbar gap-3'>
-                    <div className='text-info d-flex gap-2'>
-                        <div className='d-flex'><PhoneFilled className='my-auto text-warning' /></div>
-
-                        <a className='text-info' href=""> (+123) 806-959-5110</a>
-                    </div>
-                    |
-                    <div className='text-info d-flex gap-2'>
-                        <div className='d-flex'><MailFilled className='my-auto text-warning' /></div>
-
-                        <a className='text-info' href=""> Koladconsultltd@gmail.com</a>
-                    </div>
-                    |
-                    <div className='text-info d-flex gap-2'>
-                        <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' /></div>
-                        <a className='text-info' href="#">No.1 Ogunlana St, OLive G Es., Ogombo, Ajah Lagos.</a>
-                    </div>
-                </div>
-            </nav>
-
-            <nav className="navbar navbar-expand-lg secondtop d-flex ps-3 pe-3 text-white" id='secondtop'>
+            <nav className="navbar navbar-expand-lg secondtop d-flex px-1 px-sm-3  text-white " id='secondtop'>
                 <div className="container-fluid ">
                     <a className="navbar-brand" href="#">
                         {/* <img src={logo} alt="" /> */}
                         Kolad Consult Ltd<span className='text-warning '>.</span>
                     </a>
                     <button style={{ boxShadow: 'none' }} className="navbar-toggler border-0 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <span className="navbar-toggler-icon bg-info rounded"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-white">

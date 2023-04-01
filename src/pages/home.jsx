@@ -7,6 +7,7 @@ import Navbar from '../components/navbar';
 // import Map from '../../components/map';
 // import key from '/src/assets/images/Tech.webp'
 import { EnvironmentOutlined, UnorderedListOutlined } from '@ant-design/icons';
+import Top1 from '../components/top1';
 
 export default function Home() {
     // const [map, setMap] = useState(false)
@@ -18,11 +19,12 @@ export default function Home() {
 
     // }
     return (
-        <main className=''>
-            <div style={{zIndex: 10}} className='sticky-top sticky-topp '>
+        <main style={{fontFamily:"Montserrat"}}>
+            <Top1/>
+            <div style={{zIndex: 10}} className=' sticky-top '>
                 <Navbar />
             </div>
-            <div style={{marginTop: '-75px'}} className=''>
+            <div style={{marginTop:"-75px"}} className=''>
                 <Outlet />
             </div>
             <Footer />
