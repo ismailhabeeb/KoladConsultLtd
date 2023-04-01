@@ -9,13 +9,26 @@ import house1 from '../../assets/images/draw.jpg'
 import bg from '../../assets/images/luxuryproperty.avif'
 import bg1 from '../../assets/images/building-n-h.jpg'
 import Projects from '../../components/projects'
-import bgdraw from '../../assets/images/artchitecturedraw.avif'
-import buildings from '/src/assets/images/buildings.avif'
-import { ArrowRightOutlined, CheckOutlined, FallOutlined, HighlightOutlined, MailFilled, SmileOutlined } from '@ant-design/icons'
 
 function Main() {
     const [count, setCount] = useState(0)
+<<<<<<< HEAD
     {/* <div className='logo'>
+=======
+
+    return (
+        <div className="App">
+
+            {/* 
+          <div className="card">
+          <p className="read-the-docs">
+          className="logo react"
+      
+      */}
+            <section className='dbimg ' style={{ backgroundImage: `url(${bg1})`, }}>
+
+                {/* <div className='logo'>
+>>>>>>> 1f730a607cb18d0b2f72c9334b31ec084df86d8c
                     <img className='w-100' src={logo} alt="" />
 
                 </div> */}
@@ -40,8 +53,13 @@ function Main() {
                     </button>
                 </main>
             </section>
+<<<<<<< HEAD
 
             <Projects />
+=======
+           
+           <Projects/>
+>>>>>>> 1f730a607cb18d0b2f72c9334b31ec084df86d8c
 
             <section className='usbgimg' style={{ backgroundImage: `url(${bg})`, }}>
                 <div className='gy-2 gap-3'>
@@ -70,12 +88,7 @@ function Main() {
                 </main>
             </section>
 
-            <section style={{ backgroundImage: `url(${bgdraw})` }} className='containn d-flex p'>
-
-
-                {/* <h2 className='logo bg-danger'>wggkadgkacgkascgag</h2> */}
-
-
+            <section className='safety d-flex p'>
             </section>
         </main>
     )

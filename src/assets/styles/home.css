@@ -31,9 +31,9 @@ a {
 
 .dbimg {
 
-    height: 90vh;
-    background-repeat: no-repeat !important;
-    background-size: cover !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
     background-color: rgba(2, 11, 34, 0.712);
@@ -41,7 +41,7 @@ a {
     justify-content: center;
     justify-items: center;
     align-items: center;
-    padding-top: 40px;
+    padding: 170px 0px 70px 0px;
 }
 
 .dbimg main {
@@ -225,8 +225,8 @@ a {
 }
 
 
-.usbgimg {
-    min-height: 80vh;
+.usbgimg{
+    min-height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -323,6 +323,9 @@ a {
     .usbgimg main {
         display: none;
     }
+    .usbgimg{
+        min-height: 40vh;
+    }
 }
 
 
@@ -347,6 +350,10 @@ a {
 @media(max-width:647px) {
     .global {
         font-size: 50px;
+    }
+    .dbimg{
+        height: 100%;
+        padding: 100px 0px 25px 0px;
     }
 }
 
@@ -478,9 +485,8 @@ a {
     .global {
         font-size: 20px;
     }
-
-    .dbimg {
-        padding-top: 40px;
+    .dbimg{
+        /* padding-top: 40px; */
     }
 }
 
