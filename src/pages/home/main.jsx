@@ -8,6 +8,8 @@ import house from '../../assets/images/house.jpg'
 import house1 from '../../assets/images/draw.jpg'
 import bg from '../../assets/images/luxuryproperty.avif'
 import bg1 from '../../assets/images/building-n-h.jpg'
+import bgdraw from '../../assets/images/artchitecturedraw.avif'
+import buildings from '/src/assets/images/buildings.avif'
 import { ArrowRightOutlined, CheckOutlined, FallOutlined, HighlightOutlined, MailFilled, SmileOutlined } from '@ant-design/icons'
 
 function Main() {
@@ -15,15 +17,7 @@ function Main() {
 
     return (
         <div className="App">
-
-            {/* 
-          <div className="card">
-          <p className="read-the-docs">
-          className="logo react"
-      
-      */}
             <section className='dbimg' style={{ backgroundImage: `url(${bg1})`, }}>
-
                 {/* <div className='logo'>
                     <img className='w-100' src={logo} alt="" />
 
@@ -46,7 +40,7 @@ function Main() {
             </section>
             <section className='safety d-flex p'>
                 <main>
-                    <img src={house} alt="" />
+                    <img src={buildings} alt="" />
                 </main>
 
                 <div className='gy-2'>
@@ -227,7 +221,12 @@ function Main() {
                 </main>
             </section>
 
-            <section className='safety d-flex p'>
+            <section style={{ backgroundImage: `url(${bgdraw})` }} className='containn d-flex p'>
+
+
+                {/* <h2 className='logo bg-danger'>wggkadgkacgkascgag</h2> */}
+
+
             </section>
 
         </div>

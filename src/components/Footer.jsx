@@ -1,111 +1,127 @@
 import "/src/assets/styles/footer.css"
 // import logo from '../assets/images/TreeCity-removedbg.png'
-import { FacebookOutlined, InstagramOutlined, TwitterOutlined, WhatsAppOutlined, YoutubeOutlined } from '@ant-design/icons';
+import { EnvironmentFilled, FacebookOutlined, InstagramOutlined, MailFilled, PhoneFilled, TwitterOutlined, WhatsAppOutlined, YoutubeOutlined } from '@ant-design/icons';
 
 function Footer() {
   return (
     <>
 
-      <div className="footer">
+      <div className="footer p">
         <div className="footer text-start">
 
           <div className="row primary thisrow">
             <div className="column blog">
 
-              <h3 className="text-info bg-light">
-                {/* <img className='log w-100' src={logo} alt="" /> */}
-                logo
+              <h3 className="h-25 border bg-info ">
+                <a className="navbar-brand my-auto" href="#">
+                  {/* <img src={logo} alt="" /> */}
+                  Kolad Consult Ltd<span className='text-warning '>.</span>
+                </a>
               </h3>
 
+              <small>
+                We have completed over 30,000 projects. Specializing in design
+                build and turnkey construction, We are passionate about design
+                architecture and construction 🚧
+              </small>
 
               <div className="social ">
                 <FacebookOutlined className="i" />
-                <InstagramOutlined className="i"/>
-                <TwitterOutlined className="i"/>
-                <YoutubeOutlined className="i"/>
-                <WhatsAppOutlined className="i"/>
+                <InstagramOutlined className="i" />
+                <TwitterOutlined className="i" />
+                <WhatsAppOutlined className="i" />
               </div>
             </div>
 
             <div className="column links">
-              {/* <h3>Some Links</h3> */}
+              <h3>About Industry</h3>
               <ul>
                 <li>
-                  <a href="#faq">NEWS</a>
+                  <a href="#faq">Engineering & Construction</a>
                 </li>
                 <li>
-                  <a href="#cookies-policy">POLITICS</a>
+                  <a href="#cookies-policy">Core Architecture</a>
                 </li>
                 <li>
-                  <a href="#terms-of-services">ENTERTAINMENT</a>
+                  <a href="#terms-of-services">Infrastructure</a>
                 </li>
                 <li>
-                  <a href="#support">SPORT</a>
-                </li>
-              </ul>
-            </div>
-
-            <div className="column links">
-
-              <ul>
-
-                <li>
-                  <a href="#faq">ABOUT US</a>
+                  <a href="#support">Cleaner Energy</a>
                 </li>
                 <li>
-                  <a href="#cookies-policy">ADVERTISE</a>
-                </li>
-                <li>
-                  <a href="#terms-of-services">CONTACT US</a>
-                </li>
-                <li>
-                  <a href="#support">RSS</a>
-                </li>
-                <li>
-                  <a href="#support"> FAQ </a>
+                  <a href="#support"> Quality Service</a>
                 </li>
               </ul>
 
             </div>
 
+            <div className="column links">
+              <h3>Our Solutions</h3>
+              <ul>
+                <li>
+                  <a href="#faq">Sustainability Services</a>
+                </li>
+                <li>
+                  <a href="#cookies-policy">Worldwide Provider</a>
+                </li>
+                <li>
+                  <a href="#terms-of-services">Master Planning</a>
+                </li>
+                <li>
+                  <a href="#support">Sustainability Policy</a>
+                </li>
+
+                <li>
+                  <a href="#support">Green Building</a>
+                </li>
+              </ul>
+            </div>
 
             <div className="column links">
+              <h3>General</h3>
               <ul>
                 <li>
                   <a href="#faq">F.A.Q</a>
                 </li>
                 <li>
-                  <a href="#cookies-policy">COOKIES POLICY</a>
+                  <a href="#cookies-policy">Cookies Policy</a>
                 </li>
                 <li>
-                  <a href="#terms-of-services">TERMS OF SERVICE</a>
+                  <a href="#terms-of-services">Terms OF Service</a>
                 </li>
                 <li>
-                  <a href="#support">SUPPORT</a>
+                  <a href="#support">Support</a>
                 </li>
               </ul>
             </div>
+
             <div className="column links">
+              <h3>Contact Us</h3>
               <ul>
                 <li>
-                  <a href="#faq">CAREERS</a>
+                  <div className='text-info d-flex gap-2'>
+                    <div className='d-flex'><PhoneFilled className='my-auto text-warning' /></div>
+
+                    <a className='text-info' href=""> (+123) 806-959-5110</a>
+                  </div>
                 </li>
+                <hr className="divider" />
                 <li>
-                  <a href="#cookies-policy">ARCHIVE</a>
-                </li>
-                <li>
-                  <a href="#terms-of-services">USER AGREEMENT</a>
-                </li>
-                <li>
-                  <a href="#support">COMMENT POLICY</a>
-                </li>
+                  <div className='text-info d-flex gap-2'>
+                    <div className='d-flex'><MailFilled className='my-auto text-warning' /></div>
+
+                    <a className='text-info' href=""> koladconsultltd@gmail.com</a>
+                  </div>                </li>
+                <hr className="divider" />
 
                 <li>
-                  <a href="#support">DMCA POLICY</a>
+                  <div className='text-info d-flex gap-2'>
+                    <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' /></div>
+                    <a className='text-info' href="#">No.1 Ogunlana St, OLive G Es., Ogombo, Ajah Lagos.</a>
+                  </div>
                 </li>
               </ul>
             </div>
-
 
 
           </div>
@@ -116,11 +132,10 @@ function Footer() {
               <a href="">About</a>
               <a href="">Contact</a>
               <a href="">Blog</a>
-              <a href="">Social</a>
-
+              <a href="">Portfolio</a>
             </div>
             <hr />
-            <p className="">Copyright &copy;<a href="mailto:ismailhabeeboluwatobi995@gmail.com">Dev. MAHISH</a> </p>
+            <p className="text-white">Copyright <a href="koladconsultltd@gmail.com">©2023 Kolad Consult Ltd by Azeez Habeeb. All Rights Reserved </a>  | <a href="">Privacy Policy</a> | <a href="">Terms and Conditions.</a></p>
           </div>
 
 
