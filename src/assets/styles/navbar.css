@@ -47,7 +47,7 @@
 /* // */
 #top {
     /* background-color: rgb(3, 80, 3); */
-    height: 40px;
+    min-height: 40px;
     position: relative;
     padding: 0 20px 0 20px;
 
@@ -67,10 +67,10 @@
 }
 
 
-#top div div label {
-    /* color: rgb(195, 248, 228) !important; */
+/* #top div div label {
+    color: rgb(195, 248, 228) !important;
 
-}
+} */
 
 /* ////// */
 .secondtop {
@@ -86,6 +86,8 @@
 /* .nav-item {
     color: red !important;////////////////////////////////////
 } */
+
+
 
 .l1:hover,
 .l2:hover,
@@ -157,6 +159,10 @@
 
 
 .navbar-brand {
+    /* width: 70px;
+    height: 70px; */
+    /* background: #000; */
+    color: white !important;
     color: white;
     font-family: serif;
 }

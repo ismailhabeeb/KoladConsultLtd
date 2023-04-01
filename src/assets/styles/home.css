@@ -33,6 +33,7 @@ a{
     justify-content: center;
     justify-items: center;
     align-items: center;
+    padding-top: 40px;
 }
 .dbimg main{
     width: 600px;
@@ -55,6 +56,7 @@ a{
     /* font-size: small; */
 }
 .btnget{
+    /* margin-top: 30px; */
    background-color: rgb(245,173,13);
    color: white;
    padding: 10px;
@@ -63,26 +65,28 @@ a{
 
 }
 .safety{
-    height: 85vh;
+    /* height: 90vh; */
     background-color: white;
     align-items: center;
     justify-content: space-evenly;
+    padding: 25px 25px 45px 0px;
     
 }
 .safety main{
     background-color: rgb(245,173,13);
-    width: 350px;
-    height: 420px;
+    /* width: 350px; */
+    height: 80vh;
     padding: 15px 0 0 15px;
 
 }
 .safety main img{
     background-color: rgb(245,173,13);
-    width: 350px;
-    height: 420px;
+    /* margin: 15px 0 0 5px; */
+    width: 104%;
+    height: 80vh;
 }
 .safety div{
-    width: 450px;
+    /* width: 450px; */
 
 }
 .at{
@@ -97,7 +101,8 @@ a{
 }
 
 .we{
-    height: 150vh;
+    /* height: 150vh; */
+    padding: 25px;
     display: flex;
     /* flex-direction: column; */
     align-items: center;
@@ -108,15 +113,16 @@ a{
     
 }
 .Diffrientiated{
-    width: 700px;
+    max-width: 700px;
     margin: auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 .listimg{
-    width: 840px;  
+    max-width: 840px;  
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    flex-wrap: wrap ;
+    justify-content: space-evenly;
+    /* gap: 10px; */
 }
 .listimg div{
     border-top: 6px solid rgb(245,173,13);
@@ -127,26 +133,38 @@ a{
 
 }
 .cardimg1,.cardimg2, .cardimg3,.cardimg4, .cardimg5, .cardimg6{
-
+    padding-left: 7px ;
+    padding-right: 7px ;
     background-color: white;
     height: 100%;
     width: 100%;
+    
+}
+.hoverEffecct:hover{
+    transform: translateY(-10px);
+    transition: transform 1s;
 }
 
 .cardimg1:hover,.cardimg2:hover, .cardimg3:hover,.cardimg4:hover, .cardimg5:hover, .cardimg6:hover{
     background-color: rgba(5, 5, 26, 0.226);
+    color: white;
+   
+}
+.cardimg1:hover a,.cardimg2:hover a, .cardimg3:hover a,.cardimg4:hover a, .cardimg5:hover a, .cardimg6:hover a{
+    /* background-color: rgba(5, 5, 26, 0.226); */
+    color: white;
 }
 
 
 .usbgimg{
-    height: 80vh;
+    min-height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
     background-color: rgba(2, 11, 34, 0.404);
     display: flex;
-    justify-content: center;
+    padding: 20px 15px ;
     justify-items: center;
     align-items: center;
     justify-content: space-evenly;
@@ -165,10 +183,12 @@ a{
     padding: 15px 0 0 15px;
 
 }
-.usbgimg div{
+.usbgimg > div{
     color: white;
-    width: 450px;
-
+    max-width: 450px;
+    display: flex;
+    flex-direction: column;
+    
 }
 .usimg img{
     background-color: rgb(245,173,13);
@@ -193,10 +213,27 @@ a{
 @media (max-width: 995px) {
     .dbimg main{
         width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
     }
-    .safety{
-        display: block !important;
-        height: 100% !important;
+    .safety main {
+       width: 95%;
+       height: 100% !important;
+    }
+    .safety main img{
+       width: 103%;
+       height: 100% !important;
+    }
+    .safety > div{
+        padding-top: 30px;
+    }
+    .safety {
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 40px;
+    }
+    .usbgimg main{
+        display: none;
     }
 }
 
@@ -218,6 +255,93 @@ a{
     border: solid 0.01px rgba(255, 255, 255, 0.473);
 }
 
+@media(max-width:647px) {
+    .global{
+        font-size: 50px;
+    }
+}
+@media(max-width:610px) {
+    .cardimg1 > section,.cardimg2 > section, .cardimg3 > section,.cardimg4 > section, .cardimg5 > section, .cardimg6 > section{
+        font-size: 15px ;
+        
+    }
+    .listimg div{
+        width: 230px !important;
+    }
+}
+@media(max-width:550px) {
+    .global{
+        font-size: 40px;
+    }
+    .list > div{
+        width:  100% !important;
+    }
+}
+@media(max-width:576px) {
+    .safety {
+        /* padding-bottom: 25px; */
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+    .cardimg1 > section,.cardimg2 > section, .cardimg3 > section,.cardimg4 > section, .cardimg5 > section, .cardimg6 > section{
+        font-size: 13px ;
+        
+    }
+    .listimg div{
+        width: 210px !important;
+        height: 270px;
+    }
+    .dbimg main{
+        margin-left: -25px !important;
+    }
+}
+@media(max-width:530px) {
+    .cardimg1 > section,.cardimg2 > section, .cardimg3 > section,.cardimg4 > section, .cardimg5 > section, .cardimg6 > section{
+        font-size: 13px ;
+        
+    }
+    .cardimg1,.cardimg2, .cardimg3,.cardimg4, .cardimg5, .cardimg6{
+        padding-left: 5px ;
+        padding-right: 5px ;
+    }
+    .we{
+        padding-left: 15px ;
+        padding-right: 15px ;
+    }
+}
+@media(max-width:490px) {
+    .cardimg1,.cardimg2, .cardimg3,.cardimg4, .cardimg5, .cardimg6{
+        padding: 0px 10px 10px 10px;
+    }
+    .listimg div{
+        width: 100% !important;
+        height: 100% !important;
+        /* padding-bottom: 10px; */
+    }
+    .cardimg1 > section,.cardimg2 > section, .cardimg3 > section,.cardimg4 > section, .cardimg5 > section, .cardimg6 > section{
+        font-size: 15px ;
+        text-align: left;
+    }
+    .usflex{
+        flex-direction: column;
+    }
+    .usflex button{
+        width: 75% !important;
+    }
+}
+@media(max-width:460px) {
+    .global{
+        font-size: 30px;
+    }
+}
+@media(max-width:320px) {
+    .global{
+        font-size: 20px;
+    }
+    .dbimg{
+        padding-top: 40px;
+    }
+}
 
 .logo {
     height: 6em;
