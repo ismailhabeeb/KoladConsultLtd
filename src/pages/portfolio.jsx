@@ -1,10 +1,10 @@
 // import bg1 from '../../assets/images/building-n-h.jpg'
 import { useEffect, useState } from 'react'
-import bg1 from '../../assets/images/draw.jpg'
-import '../../assets/styles/home.css'
-import '../../assets/styles/portfolio.css'
-import logo from '../../assets/images/Untitled-1.svg'
-import logo2 from '../../assets/images/logort.png'
+import bg1 from '../assets/images/draw.jpg'
+import '../assets/styles/home.css'
+import '../assets/styles/portfolio.css'
+import logo from '../assets/images/Untitled-1.svg'
+import logo2 from '../assets/images/logort.png'
 function Portfolio() {
     const [textArray, setTextArray] = useState(["I'm Azeez Habeeb, Architectural and Engineeri."])
     // let textDispla = 

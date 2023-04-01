@@ -66,28 +66,19 @@
     /* color: red !important; */
 }
 
-
-/* #top div div label {
-    color: rgb(195, 248, 228) !important;
-
-} */
-
-/* ////// */
 .secondtop {
-    /* background-color: rgba(255, 255, 255, 0.705) !important; */
     z-index: 9999999999;
     position: sticky;
     top: 0;
     color: white !important;
-    /* box-shadow: 2px 1px 6px rgb(228, 55, 3); */
+    position: absolute;
+    width: 100%;
 
 }
 
-/* .nav-item {
-    color: red !important;////////////////////////////////////
-} */
+.top2{
 
-
+}
 
 .l1:hover,
 .l2:hover,
@@ -96,7 +87,6 @@
 .l5:hover {
     font-weight: 700 !important;
     border-bottom: solid rgb(114, 127, 162) 2px !important;
-    /* color: rgb(114,127,162) !important; */
 }
 
 .profile {
@@ -111,24 +101,17 @@
 
 .addlisting {
     border: dotted 2px !important;
-    /* justify-content: center; */
     gap: 5px;
     align-items: center;
 }
 
 
 
-
-
-.secondtop_scroll {
-    background-color: rgb(167, 253, 167);
-}
-
-.hov {
+.whatsapp {
     transition: all 0.5s linear;
 }
 
-.hov:hover {
+.whatsapp:hover {
     box-shadow: 0px 5px 10px #8AB4F8;
     border-radius: 8px;
 }
@@ -147,7 +130,7 @@
     height: 500px !important;
 } */
 
-.sticky-to {
+/* .sticky-to {
     box-shadow: 0px 5px 10px #080808;
     background-color: #8AB4F8;
     position: absolute;
@@ -155,7 +138,7 @@
     height: 570px !important;
     position: sticky;
     top: 77px;
-}
+} */
 
 
 .navbar-brand {

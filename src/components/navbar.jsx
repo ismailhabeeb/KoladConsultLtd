@@ -18,14 +18,7 @@ export default function Navbar(params) {
     const property = useRef(null);
     const blog = useRef(null);
     const contact = useRef(null);
-
-    // document.onscroll = function () { scrollGo() }
     window.onscroll = function () { scrollFunc() };
-    // window.ononline = function () { alart() };
-    // window.onoffline = function () { offline() };
-
-    // const [navbar, setNavbar] = useState('Home')
-
     function scrollFunc() {
         if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
             document.getElementById("secondtop").style.backgroundColor = "rgba(5, 18, 44, 0.795)";

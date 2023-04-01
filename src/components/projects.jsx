@@ -1,13 +1,15 @@
 import { ArrowRightOutlined, CheckOutlined, SmileOutlined } from '@ant-design/icons'
 import house from '../assets/images/house.jpg'
 import bg from '../assets/images/luxuryproperty.avif'
+import buildings from '/src/assets/images/buildings.avif'
+
 
 function Projects() {
     return (
         <>
             <section className='safety d-flex p row mx-auto'>
-                <main className=' col-lg-5'>
-                    <img src={house} alt="" />
+                <main className=' col-lg-4'>
+                    <img src={buildings} alt="" />
                 </main>
 
                 <div className='gy-2 col-lg-6 ps-lg-5 d-flex flex-column gap-4'>
