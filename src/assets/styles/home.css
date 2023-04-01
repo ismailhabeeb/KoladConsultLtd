@@ -23,7 +23,7 @@ a{
 }
 .dbimg{
 
-    height: 90vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -33,7 +33,7 @@ a{
     justify-content: center;
     justify-items: center;
     align-items: center;
-    padding-top: 40px;
+    padding: 170px 0px 70px 0px;
 }
 .dbimg main{
     width: 600px;
@@ -75,7 +75,7 @@ a{
 .safety main{
     background-color: rgb(245,173,13);
     /* width: 350px; */
-    height: 80vh;
+    height: 75vh;
     padding: 15px 0 0 15px;
 
 }
@@ -83,13 +83,7 @@ a{
     background-color: rgb(245,173,13);
     /* margin: 15px 0 0 5px; */
     width: 104%;
-    height: 80vh;
-}
-.safety div{
-    /* width: 450px; */
-
-}
-.at{
+    height: 75vh;
 }
 .list{
     font-size: small;
@@ -157,7 +151,7 @@ a{
 
 
 .usbgimg{
-    min-height: 80vh;
+    min-height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
@@ -235,6 +229,9 @@ a{
     .usbgimg main{
         display: none;
     }
+    .usbgimg{
+        min-height: 40vh;
+    }
 }
 
 
@@ -258,6 +255,10 @@ a{
 @media(max-width:647px) {
     .global{
         font-size: 50px;
+    }
+    .dbimg{
+        height: 100%;
+        padding: 100px 0px 25px 0px;
     }
 }
 @media(max-width:610px) {
@@ -339,7 +340,7 @@ a{
         font-size: 20px;
     }
     .dbimg{
-        padding-top: 40px;
+        /* padding-top: 40px; */
     }
 }
 
