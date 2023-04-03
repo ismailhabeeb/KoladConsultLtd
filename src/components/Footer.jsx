@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
 
-      <div className="footer p">
+      <div className="footer p-0 p-sm-3 ">
         <div className="footer text-start">
 
           <div className="row primary thisrow">

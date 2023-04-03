@@ -2,11 +2,12 @@
     /* margin-top: 90px; */
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
-
+    /* overflow: hidden; */
+    gap: 50px;
 }
-#main-div .navbar-brand{
-    font-size: 70px ;
+#main-div .navbar-bran{
+    font-size: 60px ;
+    color: white;
 }
 #hello {
     background-color: rgba(114, 127, 162, 0.712);
@@ -28,22 +29,51 @@
     padding: 10px;
 
 }
+.big_wrapper{
+    padding-left:25px;
+    padding-right:25px;
+}
 
 #message {
     color: aliceblue;
     min-height: 40px;
     /* font-size: large; */
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif !important; */
 
 }
 
 #info {
-    width: 500px;
-    /* word-spacing: -5px; */
+    max-width: 500px;
+    line-height: 25px;
     color: rgb(247, 247, 253);
     font-size: 16px;
     font-family: monospace;
     font-family: serif ;
 
-    font-weight: bold;
+    /* font-weight: bold; */
+}
+
+@media(max-width:610px){
+    #main-div .navbar-bran{
+        font-size: 40px;
+    }
+}
+@media(max-width:575.5px){
+    .big_wrapper{
+        padding-left:15px;
+        padding-right:15px;
+    }
+}
+@media(max-width:425px){
+    #main-div .navbar-bran{
+        font-size: 33px;
+    }
+}
+@media(max-width:359px){
+    #main-div .navbar-bran{
+        font-size: 25px;
+    }
+    #message{
+        font-size: medium;
+    }
 }

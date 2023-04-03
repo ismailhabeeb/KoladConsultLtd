@@ -23,27 +23,27 @@ function Portfolio() {
 
     return (
         <div>
-            <section className='dbimg bg-info p' style={{ backgroundImage: `url(${bg1})`, }}>
+            <section className='dbimg bg-info p big_wrapper' style={{ backgroundImage: `url(${bg1})`,fontFamily: "Montserrat"  }}>
                 <section className="contain w-100" id="main-div">
-                    <h1>
-                        <a className="navbar-brand " href="#">
+                    <h2 className='d-flex flex-column gap-3'>
+                        <a className="navbar-bran " href="#" style={{fontFamily: "Montserrat" }}>
                             Kolad Consult Ltd<span className='text-warning h1'>.</span>
                         </a>
-                        <div id="info" className="info">We are Architectural and Engineering Companing changing the world and building
+                        <div id="info" className="info" style={{fontFamily: "Montserrat" }}>We are Architectural and Engineering Companing changing the world and building
                             amazingthings one mide at a time, and providing high impact scalable solutions.
                             We have organise and co-organise Constructional, Architectural, Real Estate Interior & Exterior, We enjoy speaking,
                             meeting and collaborating with people. Looking for work around in the Globe.
                         </div>
-                        <button className='bt border'>
+                        <button className='bt border' style={{fontFamily: "Montserrat" , width:"170px"}}>
                             button in
                         </button>
-                    </h1>
-                    <div id="hello">
-                        <div id="message"><span className='text-warning '>. </span>Architectural Design</div>
-                        <div id="message"><span className='text-warning '>. </span>Real Estate</div>
-                        <div id="message"><span className='text-warning '>. </span>Building Construction</div>
-                        <div id="message"><span className='text-warning '>. </span>Property Development</div>
-                        <div id="message"><span className='text-warning '>. </span>Interior and Exterior</div>
+                    </h2>
+                    <div id="hello" style={{fontFamily: "Montserrat" }}>
+                        <div id="message" style={{fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Architectural Design</div>
+                        <div id="message" style={{fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Real Estate</div>
+                        <div id="message" style={{fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Building Construction</div>
+                        <div id="message" style={{fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Property Development</div>
+                        <div id="message" style={{fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Interior and Exterior</div>
                     </div>
                 </section>
             </section>

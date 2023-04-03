@@ -22,12 +22,12 @@ function Why_us() {
             // console.log(entry);
             if (entry.isIntersecting) {
                 setCount(true)
-                console.log(add);
+                // console.log(add);
 
             }
              else {
                 setCount(false)
-                console.log(add);
+                // console.log(add);
 
             }
         })
@@ -47,7 +47,7 @@ function Why_us() {
 
     return (
         <main>
-            <section className='p-5 bg-light text-center note'>
+            <section className=' bg-light text-center pt-5 note'>
                 <h1>WHY US ?</h1>
                 <p className='Diffrientiated mb-4'>At Kolad Consult Ltd Real Estate Department, we believe that communication is key to creating strong, lasting relationships.
                     That's why our partners work closely
@@ -85,13 +85,13 @@ function Why_us() {
                     </div>
                 </div>
             </section>
-            <section className='p-5 text-center note '>
+            <section className='text-center note pt-5'>
                 <h1>D3 Commitment</h1>
                 <p className='Diffrientiated mb-4'>Our team of experts is committed to delivering the highest standards of professionalism
                     at every stage of the design and development process, and are always striving to push
                     the boundaries and find new and innovative ways to get the job done.
                 </p>
-                <section className='d-flex d3card note'>
+                <section className='d-flex d3card not'>
                     <div className={`car d3 hidde ${add}`}>
                         <div style={{ backgroundImage: `url(${property})` }} className='d3icon text-primary'>
                         </div>

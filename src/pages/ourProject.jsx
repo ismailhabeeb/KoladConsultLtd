@@ -35,10 +35,10 @@ function Our_project() {
                 </main>
             </section>
             <section className='diverse'>
-                <h3>
+                <h3 className='pt-2 pb-4'>
                     Our diverse project list includes architectural design, real estate, Building construction, manufacturing construction and much more.
                 </h3>
-                <main className='d-flex '>
+                <main className='d-flex flex-wrap gap-2 '>
                     <section className="card  text-white propertyh">
                         <img src={property} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
