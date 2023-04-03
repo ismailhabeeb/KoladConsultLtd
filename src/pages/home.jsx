@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import Navbar from '../components/navbar';
 import { EnvironmentOutlined, UnorderedListOutlined } from '@ant-design/icons';
 import Top1 from '../components/top1';
+import Review from '../components/customers\'review';
 
 export default function Home() {
     // const [map, setMap] = useState(false)
@@ -28,6 +29,7 @@ export default function Home() {
                     <Outlet />
 
                 </div>
+                <Review/>
             </div>
             <Footer />
         </main>

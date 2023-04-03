@@ -211,9 +211,24 @@ a {
 .cardimg5:hover,
 .cardimg6:hover {
     background-color: rgba(5, 5, 26, 0.226);
-    color: white;
+    color: rgb(255, 255, 255);
+    transition: 0.8s ease;
+    
 
 }
+@keyframes float {
+
+    0%,
+    100% {
+        transform: rotateY(0rem);
+    }
+
+    50% {
+        transform: translateY(3rem);
+    }
+
+}
+
 
 .cardimg1:hover a,
 .cardimg2:hover a,

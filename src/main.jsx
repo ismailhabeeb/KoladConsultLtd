@@ -26,6 +26,7 @@ import Architectural from './pages/home/architecture'
 import Real_estate from './pages/home/real_estate'
 import Portfolio from './pages/portfolio'
 import Blog from './pages/blog'
+import Our_project from './pages/ourProject'
 // import Blog from './pages/dashboard/blog'
 // import Favorites from './pages/profile/favorites'
 // import My_listing from './pages/profile/my_listing'
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: 'blog',
         element: <Blog/>
+      },
+      {
+        path: 'our_Project',
+        element: <Our_project/>
       },
     ]
   },

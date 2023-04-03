@@ -61,11 +61,11 @@ export default function Blog() {
   return (
     <>
       <div className='bg-info text-light p-5 text-center'>
+        <h4 className='pt-5 text-primary'>The Latest News and Insights on Construction Industry</h4>
         <h4 className='mt-4'>
           <div style={{ width: '80px' }} className='  d-flex gap-2 mx-auto'>
             <a className='' href="">Blog/News </a>
             <div className='d-flex'><DownCircleOutlined className='my-auto text-primary' /></div>
-
           </div>
         </h4>
       </div>

@@ -97,7 +97,7 @@ export default function Navbar(params) {
                                 </div>
                             </li>
                             <li className="nav-item l2">
-                                <Link ref={our} to={'/'} style={{ borderBottom: navbar == 'Our Projects' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Our Projects' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Our Projects</Link>
+                                <Link ref={our} to={'/our_Project'} style={{ borderBottom: navbar == 'Our Projects' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Our Projects' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Our Projects</Link>
                             </li>
                             <li className="nav-item l4">
                                 <Link ref={portfolio} to={'/portfolio'} style={{ borderBottom: navbar == 'Portfolio' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Portfolio' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Portfolio</Link>

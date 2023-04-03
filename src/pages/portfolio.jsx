@@ -5,6 +5,7 @@ import '../assets/styles/home.css'
 import '../assets/styles/portfolio.css'
 import logo from '../assets/images/Untitled-1.svg'
 import logo2 from '../assets/images/logort.png'
+import Why_us from '../components/why-us'
 function Portfolio() {
     const [textArray, setTextArray] = useState(["I'm Azeez Habeeb, Architectural and Engineeri."])
     // let textDispla = 
@@ -19,35 +20,6 @@ function Portfolio() {
     let [deleteOne, setDeleteOne] = useState(false)
     // color = "red"
 
-
-
-
-
-    // useEffect(() => {
-    //     function go() {
-    //         // setTextDisplay(phase.join(''))
-    //         // textDisplay.innerHTML = phase.join('')
-    //         phase.join('')
-    //         setPhase(phase)
-    //         setTextDisplay(phase)
-    //         // console.log(phase);
-
-    //         // console.log();
-    //         setTextDisplay(phase)
-    //         if (i < textArray.length) {
-    //             if (!deleteOne && move <= textArray[i].length) {
-    //                 phase.push(textArray[i][move])
-    //                 setPhase(phase)
-    //                 console.log(move++)
-    //                 setMove(move++)
-    //             }
-
-    //         }
-    //         setTimeout(go, 200)
-    //     }
-    //     go()
-
-    // }, [])
 
     return (
         <div>
@@ -75,14 +47,8 @@ function Portfolio() {
                     </div>
                 </section>
             </section>
-            <div>
-                <div id="info" className="info">We are Architectural and Engineering Companing changing the world and building
-                    amazingthings one mide at a time, and providing high impact scalable solutions.
-                    We have organise and co-organise Constructional, Architectural, Real Estate Interior & Exterior, We enjoy speaking,
-                    meeting and collaborating with people. Looking for work around in the Globe.
-                </div>
-                <div className="img"></div>
-            </div>
+           
+            <Why_us/>
         </div>
     );
 }

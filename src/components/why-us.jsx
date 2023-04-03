@@ -49,7 +49,7 @@ function Why_us() {
         <main>
             <section className='p-5 bg-light text-center note'>
                 <h1>WHY US ?</h1>
-                <p>At Kolad Consult Ltd Real Estate Department, we believe that communication is key to creating strong, lasting relationships.
+                <p className='Diffrientiated mb-4'>At Kolad Consult Ltd Real Estate Department, we believe that communication is key to creating strong, lasting relationships.
                     That's why our partners work closely
                     with you to make sure that all lines of communication are open and accessible. This ensures that our
                     clients feel comfortable and cared for every step of the way.
@@ -60,7 +60,7 @@ function Why_us() {
                         <img src={largeB} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay  whyimg">
                             <h3 className="card-title">DESIGN</h3>
-                            <p className="card-text">At its core, Tree City is committed to creating unique and innovative designs,
+                            <p className="card-text Diffrientiated">At its core, Kolad cosult Ltd is committed to creating unique and innovative designs,
                                 modernizing and redefining the real estate architecture industry to be more efficient and sustainable
                             </p>
                         </div>
@@ -85,9 +85,9 @@ function Why_us() {
                     </div>
                 </div>
             </section>
-            <section className='p-5 text-center note'>
+            <section className='p-5 text-center note '>
                 <h1>D3 Commitment</h1>
-                <p>Our team of experts is committed to delivering the highest standards of professionalism
+                <p className='Diffrientiated mb-4'>Our team of experts is committed to delivering the highest standards of professionalism
                     at every stage of the design and development process, and are always striving to push
                     the boundaries and find new and innovative ways to get the job done.
                 </p>
