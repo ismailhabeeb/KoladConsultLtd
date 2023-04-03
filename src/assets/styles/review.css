@@ -1,0 +1,137 @@
+.btn-hover {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-hover:is(:hover, :focus)::after {
+    --scale: 500;
+}
+
+
+.btn-hover::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 20px;
+    width: 1px;
+    height: 1px;
+    transform: translate(-50%, 51%) scale(var(--scale, 1));
+    border-radius: 50%;
+    background-color: hsl(206, 14%, 52%);
+    z-index: -1;
+    transition: 0.5s ease;
+}
+
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: rotateY(0rem);
+    }
+
+    50% {
+        transform: translateY(3rem);
+    }
+
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: hsl(229, 82%, 18%);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: hsl(32, 100%, 59%);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(114, 127, 162);
+}
+
+
+.review .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.4rem;
+}
+
+.review .box-container .box {
+    background-color: rgb(114, 127, 162);
+    color: #fff;
+    text-align: center;
+    /* flex:1 1; */
+    width: 280px;
+    border: .5rem solid #fff;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+}
+
+.review .box-container img {
+    margin: auto;
+    margin-top: -30px;
+    width: 110px;
+    border: #fff solid 6px;
+    border-radius: 100%;
+}
+
+.order .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: space-around;
+}
+
+.order .box-container .box2 {
+    height: 100%;
+    width: 50%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+}
+
+.order .box-container .box1 img {
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+
+}
+
+.order .box-container .box3 img {
+    height: 100%;
+    width: 400px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+}
+
+
+.review .box-container {
+    /* display: flex; */
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding: 30px 0;
+    min-height: 300px;
+
+}
+
+@media (max-width: 900px) {
+    .stars {
+
+        margin: -10px 0;
+        padding: 0;
+    }
+
+    .mw {
+        padding: 2px;
+    }
+
+    .review .box-container .box {
+
+        min-width: 210px;
+        height: 250px;
+    }
+
+}

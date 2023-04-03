@@ -22,8 +22,11 @@ import Main from './pages/home/main'
 // import Profile from './pages/profile/profile'
 import Textprovider from './components/context'
 import Architectural from './pages/home/architecture'
-import Portfolio from './pages/home/portfolio'
+// import Portfolio from './home/portfolio'
 import Real_estate from './pages/home/real_estate'
+import Portfolio from './pages/portfolio'
+import Blog from './pages/blog'
+import Our_project from './pages/ourProject'
 // import Blog from './pages/dashboard/blog'
 // import Favorites from './pages/profile/favorites'
 // import My_listing from './pages/profile/my_listing'
@@ -48,6 +51,14 @@ const router = createBrowserRouter([
       {
         path: 'real_estate',
         element: <Real_estate/>
+      },
+      {
+        path: 'blog',
+        element: <Blog/>
+      },
+      {
+        path: 'our_Project',
+        element: <Our_project/>
       },
     ]
   },

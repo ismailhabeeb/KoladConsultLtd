@@ -2,7 +2,7 @@ import house from '/src/assets/images/3d-electric-car.avif'
 import house2 from '/src/assets/images/luxuryproperty.avif'
 import house3 from '/src/assets/images/K1-Camera-1-scaled.jpg'
 import { Link, Outlet } from 'react-router-dom';
-import Why_us from './why-us';
+import Why_us from '../../components/why-us';
 
 
 export default function Real_estate() {
