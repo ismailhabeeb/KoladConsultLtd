@@ -98,8 +98,8 @@ function Projects() {
                         </div>
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg3 '>
-                                <SmileOutlined />
-                                <h5>Construction</h5>
+                                <SmileOutlined className='rounded-circle bg-warning '/>
+                                <h5>Architecture</h5>
                                 <hr className='divider' />
                                 <section className='mb-2'>
                                     In the constructural constructural industry, experience counts. We offer total project
@@ -114,7 +114,7 @@ function Projects() {
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg4 '>
                                 <SmileOutlined />
-                                <h5>Construction</h5>
+                                <h5>Real Estate</h5>
                                 <hr className='divider' />
                                 <section className='mb-2'>
                                     In the constructural constructural industry, experience counts. We offer total project
@@ -128,7 +128,7 @@ function Projects() {
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg5 '>
                                 <SmileOutlined />
-                                <h5>Construction</h5>
+                                <h5>Interior & Exterior</h5>
                                 <hr className='divider' />
                                 <section className='mb-2'>
                                     In the constructural constructural industry, experience counts. We offer total project
@@ -143,7 +143,7 @@ function Projects() {
                             <section className='cardimg6 '>
                                 <SmileOutlined className='ms-auto' />
 
-                                <h5>Construction</h5>
+                                <h5>Land Sales</h5>
                                 <hr className='divider' />
                                 <section className='mb-2'>
                                     In the constructural constructural industry, experience counts. We offer total project
