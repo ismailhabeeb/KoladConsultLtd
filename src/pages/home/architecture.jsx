@@ -16,13 +16,6 @@ function Architectural() {
 
     return (
         <div className="App">
-
-            {/* 
-          <div className="card">
-          <p className="read-the-docs">
-          className="logo react"
-      
-      */}
             <section className='dbimg' style={{ backgroundImage: `url(${house1})`, }}>
 
                 {/* <div className='logo'>
@@ -37,7 +30,7 @@ function Architectural() {
                         Architctural, Interior and Exterior Design
                     </h2>
                     <div className='experience'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quisquam necessitatibus, fugiat corporis veritatis in consequatur delectus tempora sapiente distinctio.
+                        We have designed and executed buildings construction using mechanical structures and engineering techniques
                     </div>
                     <button className='btnget d-flex gap-2' style={{width:"140px"}}>
                         <div>Get started </div>
