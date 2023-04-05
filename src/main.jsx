@@ -1,39 +1,22 @@
-// Import our custom CSS
 import '/src/assets/styles/boostsrap.scss'
-
-// Import all of Bootstrap's JS
 import * as bootstrap from 'bootstrap'
-
 import React, { Suspense } from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './pages/App'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-// import Layout from './components/login_layout'
-// import Login from './pages/login'
-// import Signup from './pages/signup'
 import Home from './pages/home'
 import Main from './pages/home/main'
-// import Forgot_password from './pages/porget_password/forgot_password'
-// import Reset_password from './pages/porget_password/reset_password'
-// import New_password from './pages/porget_password/new_password'
-// import Verify from './pages/porget_password/verify'
-// import Sidebar from './pages/profile'
-// import Add_listing from './pages/profile/add_to_listing'
-// import Profile from './pages/profile/profile'
 import Textprovider from './components/context'
 import Architectural from './pages/home/architecture'
-// import Portfolio from './home/portfolio'
 import Real_estate from './pages/home/real_estate'
 import Portfolio from './pages/portfolio'
 import Blog from './pages/blog'
 import Our_project from './pages/ourProject'
-// import Blog from './pages/dashboard/blog'
-// import Favorites from './pages/profile/favorites'
-// import My_listing from './pages/profile/my_listing'
-// import Property from './pages/dashboard/porperty'
+import Contact from './pages/contact'
+import Property from './pages/property'
 const router = createBrowserRouter([
   {
-    path: '/', element: <Home/>,
+    path: '/', element: <Home />,
     errorElement: <h1>Page Not Found</h1>,
     children: [
       {
@@ -46,46 +29,31 @@ const router = createBrowserRouter([
       },
       {
         path: 'portfolio',
-        element: <Portfolio/>
+        element: <Portfolio />
       },
       {
         path: 'real_estate',
-        element: <Real_estate/>
+        element: <Real_estate />
       },
       {
         path: 'blog',
-        element: <Blog/>
+        element: <Blog />
       },
       {
         path: 'our_Project',
-        element: <Our_project/>
+        element: <Our_project />
       },
+      {
+        path: 'contact',
+        element: <Contact />
+      },
+      {
+        path: 'property',
+        element: <Property />
+      }
     ]
-  },
-  // {
-  //   path: '/profile', element: <Sidebar />,
-  //   errorElement: <h1>Page Not Found</h1>,
-  //   children: [
-  //     {
-  //       path: 'add-to-listing',
-  //       element: <Add_listing />
-  //     },
-  //     {
-  //       path: '',
-  //       element: <Profile />
-  //     },
-  //     {
-  //       path: 'favorites',
-  //       element: <Favorites />
-  //     },
-  //     {
-  //       path: 'my-list',
-  //       element: <My_listing />
-  //     },
-  //   ]
-  // }
+  }
 ])
-// Add_listing
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Textprovider>
@@ -93,6 +61,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <RouterProvider router={router} />
       </Suspense>
     </Textprovider>
-  </React.StrictMode>,
+  </React.StrictMode>
 )
 

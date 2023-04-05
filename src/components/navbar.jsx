@@ -109,7 +109,7 @@ export default function Navbar(params) {
                                 <Link ref={blog} to={'/blog'} style={{ borderBottom: navbar == 'Blog' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Blog' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Blog</Link>
                             </li>
                             <li className="nav-item l5">
-                                <Link ref={contact} to={'/blog'} style={{ borderBottom: navbar == 'Contact' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Contact' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Contact</Link>
+                                <Link ref={contact} to={'/contact'} style={{ borderBottom: navbar == 'Contact' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Contact' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Contact</Link>
                             </li>
                         </ul>
                         <div className="input-group navsearch text-light">

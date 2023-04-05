@@ -27,7 +27,8 @@ function Main() {
                         Global construction & engineering company
                     </h2>
                     <div className='experience'>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quisquam necessitatibus, fugiat corporis veritatis in consequatur delectus tempora sapiente distinctio. Nostrum velit laudantium nulla sunt voluptatibus deserunt, tempore quis reprehenderit!
+                        Experience and sustainablility — these are the keys to success of Kolad Consult Ltd for the
+                        realisation of large international constructionprojects.
                     </div>
                     <button className='btnget d-flex gap-2' style={{ width: "150px" }}>
                         <div>Get started </div>
