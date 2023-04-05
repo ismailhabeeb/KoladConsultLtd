@@ -3,8 +3,9 @@ import '../assets/styles/review.css';
 function Review() {
     return (
         <>
-            <section className="review p" id="review">
-                <h1 className="hearding">our customers' <span>reveiw</span></h1>
+            <section className="review py-5" id="review">
+                <h1 className="hearding py-4">our customers' <span>reveiw</span></h1>
+
                 <div className="box-container ">
                     <div className="box card" >
                         <img src={person} alt=""/>
@@ -30,7 +31,7 @@ function Review() {
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla corrupti voluptas perspiciatis</p>
                         </div>
                     </div>
-                    {/* <div className="box card">
+                    <div className="box card">
                         <img src={person} alt="" />
                         <div className="content">
                             <h3>Mahish</h3>

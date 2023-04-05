@@ -21,16 +21,16 @@ export default function Home() {
         <main style={{ fontFamily: "Montserrat" }}>
             <Top1 />
 
-            <div className=''>
-                <div id='top2' className=' sticky-top '>
-                    <Navbar />
-                </div>
-                <div>
-                    <Outlet />
 
-                </div>
-                <Review/>
+            <div id='top2' className=' sticky-top '>
+                <Navbar />
             </div>
+            <div>
+                <Outlet />
+
+            </div>
+            <Review />
+
             <Footer />
         </main>
     )

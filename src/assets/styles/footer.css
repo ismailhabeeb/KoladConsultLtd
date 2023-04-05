@@ -6,6 +6,9 @@ a{
 .links ul {
   border: 0 !important;
 }
+.links{
+  padding-bottom: 20px !important;
+}
 
 .links ul li a:hover {
   background-color: transparent !important;
@@ -53,6 +56,7 @@ footer * {
 }
 .links h3{
   color: #ffffff;
+  font-size: larger;
 }
 .links{
   align-items: start;

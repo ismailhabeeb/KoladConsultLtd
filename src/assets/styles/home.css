@@ -61,9 +61,6 @@ a {
     border-bottom-right-radius: 150%;
 }
 
-.span2 {
-    /* margin-left: -8px; */
-}
 
 .global {
     color: white;
@@ -272,7 +269,7 @@ a {
 
 .usbgimg>div {
     color: white;
-    max-width: 450px;
+    max-width: 470px;
     display: flex;
     flex-direction: column;
 
@@ -499,9 +496,6 @@ a {
 @media(max-width:320px) {
     .global {
         font-size: 20px;
-    }
-    .dbimg{
-        /* padding-top: 40px; */
     }
 }
 
