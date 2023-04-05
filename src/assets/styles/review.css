@@ -59,12 +59,12 @@
 .review .box-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 1.4rem;
 }
 
 .review .box-container .box {
-    background-color: rgb(114, 127, 162);
+    background-color: rgba(114, 127, 162, 0.534);
     color: #fff;
     text-align: center;
     /* flex:1 1; */
@@ -79,6 +79,8 @@
     width: 110px;
     border: #fff solid 6px;
     border-radius: 100%;
+    box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .3);
+
 }
 
 .order .box-container {

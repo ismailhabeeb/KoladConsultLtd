@@ -1,6 +1,6 @@
 // import bg1 from '../../assets/images/building-n-h.jpg'
 import { useEffect, useState } from 'react'
-import bg1 from '../assets/images/draw.jpg'
+import bg1 from '../assets/images/buying-renting-selling-real-e.jpg'
 import '../assets/styles/home.css'
 import '../assets/styles/portfolio.css'
 import logo from '../assets/images/Untitled-1.svg'
@@ -23,8 +23,8 @@ function Portfolio() {
 
     return (
         <div>
-            <section className='dbimg bg-info p' style={{ backgroundImage: `url(${bg1})`, }}>
-                <section className="contain w-100" id="main-div">
+            <section className='dbimg bg-info' style={{ backgroundImage: `url(${bg1})`,backgroundColor:'black' }}>
+                <section className="contain w-100 p" id="main-div">
                     <h1>
                         <a className="navbar-brand " href="#">
                             Kolad Consult Ltd<span className='text-warning h1'>.</span>
@@ -46,6 +46,9 @@ function Portfolio() {
                         <div id="message"><span className='text-warning '>. </span>Interior and Exterior</div>
                     </div>
                 </section>
+            </section>
+            <section>
+                <h1>... needs some shit here</h1>
             </section>
            
             <Why_us/>
