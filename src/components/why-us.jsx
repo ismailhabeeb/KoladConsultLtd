@@ -68,7 +68,7 @@ function Why_us() {
                     <div className="card bg-dark text-white whyh">
                         <img src={house2} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
-                            <h3 className="card-title">DEVELOP</h3>
+                            <h3 className="card-title">DEVELOPMENT</h3>
                             <p className="card-text">We provide the best real estate development by offering comprehensive services
                                 that cover every aspect of the development process. Our team of experts has extensive experience in all facets of real estate development, from the initial feasibility
                                 study to the final construction and marketing of the finished project.</p>
@@ -81,6 +81,13 @@ function Why_us() {
                             <p className="card-text">We work closely with our clients to ensure
                                 that their specific needs are met and that the final product
                                 is delivered on time and exceeds their expectations.</p>
+                        </div>
+                    </div>
+                    <div className={`card bg-dark text-white whyh hidden ${add}`}>
+                        <img src={pmanage} className="card-img h-100" alt="..." />
+                        <div className="card-img-overlay whyimg">
+                            <h3 className="card-title">MANAGEMENT</h3>
+                            <p className="card-text">Using modern principles and sophisticated technologies, Kolad consult Ltd. envisions being the primary preference at all times globally.</p>
                         </div>
                     </div>
                 </div>

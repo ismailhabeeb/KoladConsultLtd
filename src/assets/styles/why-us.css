@@ -28,7 +28,7 @@
 }
 
 .whycard {
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 1.4rem;
     /* gap: 50px; */
@@ -48,12 +48,12 @@
 }
 
 .whyh {
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
 }
 
 .d3card {
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     gap: 1.4rem;
 

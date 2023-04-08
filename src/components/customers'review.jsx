@@ -4,16 +4,18 @@ function Review() {
     return (
         <>
             <section className="review py-5" id="review">
-                <h1 className="hearding py-4">our customers' <span>reveiw</span></h1>
+                <h1 className="hearding py-4 text-center">Our customers' <span className='text-warning'>reveiw</span></h1>
 
                 <div className="box-container ">
                     <div className="box card" >
-                        <img src={person} alt=""/>
-                            <div className="content">
-                                <h3>Heritage</h3>
-                                <div className="stars">⭐⭐⭐⭐</div>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla corrupti voluptas perspiciatis</p>
-                            </div>
+                        <img src={person} alt="" />
+                        <div className="content">
+                            <h3>Heritage</h3>
+                            <div className="stars">⭐⭐⭐⭐</div>
+                            <p>
+                                Great experience and impressive product. It was a very professional and technically competent job from the whole team
+                            </p>
+                        </div>
                     </div>
                     <div className="box card">
                         <img src={person} alt="" />
@@ -31,14 +33,6 @@ function Review() {
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla corrupti voluptas perspiciatis</p>
                         </div>
                     </div>
-                    <div className="box card">
-                        <img src={person} alt="" />
-                        <div className="content">
-                            <h3>Mahish</h3>
-                            <div className="stars">⭐⭐⭐⭐⭐</div>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla corrupti voluptas perspiciatis</p>
-                        </div>
-                    </div> */}
                 </div>
 
             </section>

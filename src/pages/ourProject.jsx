@@ -1,7 +1,7 @@
 import '../assets/styles/our_project.css'
 import a2 from '../assets/images/a2.jpg'
 import house1 from '../assets/images/draw.jpg'
-import { ArrowRightOutlined } from '@ant-design/icons';
+import { ArrowRightOutlined, EnvironmentFilled } from '@ant-design/icons';
 
 import property from '/src/assets/images/property.avif'
 import buildings from '/src/assets/images/buildings.avif'
@@ -15,16 +15,11 @@ function Our_project() {
     return (
         <>
             <section className='dbimg' style={{ backgroundImage: `url(${bg})`, }}>
-
-                {/* <div className='logo'>
-                    <img className='w-100' src={logo} alt="" />
-
-                </div> */}
                 <main className='d-flex flex-column gap-3 '>
                     <div className='construction'>
                         CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE
                     </div>
-                    <h2 style={{fontSize:'50px'}} className='global'>
+                    <h2 style={{ fontSize: '50px' }} className='global'>
                         Looking for a quality and affordable service for <strong>your next project?</strong>
                     </h2>
                     <div className='experience'>
@@ -40,12 +35,12 @@ function Our_project() {
                 <h3 className='pt-2 pb-4'>
                     Our diverse project list includes architectural design, real estate, Building construction, manufacturing construction and much more.
                 </h3>
-                <main className='d-flex flex-wrap gap-2 '>
+                <main className='d-flex flex-wrap gap-2 justify-content-center'>
                     <section className="card  text-white propertyh">
                         <img src={property} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h4 className="card-title">New Interior & Exterior Design</h4>
-                            <hr className='divider '/>
+                            <hr className='divider ' />
                             <p className="card-text d-none propertynote">Poles architecture and design includes a range of projects from around the globe.
                             </p>
                             <a className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
@@ -59,7 +54,7 @@ function Our_project() {
                         <img src={buildings} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h4 className="card-title">Building Construction</h4>
-                            <hr className='divider'/>
+                            <hr className='divider' />
                             <p className="card-text d-none propertynote">We work closely with our clients to ensure
                                 that their specific needs are met and that the final product
                                 is delivered on time and exceeds their expectations.
@@ -75,7 +70,7 @@ function Our_project() {
                         <img src={property} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h4 className="card-title">Real Estate</h4>
-                            <hr className='divider'/>
+                            <hr className='divider' />
                             <p className="card-text d-none propertynote">We work closely with our clients to ensure
                                 that their specific needs are met and that the final product
                                 is delivered on time and exceeds their expectations.
@@ -91,7 +86,7 @@ function Our_project() {
                         <img src={property} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h4 className="card-title">Architectural Design</h4>
-                            <hr className='divider'/>
+                            <hr className='divider' />
                             <p className="card-text d-none propertynote">We work closely with our clients to ensure
                                 that their specific needs are met and that the final product
                                 is delivered on time and exceeds their expectations.
@@ -108,22 +103,39 @@ function Our_project() {
             </section>
             <hr className='divider' />
             <section className="menu p" id="menu">
-                <div className="box-container" id="menu-items">
-                    <div id="ad${i}" className="box card">
+                <div className="box-container " id="menu-items">
+                    <div id="ad${i}" className="box card ">
                         <img src={a2} alt="" />
                         <div className="content w-100">
                             <a href="#ad${i}" className="btn border border-warning text-light fw-bold btn-hover">preview</a>
                             <a href="#ad${i}" className="btn border border-warning text-light fw-bold btn-hover">get quete</a>
                         </div>
                     </div>
-                    <h2>
-                        Details for the house1
-                    </h2>
+                    <div className=' w-25 d-block'>
+                        <h3>Details</h3>
+                        <div className='text-info  '>
+                            <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
+                            <a className='text-info' href="location:lagos">Eyenkorin Kwara state Nigeria</a>
+                        </div>
+                        <div className="d-flex w-100 justify-content-between ">
+                            <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">preview</a>
+                            <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">get quete</a>
+                        </div>
+                    </div>
+
                 </div>
                 <div className="box-container" id="menu-items">
-                    <h2>
-                        Details for the house1
-                    </h2>
+                    <div className=' '>
+                        <h3>Details</h3>
+                        <div className='text-info '>
+                            <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
+                            <a className='text-info' href="location:lagos">Umuezevum Village, Eziama-Oparanadim, Ahiazu Mbaise L.G.A, Imo State.</a>
+                        </div>
+                        <div className="d-flex w-100 justify-content-between ">
+                            <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">preview</a>
+                            <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">get quete</a>
+                        </div>
+                    </div>
                     <div id="ad${i}" className="box card ">
                         <img src={a2} alt="" />
                         <div className="content w-100 ">

@@ -8,7 +8,7 @@ function Top1() {
         <>
             <nav style={{ fontSize: '12px' }} className='d-flex navbar first_nav  bg-primary py-2 text-white px-4 px-sm-5   ' id='top'>
 
-                <div className='text-info d-flex gap-2'>
+                <div className='text-info d-flex gap-2 topicon'>
 
                     <div className='d-flex'><FacebookFilled className='my-auto text-info' /></div>
                     <div className='d-flex'><TwitterCircleFilled className='my-auto text-info' /></div>
@@ -20,18 +20,18 @@ function Top1() {
                     <div className='text-info d-flex gap-2'>
                         <div className='d-flex'><PhoneFilled className='my-auto text-warning' /></div>
 
-                        <a className='text-info' href=""> (+123) 806-959-5110</a>
+                        <a className='text-info' href='tel:09026674356'> (+123) 806-959-5110</a>
                     </div>
                     |
-                    <div className='text-info d-flex gap-2'>
+                    <div className='text-info d-flex gap-2 topicon'>
                         <div className='d-flex'><MailFilled className='my-auto text-warning' /></div>
 
-                        <a className='text-info' href=""> Koladconsultltd@gmail.com</a>
+                        <a className='text-info' href="mail:koladconsultltd@gmail.com"> Koladconsultltd@gmail.com</a>
                     </div>
                     |
                     <div className='text-info d-flex gap-2'>
                         <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' /></div>
-                        <a className='text-info' href="#">No.1 Ogunlana St, OLive G Es., Ogombo, Ajah Lagos.</a>
+                        <a className='text-info' href="location:lagos">No.1 Ogunlana St, OLive G Es., Ogombo, Ajah Lagos.</a>
                     </div>
                 </div>
             </nav>

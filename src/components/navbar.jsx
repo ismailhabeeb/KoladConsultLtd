@@ -81,8 +81,8 @@ export default function Navbar(params) {
                     <button style={{ boxShadow: 'none' }} className="navbar-toggler border-0 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon bg-info rounded"></span>
                     </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-white">
+                    <div className="collapse navbar-collapse " id="navbarSupportedContent">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-white ">
                             {/* <li className="nav-item l1">
                                 <Link to={'/'} style={{ borderBottom: navbar == 'Home' ? 'solid rgb(0, 102, 0) 2px' : '0', fontWeight: navbar == 'Home' ? 'bolder' : 'normal' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Home</Link>
                             </li> */}

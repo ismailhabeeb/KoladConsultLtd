@@ -177,3 +177,16 @@
     /* color: rgba(5, 18, 44, 0.795);
     color: rgb(255,193,7); */
 }
+@media (max-width: 990px) {
+#navbarSupportedContent{
+    background-color: rgba(5, 18, 44, 0.795) !important;
+    padding: 0% 0 8px 8px;
+}
+}
+
+@media (max-width: 490px) {
+    .topicon{
+        display: none !important;
+    }
+
+}
