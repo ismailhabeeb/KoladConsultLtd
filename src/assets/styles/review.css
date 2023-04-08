@@ -41,7 +41,7 @@
 
 ::-webkit-scrollbar {
     width: 8px;
-    height: 5px;
+    height: 3px;
 }
 
 ::-webkit-scrollbar-track {
@@ -56,14 +56,14 @@
     background-color: rgb(114, 127, 162);
 }
 
-.review{
-    padding-left:25px;
-    padding-right:25px;
+.review {
+    padding-left: 25px;
+    padding-right: 25px;
 }
+
 .review .box-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 1.4rem;
 }
 
@@ -72,9 +72,10 @@
     color: #fff;
     text-align: center;
     padding: 10px;
-    /* min-height: 200px; */
-    width: 280px;
+    min-height: 200px;
+    width: 350px;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
+    margin: auto;
 }
 
 .review .box-container img {
@@ -85,12 +86,14 @@
     box-shadow: 0 .5rem 2rem rgba(0, 0, 0, .3);
 
 }
-.content{
+
+.content {
     display: flex;
     flex-direction: column;
     gap: 10px;
     padding-top: 10px;
 }
+
 .order .box-container {
     display: flex;
     flex-wrap: wrap;
@@ -119,8 +122,9 @@
 
 
 .review .box-container {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     min-height: 300px;
+    width: 100%;
 
 }
 
@@ -139,12 +143,19 @@
 
         min-width: 250px !important;
         min-height: 250px !important;
+
     }
 
 }
-@media (max-width: 575.5px) {
-  .review{
-    padding-left:15px;
-    padding-right:15px;
-  }
+
+@media (max-width: 945px) {
+    .review {
+        padding-left: 5px;
+        padding-right: 5px;
+
+    }
+    .review .box-container {
+        padding: 8px;
+        overflow-x: scroll !important;
+    }
 }

@@ -102,7 +102,7 @@ function Our_project() {
 
             </section>
             <hr className='divider' />
-            <section className="menu p py-4 mb-5" id="menu">
+            <section className="menu p py-4 " id="menu">
                 <div className="box-container" id="menu-items">
                     <div id="ad${i}" className="box card">
                         <img src={a2} alt="" />
@@ -122,8 +122,8 @@ function Our_project() {
                             <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">get quete</a>
                         </div>
                     </div>
-
                 </div>
+                <hr className='divider' />
                 <div className="box-container" id="menu-items">
                     <div className=' '>
                         <h3>Details</h3>
@@ -144,7 +144,7 @@ function Our_project() {
                         </div>
                     </div>
                 </div>
-                {/* <button onclick="thirdmore(event)" className="more btn btn-hover">more</button> */}
+                <button  className="more btnget btn btn-hover rounded-circle mt-4">more</button>
 
             </section>
 
