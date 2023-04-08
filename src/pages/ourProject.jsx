@@ -102,9 +102,9 @@ function Our_project() {
 
             </section>
             <hr className='divider' />
-            <section className="menu p" id="menu">
-                <div className="box-container " id="menu-items">
-                    <div id="ad${i}" className="box card ">
+            <section className="menu p py-4 mb-5" id="menu">
+                <div className="box-container" id="menu-items">
+                    <div id="ad${i}" className="box card">
                         <img src={a2} alt="" />
                         <div className="content w-100">
                             <a href="#ad${i}" className="btn border border-warning text-light fw-bold btn-hover">preview</a>

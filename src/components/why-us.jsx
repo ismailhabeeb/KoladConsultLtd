@@ -92,7 +92,7 @@ function Why_us() {
                     </div>
                 </div>
             </section>
-            <section className='text-center note pt-5'>
+            <section className='text-center note py-5 mb-5'>
                 <h1>D3 Commitment</h1>
                 <p className='Diffrientiated mb-4'>Our team of experts is committed to delivering the highest standards of professionalism
                     at every stage of the design and development process, and are always striving to push
