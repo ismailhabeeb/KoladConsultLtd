@@ -105,7 +105,7 @@ function Our_project() {
 
             </section>
             <hr className='divider' />
-            <section className="menu p" id="menu">
+            <section className="menu p py-4 mb-5" id="menu">
                 <div className="box-container" id="menu-items">
                     <div id="ad${i}" className="box card">
                         <img src={a2} alt="" />

@@ -3,8 +3,8 @@ import '../assets/styles/review.css';
 function Review() {
     return (
         <>
-            <section className="review py-5" id="review">
-                <h1 className="hearding py-4">our customers' <span>reveiw</span></h1>
+            <section className="review pb-5" id="review">
+                <h1 className="hearding pb-4">our customers' <span>reveiw</span></h1>
                 <div className="box-container ">
                     <div className="box card" >
                         <img src={person} alt=""/>

@@ -7,7 +7,7 @@ import buildings from '/src/assets/images/buildings.avif'
 function Projects() {
     return (
         <>
-            <section className='safety d-flex p row mx-auto'>
+            <section className='safety d-flex p mt-2 row mx-auto'>
                 <main className=' col-lg-4'>
                     <img src={buildings} alt="" />
                 </main>
