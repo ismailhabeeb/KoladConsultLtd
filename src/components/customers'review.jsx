@@ -37,9 +37,8 @@ function Review() {
                             <div className="stars">⭐⭐⭐⭐⭐</div>
                             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla corrupti voluptas perspiciatis</p>
                         </div>
-                    </div>
+                    </div> 
                 </div>
-                <a href="#book" className="btn btn-warning text-light fw-bold btn-hover">Book A Table</a>
 
             </section>
         </>

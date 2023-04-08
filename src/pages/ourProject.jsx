@@ -6,13 +6,15 @@ import { ArrowRightOutlined } from '@ant-design/icons';
 import property from '/src/assets/images/property.avif'
 import buildings from '/src/assets/images/buildings.avif'
 import pmanage from '/src/assets/images/buying-renting-selling-real-e.jpg'
+import bg from '../assets/images/tools-table.jpg'
+
 
 
 function Our_project() {
 
     return (
         <>
-            <section className='dbimg' style={{ backgroundImage: `url(${house1})`, }}>
+            <section className='dbimg' style={{ backgroundImage: `url(${bg})`, }}>
 
                 {/* <div className='logo'>
                     <img className='w-100' src={logo} alt="" />
@@ -22,7 +24,7 @@ function Our_project() {
                     <div className='construction'>
                         CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE
                     </div>
-                    <h2 className='global'>
+                    <h2 style={{fontSize:'50px'}} className='global'>
                         Looking for a quality and affordable service for <strong>your next project?</strong>
                     </h2>
                     <div className='experience'>

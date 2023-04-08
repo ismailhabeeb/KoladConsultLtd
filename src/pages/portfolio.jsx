@@ -1,6 +1,6 @@
 // import bg1 from '../../assets/images/building-n-h.jpg'
 import { useEffect, useState } from 'react'
-import bg1 from '../assets/images/draw.jpg'
+import bg1 from '../assets/images/buying-renting-selling-real-e.jpg'
 import '../assets/styles/home.css'
 import '../assets/styles/portfolio.css'
 import logo from '../assets/images/Untitled-1.svg'
@@ -27,6 +27,7 @@ function Portfolio() {
                 <section className="contain w-100" id="main-div">
                     <h2 className='d-flex flex-column gap-3'>
                         <a className="navbar-bran " href="#" style={{fontFamily: "Montserrat" }}>
+
                             Kolad Consult Ltd<span className='text-warning h1'>.</span>
                         </a>
                         <div id="info" className="info" style={{fontFamily: "Montserrat" }}>We are Architectural and Engineering Companing changing the world and building
@@ -46,6 +47,9 @@ function Portfolio() {
                         <div id="message" style={{fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Interior and Exterior</div>
                     </div>
                 </section>
+            </section>
+            <section>
+                <h1>... needs some shit here</h1>
             </section>
            
             <Why_us/>
