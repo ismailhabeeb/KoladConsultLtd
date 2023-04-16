@@ -1,22 +1,24 @@
 import { ArrowRightOutlined, CheckOutlined, SmileOutlined } from '@ant-design/icons'
 import house from '../assets/images/house.jpg'
 import bg from '../assets/images/luxuryproperty.avif'
-import buildings from '/src/assets/images/buildings.avif'
-
+import buildings from '/src/assets/images/buying-renting-selling-real-e.jpg'
+import { useState } from 'react'
 
 function Projects() {
+    const [construct, setConstruct] = useState("In the constructural industry, experience counts. We offer total project solutions and integrating our expertise in all areas of the construction process.")
     return (
         <>
             <section className='safety d-flex p mt-2 row mx-auto'>
-                <main className=' col-lg-4'>
+                <main className=' col-lg-3'>
                     <img src={buildings} alt="" />
                 </main>
 
                 <div className='gy-2 col-lg-6 ps-lg-5 d-flex flex-column gap-4'>
                     <div className='construction'>
-                        CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE
+                        <span className='span2'>CONSTRUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
+                        <div className='bg-warning span1'></div>
                     </div>
-                    <h3 className=''>Safety, quality and sustainablility</h3>
+                    <h3 className=''>Safety, Quality and Sustainablility</h3>
                     <div className='at'>At Kolad consult ltd, we have helped customers complete more than 1,000 projects,
                         in countries that have created jobs and grown economies, improved the resiliency of the
                         world's infrastructure, increased access to resources and vital services, and made the world a safer place.
@@ -60,97 +62,104 @@ function Projects() {
                 <div className='mx-auto '>
                     <div className='construction my-3 '>
                         WE REPRESENT THE FUTURE OF CONSTRUCTION
+                        <div className='bg-warning span1 mx-auto'></div>
                     </div>
                     <h3>Our customers' projects are an investment in the future</h3>
                     <div className='Diffrientiated mt-3 mb-5'>
-                        Diffrientiated by the quality of our people and our relentless drive to deliver the most successful
-                        outcomes, we relign our capabilities to our customers' objectives to create a positive impact.
+                        Diffrientiated by the quality of our people and our relentless drive to deliver the most successful outcomes, we relign our capabilities to our customers' objectives to create a positive impact.
                     </div>
 
                     <div className=' d-fle listimg'>
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg1 '>
-                                <SmileOutlined />
-                                <h5>Engineering</h5>
+                                <section className='d-flex gap-3 pt-2'>
+                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    <h5 className='my-auto'>Engineering</h5>
+                                </section>
                                 <hr className='divider' />
                                 <section className='mb-2'>
-                                    In the constructural constructural industry, experience counts. We offer total project
-                                    solutions and integrating our expertise in all areas of the construction process.
+                                    {construct}
                                 </section>
                                 <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
-                                    <ArrowRightOutlined className='my-auto ' />
+                                    <ArrowRightOutlined className='my-auto text-warning' />
                                 </a>
                             </section>
                         </div>
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg2 '>
-                                <SmileOutlined />
-                                <h5>Construction</h5>
+                                <section className='d-flex gap-3 pt-2'>
+                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    <h5 className='my-auto'>Construction</h5>
+                                </section>
                                 <hr className='divider' />
                                 <section className='mb-2'>
-                                    In the constructural constructural industry, experience counts. We offer total project
-                                    solutions and integrating our expertise in all areas of the construction process.
+                                    {construct}
                                 </section>
                                 <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
-                                    <ArrowRightOutlined className='my-auto ' />
+                                    <ArrowRightOutlined className='my-auto text-warning' />
                                 </a>
                             </section>
                         </div>
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg3 '>
-                                <SmileOutlined className='rounded-circle bg-warning ' />
-                                <h5>Architecture</h5>
+                                <section className='d-flex gap-3 pt-2'>
+                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    <h5 className='my-auto'>Architecture</h5>
+                                </section>
+
                                 <hr className='divider' />
                                 <section className='mb-2'>
-                                    In the constructural constructural industry, experience counts. We offer total project
-                                    solutions and integrating our expertise in all areas of the construction process.
+                                    {construct}
                                 </section>
                                 <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
-                                    <ArrowRightOutlined className='my-auto ' />
+                                    <ArrowRightOutlined className='my-auto text-warning' />
                                 </a>
                             </section>
                         </div>
 
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg4 '>
-                                <SmileOutlined />
-                                <h5>Real Estate</h5>
+                                <section className='d-flex gap-3 pt-2'>
+                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    <h5 className='my-auto'>Real Estate</h5>
+                                </section>
                                 <hr className='divider' />
                                 <section className='mb-2'>
-                                    In the constructural constructural industry, experience counts. We offer total project
-                                    solutions and integrating our expertise in all areas of the construction process.
+                                    {construct}
                                 </section>
                                 <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
-                                    <ArrowRightOutlined className='my-auto ' />
+                                    <ArrowRightOutlined className='my-auto text-warning' />
                                 </a>
                             </section>
                         </div>
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg5 '>
-                                <SmileOutlined />
-                                <h5>Interior & Exterior</h5>
+                                <section className='d-flex gap-3 pt-2'>
+                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    <h5 className='my-auto'>Interior & Exterior</h5>
+                                </section>
                                 <hr className='divider' />
                                 <section className='mb-2'>
-                                    In the constructural constructural industry, experience counts. We offer total project
-                                    solutions and integrating our expertise in all areas of the construction process.
+                                    {construct}
                                 </section>
                                 <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
-                                    <ArrowRightOutlined className='my-auto ' />
+                                    <ArrowRightOutlined className='my-auto text-warning' />
                                 </a>
                             </section>
                         </div>
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg6 '>
-                                <SmileOutlined className='ms-auto' />
+                                <section className='d-flex gap-3 pt-2'>
+                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    <h5 className='my-auto'>Land Sales</h5>
+                                </section>
 
-                                <h5>Land Sales</h5>
                                 <hr className='divider' />
                                 <section className='mb-2'>
-                                    In the constructural constructural industry, experience counts. We offer total project
-                                    solutions and integrating our expertise in all areas of the construction process.
+                                    {construct}
                                 </section>
                                 <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
-                                    <ArrowRightOutlined className='my-auto ' />
+                                    <ArrowRightOutlined className='my-auto text-warning' />
                                 </a>
                             </section>
                         </div>

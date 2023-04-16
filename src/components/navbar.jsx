@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 // import profile from '/src/assets/images/profile-icon.jpg'
 import { useContext, useRef, useState } from 'react';
 import { Textcontext } from './context';
-import {SaveOutlined, SearchOutlined } from '@ant-design/icons';
+import { SaveOutlined, SearchOutlined } from '@ant-design/icons';
 
 
 export default function Navbar(params) {
@@ -74,9 +74,9 @@ export default function Navbar(params) {
         <div className=''>
             <nav className="navbar navbar-expand-lg secondtop d-flex px-1 px-sm-3  text-white " id='secondtop'>
                 <div className="container-fluid ">
-                    <a className="navbar-brand" href="#">
-                        {/* <img src={logo} alt="" /> */}
-                        Kolad Consult Ltd<span className='text-warning '>.</span>
+                    <a className="navbar-brand " href="#">
+                            Kolad Consult Ltd<span className='text-warning logodesign1'>.</span>
+                        <div className='bg-warning span1 mx-end logodesign2'></div>
                     </a>
                     <button style={{ boxShadow: 'none' }} className="navbar-toggler border-0 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon bg-info rounded"></span>

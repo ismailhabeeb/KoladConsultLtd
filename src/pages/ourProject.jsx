@@ -7,6 +7,7 @@ import property from '/src/assets/images/property.avif'
 import buildings from '/src/assets/images/buildings.avif'
 import pmanage from '/src/assets/images/buying-renting-selling-real-e.jpg'
 import bg from '../assets/images/tools-table.jpg'
+import Review from '../components/customers\'review';
 
 
 
@@ -147,7 +148,7 @@ function Our_project() {
                 <button  className="more btnget btn btn-hover rounded-circle mt-4">more</button>
 
             </section>
-
+            <Review />
         </>);
 }
 

@@ -24,7 +24,8 @@ function Architectural() {
                 </div> */}
                 <main className='d-flex flex-column gap-3 '>
                     <div className='construction'>
-                        CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE
+                    <div className='bg-warning span1'></div>
+                        CONSTRUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE
                     </div>
                     <h2 className='global'>
                         Architctural, Interior and Exterior Design

@@ -57,8 +57,9 @@ a {
 }
 
 .span1 {
-    width: 30px !important;
-    border-bottom-right-radius: 150%;
+    width: 60px !important;
+    /* border-bottom-right-radius: 150%; */
+    height: 4px !important;
 }
 
 
@@ -97,7 +98,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 5px;
-    align-items: center;
+    align-items: center;f
     color: #FFFFFF;
     border-radius: 8px;
     margin: auto;
@@ -127,8 +128,8 @@ a {
 .safety main {
     background-color: rgb(245, 173, 13);
     /* width: 350px; */
-    height: 70vh;
-    padding: 15px 0 0 15px;
+    height: 56vh;
+    padding: 13px 0 0 13px;
 
 }
 
@@ -136,7 +137,7 @@ a {
     background-color: rgb(245, 173, 13);
     /* margin: 15px 0 0 5px; */
     width: 104%;
-    height: 70vh;
+    height: 56vh;
 }
 
 .list {

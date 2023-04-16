@@ -9,18 +9,52 @@ import Why_us from '../components/why-us'
 import whitebg from '/src/assets/images/white-bg2.jpg'
 
 function Portfolio() {
-    const [textArray, setTextArray] = useState(["I'm Azeez Habeeb, Architectural and Engineeri."])
-    // let textDispla = 
-    let [textDisplay, setTextDisplay] = useState('')
-    // let i = 0
-    let [i, setI] = useState(0)
-    // let move = 0
-    let [move, setMove] = useState(0)
-    // let phase = []
-    let [phase, setPhase] = useState([])
-    // let deleteOne = false
-    let [deleteOne, setDeleteOne] = useState(false)
-    // color = "red"
+
+    const [count, setCount] = useState(false)
+    let [add, setAdd] = useState('')
+
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+            // console.log(entry);
+            if (entry.isIntersecting) {
+                setCount(true)
+                // console.log(add);
+
+            }
+             else {
+                setCount(false)
+                // console.log(add);
+
+            }
+        })
+    })
+
+    add = count ? ' show' : ' '
+    
+    useEffect(() => {
+    setAdd(add)
+
+    }, [])
+
+
+
+    const hiddenelement = document.querySelectorAll('.hidden')
+    hiddenelement.forEach((el) => observer.observe(el))
+    // const [textArray, setTextArray] = useState(["I'm Azeez Habeeb, Architectural and Engineeri."])
+    // // let textDispla = 
+    // let [textDisplay, setTextDisplay] = useState('')
+    // // let i = 0
+    // let [i, setI] = useState(0)
+    // // let move = 0
+    // let [move, setMove] = useState(0)
+    // // let phase = []
+    // let [phase, setPhase] = useState([])
+    // // let deleteOne = false
+    // let [deleteOne, setDeleteOne] = useState(false)
+    // // color = "red"
+
+
 
 
     return (
@@ -41,12 +75,13 @@ function Portfolio() {
                             Get Quote
                         </a>
                     </h2>
+
                     <div id="hello" style={{ fontFamily: "Montserrat" }}>
-                        <div id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Architectural Design</div>
-                        <div id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Real Estate</div>
-                        <div id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Building Construction</div>
-                        <div id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Property Development</div>
-                        <div id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Interior and Exterior</div>
+                        <div className={`hidde show ${add}`} id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Architectural Design</div>
+                        <div className={`hidden show ${add}`} id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Real Estate</div>
+                        <div className={`hidden show ${add}`} id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Building Construction</div>
+                        <div className={`hidden show ${add}`} id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Property Development</div>
+                        <div className={`hidden show ${add}`} id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' >. </span>Interior and Exterior</div>
                     </div>
                 </section>
             </section>

@@ -148,11 +148,17 @@
     color: white !important;
     color: white;
     font-family: serif;
+    font-size: x-large;
 }
 
 .navbar-brand span {
     font-size: xx-large !important;
     font-weight: bolder;
+}
+.logodesign2{
+margin-top: -10px;
+width: 100px !important;
+color: white !important;
 }
 
 /* .navbar-brand img{

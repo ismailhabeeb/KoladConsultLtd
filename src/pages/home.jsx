@@ -29,7 +29,6 @@ export default function Home() {
                 <Outlet />
 
             </div>
-            <Review />
 
             <Footer />
         </main>

@@ -3,6 +3,7 @@ import house2 from '/src/assets/images/luxuryproperty.avif'
 import house3 from '/src/assets/images/K1-Camera-1-scaled.jpg'
 import { Link, Outlet } from 'react-router-dom';
 import Why_us from '../../components/why-us';
+import Review from '../../components/customers\'review'
 
 
 export default function Real_estate() {
@@ -23,23 +24,26 @@ export default function Real_estate() {
               </div>
               <div className="carousel-caption d-none d-md-block ">
                 <h4 className='text-warning'>Kolad Consult Ltd Real Estate Department</h4>
-                <p>Some representative placeholder content for the first slide.</p>
+                <p>Our team of experts has extensive experience in all facets of real estate development, from the initial feasibility
+                  study to the final construction and marketing of the finished project.</p>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="2000">
               <div className='listingcaro' style={{ backgroundImage: `url(${house2})` }}></div>
 
               <div className="carousel-caption d-none d-md-block">
-              <h4 className='text-warning'>Kolad Consult Ltd Real Estate Department</h4>
-                <p>Some representative placeholder content for the second slide.</p>
+                <h4 className='text-warning'>Kolad Consult Ltd Real Estate Department</h4>
+                <p>Our team of experts has extensive experience in all facets of real estate development, from the initial feasibility
+                  study to the final construction and marketing of the finished project.</p>
               </div>
             </div>
             <div className="carousel-item">
               <div className='listingcaro' style={{ backgroundImage: `url(${house3})` }}></div>
 
               <div className="carousel-caption d-none d-md-block">
-              <h4 className='text-warning'>Kolad Consult Ltd Real Estate Department</h4>
-                <p>Some representative placeholder content for the third slide.</p>
+                <h4 className='text-warning'>Kolad Consult Ltd Real Estate Department</h4>
+                <p>Our team of experts has extensive experience in all facets of real estate development, from the initial feasibility
+                  study to the final construction and marketing of the finished project.</p>
               </div>
             </div>
           </div>
@@ -52,6 +56,8 @@ export default function Real_estate() {
         </div>
       </section>
       <Why_us />
+      <Review />
+
     </main>
   )
 }

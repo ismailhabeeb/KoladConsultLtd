@@ -60,7 +60,7 @@ function Why_us() {
                         <img src={largeB} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay  whyimg">
                             <h3 className="card-title">DESIGN</h3>
-                            <p className="card-text Diffrientiated">At its core, Kolad cosult Ltd is committed to creating unique and innovative designs,
+                            <p className="card-text ">At its core, Kolad cosult Ltd is committed to creating unique and innovative designs,
                                 modernizing and redefining the real estate architecture industry to be more efficient and sustainable
                             </p>
                         </div>
@@ -70,8 +70,7 @@ function Why_us() {
                         <div className="card-img-overlay whyimg">
                             <h3 className="card-title">DEVELOPMENT</h3>
                             <p className="card-text">We provide the best real estate development by offering comprehensive services
-                                that cover every aspect of the development process. Our team of experts has extensive experience in all facets of real estate development, from the initial feasibility
-                                study to the final construction and marketing of the finished project.</p>
+                                that cover every aspect of the development process. </p>
                         </div>
                     </div>
                     <div className="card bg-dark text-white whyh">

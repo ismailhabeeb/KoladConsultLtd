@@ -10,6 +10,7 @@ import bg from '../../assets/images/luxuryproperty.avif'
 import bg1 from '../../assets/images/building-n-h.jpg'
 import Projects from '../../components/projects'
 import { ArrowRightOutlined, HighlightOutlined } from '@ant-design/icons'
+import Review from '../../components/customers\'review'
 
 function Main() {
     const [count, setCount] = useState(0)
@@ -21,7 +22,7 @@ function Main() {
 
                 <main className='d-flex flex-column gap-3 '>
                     <div className='construction'>
-                        <span className='bg-warning span1'>. . </span><span className='span2'>CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
+                        <div className='bg-warning span1'></div><span className='span2'>CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
                     </div>
                     <h2 className='global'>
                         Global construction & engineering company
@@ -41,13 +42,12 @@ function Main() {
 
             <section className='usbgimg' style={{ backgroundImage: `url(${bg})`, }}>
                 <div className='gy-2 gap-3'>
-                    <div className='construction text-warning'>
-                        CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE
+                   <div className='construction'>
+                        <div className='bg-warning span1'></div><span className='span2'>CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
                     </div>
-                    <h3>Safety, quality & sustainablility</h3>
-                    <div className='at'>At Kolad consult ltd, we have helped customers complete more than 1,000 projects,
-                        in countries that have created jobs and grown economies, improved the resiliency of the
-                        world's infrastructure, increased access to resources and vital services, and made the world a safer place.
+                    <h3>Collaborating to achieve project excellence</h3>
+                    <div className='at'>
+                    Construction and risk go hand-in-hand and projects are constantly dealing with chalenges that arise from budget, schedule, and staffing limitations.
                     </div>
                     <div className='d-flex g-5 usflex'>
                         <button className='w-50 btnget'>
@@ -65,6 +65,7 @@ function Main() {
                     <img src={house1} alt="" />
                 </main>
             </section>
+            <Review />
 
             <section className='safety d-flex p'>
             </section>

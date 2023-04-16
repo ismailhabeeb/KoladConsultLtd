@@ -57,8 +57,8 @@ function Contact() {
         <section className='dbimg' style={{ backgroundImage: `url(${house1})`, }}>
             <main className='d-flex flex-column gap-3 '>
 
-                <div className='construction'>
-                    <span className='bg-warning span1'>. . </span><span className='span2'>WE CAN FIND PROCCESS THAT WILL BEST HELP YOU MEET YOUR GOALS</span>
+                <div className='construction d-flex'>
+                <div className='bg-warning span1 my-auto'></div> <span className='span2'> WE CAN FIND PROCCESS THAT WILL BEST HELP YOU MEET YOUR GOALS</span>
                 </div>
                 <h2 className='globacontact'>
                     We have dedication to providing outstanding <strong>customer service and quality </strong>finished Projects
