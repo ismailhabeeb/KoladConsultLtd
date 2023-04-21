@@ -1,5 +1,5 @@
 import '../assets/styles/our_project.css'
-import a2 from '../assets/images/a2.jpg'
+import a2 from '../assets/images/a22.jpg'
 import house1 from '../assets/images/draw.jpg'
 import { ArrowRightOutlined, EnvironmentFilled } from '@ant-design/icons';
 

@@ -1,6 +1,6 @@
-import house from '/src/assets/images/a2.jpg'
-import house2 from '/src/assets/images/3db4.jpg'
-import house3 from '/src/assets/images/3dc1.jpg'
+import house from '/src/assets/images/a22.jpg'
+import house2 from '/src/assets/images/3db44.jpg'
+import house3 from '/src/assets/images/3dc11.jpg'
 import { Link, Outlet } from 'react-router-dom';
 import Why_us from '../../components/why-us';
 import Review from '../../components/customers\'review'
