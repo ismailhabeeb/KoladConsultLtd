@@ -3,6 +3,7 @@ import '../assets/styles/contact.css'
 import house1 from '/src/assets/images/tools-table.jpg'
 import whitbghouse from '/src/assets/images/artchitecturedraw.avif'
 import { ArrowRightOutlined, PhoneFilled, EnvironmentFilled } from '@ant-design/icons';
+import { Link } from 'react-router-dom';
 function Contact() {
     return (<>
         <div style={{ height: '80px' }} className='bg-info '></div>
@@ -29,7 +30,7 @@ function Contact() {
                     <div className='text-info d-flex gap-2'>
                         <div className='d-flex'><PhoneFilled className='my-auto text-warning' /></div>
 
-                        <a className='text-info' href=""> (+123) 806-959-5110</a>
+                        <a className='text-info' href="tel:08069595110"> (+123) 806-959-5110</a>
                     </div>
                     <p>we offer construction planning and programming from our highly
                         experienced team of engirneer and planners.
@@ -64,7 +65,7 @@ function Contact() {
                     We have dedication to providing outstanding <strong>customer service and quality </strong>finished Projects
                 </h2>
                 <button className='btnget d-flex gap-2' style={{ width: "150px" }}>
-                    <div>Get started </div>
+                    <a className='text-light' href='http://wa.me/2348069595110'>Get started </a>
                     <ArrowRightOutlined className='my-auto ' />
                 </button>
             </main>
@@ -74,12 +75,12 @@ function Contact() {
             <section className='tosee'>
                 <header>YOU SHOULD TO SEE</header>
                 <h1>12 years experience in the market</h1>
-                <button className="btn border border-primary btn-hover ">View Portfolio</button>
+                <Link to={'/portfolio'} className="btn border border-primary btn-hover ">View Portfolio</Link>
             </section>
 
             <div className='card d-flex  flex-row gap-3 p-3 shadow'>
                 <input className='form-control ' disabled type="tel" name="" value={'(+123) 806-959-5110'} />
-                <a className='btnget btn-hover w-75' href="">Call Back</a>
+                <a className='btnget btn-hover w-75' href="tel:08069595110">Call Back</a>
             </div>
         </div>
     </>);

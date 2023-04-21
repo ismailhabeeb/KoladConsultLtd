@@ -8,6 +8,7 @@ import buildings from '/src/assets/images/buildings.avif'
 import pmanage from '/src/assets/images/buying-renting-selling-real-e.jpg'
 import bg from '../assets/images/tools-table.jpg'
 import Review from '../components/customers\'review';
+import Project_preview from '../components/project_preview/index';
 
 
 
@@ -18,16 +19,20 @@ function Our_project() {
             <section className='dbimg' style={{ backgroundImage: `url(${bg})`, }}>
                 <main className='d-flex flex-column gap-3 '>
                     <div className='construction'>
+                    <div className='bg-warning span1'></div>
+                        
                         CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE
+                        {/* <div className='bg-warning span1'></div> */}
+
                     </div>
-                    <h2 style={{ fontSize: '50px' }} className='global'>
+                    <h2 className='global look'>
                         Looking for a quality and affordable service for <strong>your next project?</strong>
                     </h2>
                     <div className='experience'>
                         GENERATING MORE VALUE AT EVERY LEVEL AND BUILDING A BETTER WORLD FOR EVERYONE
                     </div>
                     <button className='btnget d-flex gap-2 btn-hover' style={{ width: "140px" }}>
-                        <div>Get started </div>
+                        <a className='text-light' href='http://wa.me/2348069595110'>Get started </a>
                         <ArrowRightOutlined className='my-auto ' />
                     </button>
                 </main>
@@ -103,51 +108,7 @@ function Our_project() {
 
             </section>
             <hr className='divider' />
-            <section className="menu p py-4 " id="menu">
-                <div className="box-container" id="menu-items">
-                    <div id="ad${i}" className="box card">
-                        <img src={a2} alt="" />
-                        <div className="content w-100">
-                            <a href="#ad${i}" className="btn border border-warning text-light fw-bold btn-hover">preview</a>
-                            <a href="#ad${i}" className="btn border border-warning text-light fw-bold btn-hover">get quete</a>
-                        </div>
-                    </div>
-                    <div className=' w-25 d-block'>
-                        <h3>Details</h3>
-                        <div className='text-info  '>
-                            <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
-                            <a className='text-info' href="location:lagos">Eyenkorin Kwara state Nigeria</a>
-                        </div>
-                        <div className="d-flex w-100 justify-content-between ">
-                            <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">preview</a>
-                            <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">get quete</a>
-                        </div>
-                    </div>
-                </div>
-                <hr className='divider' />
-                <div className="box-container" id="menu-items">
-                    <div className=' '>
-                        <h3>Details</h3>
-                        <div className='text-info '>
-                            <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
-                            <a className='text-info' href="location:lagos">Umuezevum Village, Eziama-Oparanadim, Ahiazu Mbaise L.G.A, Imo State.</a>
-                        </div>
-                        <div className="d-flex w-100 justify-content-between ">
-                            <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">preview</a>
-                            <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">get quete</a>
-                        </div>
-                    </div>
-                    <div id="ad${i}" className="box card ">
-                        <img src={a2} alt="" />
-                        <div className="content w-100 ">
-                            <a href="#ad${i}" className="btn border border-warning text-light fw-bold btn-hover">preview</a>
-                            <a href="#ad${i}" className="btn border border-warning text-light fw-bold btn-hover">get quete</a>
-                        </div>
-                    </div>
-                </div>
-                <button  className="more btnget btn btn-hover rounded-circle mt-4">more</button>
-
-            </section>
+            <Project_preview/>
             <Review />
         </>);
 }

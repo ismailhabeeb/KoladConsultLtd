@@ -1,16 +1,18 @@
 import '/src/assets/styles/navbar.css';
 import logo from '../assets/images/Untitled-1.svg'
 import logo2 from '../assets/images/logort.png'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 // import profile from '/src/assets/images/profile-icon.jpg'
 import { useContext, useRef, useState } from 'react';
 import { Textcontext } from './context';
 import { SaveOutlined, SearchOutlined } from '@ant-design/icons';
+import { Alert } from 'bootstrap';
 
 
 export default function Navbar(params) {
     const [navbar, setNavbar] = useState()
     const { mode, setMode } = useContext(Textcontext)
+    const navigate = useNavigate()
 
     const home = useRef(null);
     const our = useRef(null);
@@ -50,11 +52,34 @@ export default function Navbar(params) {
 
         }
     }
+    const value = useRef(null);
 
-    // const submi = (ev) => {
-    //     ev.preventDefault()
-    //     console.log('input value')
-    // }
+    const submit = (ev) => {
+
+        ev.preventDefault()
+        console.log(portfolio.current.innerText)
+        if (value.current.value == portfolio.current.innerText) {
+            navigate('/portfolio')
+        }
+        else if (value.current.value == our.current.innerText) {
+            navigate(`/our_project`)
+        }
+        else if (value.current.value == contact.current.innerText) {
+            navigate(`/${contact.current.innerText}`)
+        }
+        else if (value.current.value == 'Architecture') {
+            navigate(`/architecture`)
+        }
+        else if (value.current.value == 'Construction') {
+            navigate(`/`)
+        }
+        else if (value.current.value == 'Real estate') {
+            navigate(`/real_estate`)
+        }
+        else (
+            alert('can not find page'))
+
+    }
 
     // const btnmode = (ev) => {
     //     if (mode == true) {
@@ -75,7 +100,7 @@ export default function Navbar(params) {
             <nav className="navbar navbar-expand-lg secondtop d-flex px-1 px-sm-3  text-white " id='secondtop'>
                 <div className="container-fluid ">
                     <a className="navbar-brand " href="#">
-                            Kolad Consult Ltd<span className='text-warning logodesign1'>.</span>
+                        Kolad Consult Ltd<span className='text-warning logodesign1'>.</span>
                         <div className='bg-warning span1 mx-end logodesign2'></div>
                     </a>
                     <button style={{ boxShadow: 'none' }} className="navbar-toggler border-0 ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,7 +114,7 @@ export default function Navbar(params) {
                             <li className=" nav-item l1">
                                 <div className='btn-group'>
                                     <Link ref={home} className="dropdown-toggle  nav-link" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" to={'/'} style={{ borderBottom: navbar == 'Home' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Home' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} >Home</Link>
-                                    <ul className="dropdown-menu dropdown-menu-end ">
+                                    <ul style={{position:'absolute', left:'0px'}} className="dropdown-menu dropdown-menu-end ">
                                         <li><Link to={'/'} className="dropdown-item d-flex justify-content-between" >Construction</Link></li>
                                         <li><Link to={'/architecture'} className="dropdown-item d-flex justify-content-between">Architectural</Link></li>
                                         <li><Link to={'/real_estate'} className="dropdown-item d-flex justify-content-between">Real Estate</Link></li>
@@ -112,10 +137,10 @@ export default function Navbar(params) {
                                 <Link ref={contact} to={'/contact'} style={{ borderBottom: navbar == 'Contact' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Contact' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Contact</Link>
                             </li>
                         </ul>
-                        <div className="input-group navsearch text-light">
-                            <input type="text" className="form-control" id="autoSizingInputGroup" placeholder="Search . . ." />
-                            <div className="input-group-text"><SearchOutlined /></div>
-                        </div>
+                        <form onSubmit={submit} className="input-group navsearch text-light">
+                            <input style={{ fontVariantCaps: 'titling-caps' }} ref={value} type="text" className="form-control" id="autoSizingInputGroup" placeholder="Search . . ." />
+                            <button className="input-group-text bg-transparent text-light border-0"><SearchOutlined /></button>
+                        </form>
                     </div>
 
 

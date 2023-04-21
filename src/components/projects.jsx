@@ -1,7 +1,8 @@
 import { ArrowRightOutlined, CheckOutlined, SmileOutlined } from '@ant-design/icons'
 import house from '../assets/images/house.jpg'
-import bg from '../assets/images/luxuryproperty.avif'
+import bg from '../assets/images/cardboard-house.jpg'
 import buildings from '/src/assets/images/buying-renting-selling-real-e.jpg'
+import sqs from '/src/assets/images/sqs.avif'
 import { useState } from 'react'
 
 function Projects() {
@@ -9,8 +10,8 @@ function Projects() {
     return (
         <>
             <section className='safety d-flex p mt-2 row mx-auto'>
-                <main className=' col-lg-3'>
-                    <img src={buildings} alt="" />
+                <main className=' col-lg-3 '>
+                    <img className='border border-warning' src={sqs} alt="" />
                 </main>
 
                 <div className='gy-2 col-lg-6 ps-lg-5 d-flex flex-column gap-4'>
@@ -85,7 +86,7 @@ function Projects() {
                                 </a>
                             </section>
                         </div>
-                        <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
+                        <div style={{ backgroundImage: `url(${sqs})`, }} className='hoverEffecct'>
                             <section className='cardimg2 '>
                                 <section className='d-flex gap-3 pt-2'>
                                     <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
@@ -164,7 +165,7 @@ function Projects() {
                             </section>
                         </div>
                         <section className='mt-3'>
-                            From the removal of comtamited soil to the demonition of legacy buildings, Kolad's proactive management approach provides
+                            From the removal of contamited soil to the demonition of legacy buildings, Kolad's proactive management approach provides
                             the certainty you need for performance, schedule, cost and compiance.
                         </section>
 

@@ -1,12 +1,14 @@
-import house from '/src/assets/images/3d-electric-car.avif'
-import house2 from '/src/assets/images/luxuryproperty.avif'
-import house3 from '/src/assets/images/K1-Camera-1-scaled.jpg'
+import house from '/src/assets/images/a2.jpg'
+import house2 from '/src/assets/images/3db4.jpg'
+import house3 from '/src/assets/images/3dc1.jpg'
 import { Link, Outlet } from 'react-router-dom';
 import Why_us from '../../components/why-us';
 import Review from '../../components/customers\'review'
+import { useState } from 'react';
 
 
 export default function Real_estate() {
+  const [note, setNote] = useState('Our team of experts has extensive experience in all facets of real estate development, from the initial feasibility study to the final construction and marketing of the finished project.')
 
 
   return (
@@ -24,8 +26,7 @@ export default function Real_estate() {
               </div>
               <div className="carousel-caption d-none d-md-block ">
                 <h4 className='text-warning'>Kolad Consult Ltd Real Estate Department</h4>
-                <p>Our team of experts has extensive experience in all facets of real estate development, from the initial feasibility
-                  study to the final construction and marketing of the finished project.</p>
+                <p>{note}</p>
               </div>
             </div>
             <div className="carousel-item" data-bs-interval="2000">
@@ -33,8 +34,7 @@ export default function Real_estate() {
 
               <div className="carousel-caption d-none d-md-block">
                 <h4 className='text-warning'>Kolad Consult Ltd Real Estate Department</h4>
-                <p>Our team of experts has extensive experience in all facets of real estate development, from the initial feasibility
-                  study to the final construction and marketing of the finished project.</p>
+                <p>{note}</p>
               </div>
             </div>
             <div className="carousel-item">
@@ -42,8 +42,7 @@ export default function Real_estate() {
 
               <div className="carousel-caption d-none d-md-block">
                 <h4 className='text-warning'>Kolad Consult Ltd Real Estate Department</h4>
-                <p>Our team of experts has extensive experience in all facets of real estate development, from the initial feasibility
-                  study to the final construction and marketing of the finished project.</p>
+                <p>{note}</p>
               </div>
             </div>
           </div>

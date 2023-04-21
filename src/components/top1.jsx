@@ -1,4 +1,4 @@
-import { UserOutlined, PlusOutlined, SaveOutlined, PlusCircleOutlined, MailOutlined, MailTwoTone, MailFilled, EnvironmentFilled, PhoneFilled, FacebookFilled, TwitterCircleFilled, InstagramFilled, LinkedinFilled, SearchOutlined } from '@ant-design/icons';
+import { UserOutlined, PlusOutlined, SaveOutlined, PlusCircleOutlined, MailOutlined, MailTwoTone, MailFilled, EnvironmentFilled, PhoneFilled, FacebookFilled, TwitterCircleFilled, InstagramFilled, LinkedinFilled, SearchOutlined, WhatsAppOutlined } from '@ant-design/icons';
 
 
 
@@ -12,7 +12,7 @@ function Top1() {
 
                     <div className='d-flex'><FacebookFilled className='my-auto text-info' /></div>
                     <div className='d-flex'><TwitterCircleFilled className='my-auto text-info' /></div>
-                    <div className='d-flex'><LinkedinFilled className='my-auto text-info' /></div>
+                    <a href='http://wa.me/2348069595110' className='d-flex'><WhatsAppOutlined className='my-auto text-info' /></a>
                     <div className='d-flex'><InstagramFilled className='my-auto text-info' /></div>
                 </div>
 

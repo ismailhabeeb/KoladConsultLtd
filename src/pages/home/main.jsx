@@ -6,7 +6,7 @@ import logo from '../../assets/images/Untitled-1.svg'
 import logo2 from '../../assets/images/logor.png'
 
 import house1 from '../../assets/images/draw.jpg'
-import bg from '../../assets/images/luxuryproperty.avif'
+import bg from '../../assets/images/construction-silhouette.jpg'
 import bg1 from '../../assets/images/building-n-h.jpg'
 import Projects from '../../components/projects'
 import { ArrowRightOutlined, HighlightOutlined } from '@ant-design/icons'
@@ -22,7 +22,8 @@ function Main() {
 
                 <main className='d-flex flex-column gap-3 '>
                     <div className='construction'>
-                        <div className='bg-warning span1'></div><span className='span2'>CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
+                        <div className='bg-warning span1'></div>
+                        <span className='span2'>CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
                     </div>
                     <h2 className='global'>
                         Global construction & engineering company
@@ -32,7 +33,7 @@ function Main() {
                         realisation of large international constructionprojects.
                     </div>
                     <button className='btnget d-flex gap-2' style={{ width: "150px" }}>
-                        <div>Get started </div>
+                        <a className='text-light' href='http://wa.me/2349026674356'>Get started </a>
                         <ArrowRightOutlined className='my-auto ' />
                     </button>
                 </main>
@@ -62,7 +63,7 @@ function Main() {
                     </div>
                 </div>
                 <main className='usimg'>
-                    <img src={house1} alt="" />
+                    <img className='border border-warning' src={house1} alt="" />
                 </main>
             </section>
             <Review />

@@ -2,12 +2,6 @@
     top: -40px;
 }
 
-.sticky-bottom {
-    bottom: 20px;
-    left: 80%;
-
-}
-
 /* //////////// */
 .sticky-bottom .btn {
     border-radius: 3px !important;
@@ -18,15 +12,6 @@
     background-color: rgba(190, 211, 172, 0.521) !important;
     transition: transform 80ms ease-in;
     /* border: solid green 1px !important; */
-
-}
-
-.sticky-bottom button:hover {
-    border: solid blue 1px !important;
-    background-color: rgba(255, 255, 255, 0.521) !important;
-    background-color: white !important;
-    transform: scale(0.90);
-
 
 }
 

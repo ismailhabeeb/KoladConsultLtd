@@ -3,8 +3,24 @@
 } */
 
 
-
-
+.linktowhatsapp{
+    position: absolute;
+    position: fixed;
+    background-color: rgba(13, 228, 13, 0.678);
+    right: 10px;
+    bottom: 10px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    color: aliceblue !important;
+    border-radius: 100%;
+    border-top-left-radius: 10px;
+    text-align: center;
+}
+.linktowhatsapp :hover {
+    transform: scale(0.90);
+    cursor: pointer;
+}
 .service {
     background-color: rgba(0, 0, 0, 0.466);
     color: white;
@@ -200,7 +216,11 @@ a {
 .hoverEffecct:hover {
     transform: translateY(-10px);
     transition: transform 1s;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .cardimg1:hover,
 .cardimg2:hover,
@@ -211,9 +231,12 @@ a {
     background-color: rgba(5, 5, 26, 0.226);
     color: rgb(255, 255, 255);
     transition: 0.8s ease;
-    
+
+
+
 
 }
+
 @keyframes float {
 
     0%,
@@ -238,7 +261,7 @@ a {
 }
 
 
-.usbgimg{
+.usbgimg {
     min-height: 70vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -333,14 +356,34 @@ a {
         padding-right: 40px;
     }
 
-    .usbgimg main {
-        display: none;
+    .usflex>button {
+        width: 100% !important;
     }
-    .usbgimg{
-        min-height: 40vh;
-    }
+
 }
 
+@media (max-width: 995px) {
+    .usbgimg {
+        /* min-height: 40vh; */
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .usimg {
+        background-color: rgb(245, 173, 13);
+        width: 100%;
+        height: 230px !important;
+        padding: 15px 0 0 15px;
+
+    }
+
+    .usimg>img {
+        width: 100% !important;
+        height: 100% !important;
+
+    }
+
+}
 
 
 
@@ -364,7 +407,8 @@ a {
     .global {
         font-size: 50px;
     }
-    .dbimg{
+
+    .dbimg {
         height: 100%;
         padding: 100px 0px 25px 0px;
     }
@@ -497,6 +541,11 @@ a {
 @media(max-width:320px) {
     .global {
         font-size: 20px;
+    }
+}
+@media(max-width:320px) {
+    .usimg {
+        display: none;
     }
 }
 

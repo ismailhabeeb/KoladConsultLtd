@@ -6,6 +6,9 @@
     justify-items: center;
 
 }
+.look{
+    font-size: 50px;
+}
 
 .diverse h3 {
     max-width: 700px;
@@ -170,6 +173,9 @@
     }
     .menu .box-container .box {
        
+    }
+    .look{
+        font-size: 30px;
     }
 }
 

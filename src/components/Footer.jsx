@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "/src/assets/styles/footer.css"
 // import logo from '../assets/images/TreeCity-removedbg.png'
 import { EnvironmentFilled, FacebookOutlined, InstagramOutlined, MailFilled, PhoneFilled, TwitterOutlined, WhatsAppOutlined, YoutubeOutlined } from '@ant-design/icons';
@@ -29,7 +30,7 @@ function Footer() {
                 <FacebookOutlined className="i" />
                 <InstagramOutlined className="i" />
                 <TwitterOutlined className="i" />
-                <WhatsAppOutlined className="i" />
+                <a href="http://wa.me/2348069595110"><WhatsAppOutlined className="i" /></a>
               </div>
             </div>
 
@@ -102,7 +103,7 @@ function Footer() {
                   <div className='text-info d-flex gap-2'>
                     <div className='d-flex'><PhoneFilled className='my-auto text-warning' /></div>
 
-                    <a className='text-info' href=""> (+123) 806-959-5110</a>
+                    <a className='text-info' href="tel:08069595110"> (+123) 806-959-5110</a>
                   </div>
                 </li>
                 <hr className="divider" />
@@ -128,14 +129,14 @@ function Footer() {
 
           <div className="row copyright">
             <div className="footer-menu w-100">
-              <a href="">Home</a>
+              <Link to={'/'}>Home</Link>
               <a href="">About</a>
-              <a href="">Contact</a>
+              <Link to={'/contact'}>Contact</Link>
               <a href="">Blog</a>
-              <a href="">Portfolio</a>
+              <Link to={'/portfolio'}>Portfolio</Link>
             </div>
             <hr />
-            <p className="text-white">Copyright <a href="koladconsultltd@gmail.com">©2023 Kolad Consult Ltd by Azeez Habeeb. All Rights Reserved </a>  | <a href="">Privacy Policy</a> | <a href="">Terms and Conditions.</a></p>
+            <p className="text-white">Copyright <a href="http//mail:koladconsultltd@gmail.com">©2023 Kolad Consult Ltd by Azeez Habeeb. All Rights Reserved </a>  | <a href="">Privacy Policy</a> | <a href="">Terms and Conditions.</a></p>
           </div>
 
 

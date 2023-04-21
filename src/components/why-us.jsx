@@ -1,12 +1,13 @@
 import house from '/src/assets/images/3d-electric-car.avif'
-import house2 from '/src/assets/images/luxuryproperty.avif'
-import house3 from '/src/assets/images/K1-Camera-1-scaled.jpg'
+import  largeB from '/src/assets/images/cardboard-house.jpg'
 import pmanage from '/src/assets/images/buying-renting-selling-real-e.jpg'
 import land from '/src/assets/images/house-symbol-with-location-pin.avif'
 import property from '/src/assets/images/property.avif'
 import trust from '/src/assets/images/trust.avif'
-import largeB from '/src/assets/images/large-building.avif'
-import buildings from '/src/assets/images/buildings.avif'
+import house2 from '/src/assets/images/large-building.avif'
+import buildings from '../assets/images/luxuryproperty.avif'
+
+// import buildings from '/src/assets/images/buildings.avif'
 import '/src/assets/styles/why-us.css'
 import { FileProtectOutlined, GlobalOutlined, CheckOutlined, PropertySafetyOutlined } from '@ant-design/icons';
 import { useEffect, useState } from 'react'
@@ -74,7 +75,7 @@ function Why_us() {
                         </div>
                     </div>
                     <div className="card bg-dark text-white whyh">
-                        <img src={buildings} className="card-img h-100" alt="..." />
+                        <img src={pmanage} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h3 className="card-title">DELIVER</h3>
                             <p className="card-text">We work closely with our clients to ensure
@@ -82,8 +83,8 @@ function Why_us() {
                                 is delivered on time and exceeds their expectations.</p>
                         </div>
                     </div>
-                    <div className={`card bg-dark text-white whyh hidden ${add}`}>
-                        <img src={pmanage} className="card-img h-100" alt="..." />
+                    <div className={`card bg-dark text-white whyh `}>
+                        <img src={buildings} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h3 className="card-title">MANAGEMENT</h3>
                             <p className="card-text">Using modern principles and sophisticated technologies, Kolad consult Ltd. envisions being the primary preference at all times globally.</p>
