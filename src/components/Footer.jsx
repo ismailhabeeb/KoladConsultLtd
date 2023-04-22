@@ -14,10 +14,13 @@ function Footer() {
             <div className="column blog">
 
               <h3 className="h-25 border bg-info ">
-                <a className="navbar-brand my-auto" href="#">
+                <a className="navbar-brand my-auto " href="#">
                   {/* <img src={logo} alt="" /> */}
                   Kolad Consult Ltd<span className='text-warning '>.</span>
+
                 </a>
+                <div style={{marginTop:'-6px'}} className='bg-warning span1 mx-end '></div>
+
               </h3>
 
               <small>
@@ -78,7 +81,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="column links">
+            <div className="column links ">
               <h3>General</h3>
               <ul>
                 <li>
@@ -96,7 +99,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="column links">
+            <div className="column links ">
               <h3>Contact Us</h3>
               <ul>
                 <li>
@@ -132,7 +135,7 @@ function Footer() {
               <Link to={'/'}>Home</Link>
               <a href="">About</a>
               <Link to={'/contact'}>Contact</Link>
-              <a href="">Blog</a>
+              <Link to={'/architecture'}>Architecture</Link>
               <Link to={'/portfolio'}>Portfolio</Link>
             </div>
             <hr />

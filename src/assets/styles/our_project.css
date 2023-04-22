@@ -156,6 +156,13 @@
 
 }
 
+.menu .box-container .box .card-img-overlay{
+    width: 40%;
+    height: 80%;
+    background-color: rgba(114, 127, 162, 0.747);
+    position: sticky;
+}
+
 
 @media (max-width: 900px) {
 
@@ -179,11 +186,15 @@
     }
 }
 
-/* @media (max-width: 900px) {
+@media (max-width: 640px) {
 
-
-    .diverse{
-        padding-left:15px;
-        padding-right:15px;
+    .menu .box-container .box .card-img-overlay{
+        width: 50%;
+        height: 80%;
+       
     }
-} */
+    .bol{
+        padding: 2px;
+        font-size: small;
+    }
+}

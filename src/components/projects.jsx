@@ -1,4 +1,4 @@
-import { ArrowRightOutlined, CheckOutlined, SmileOutlined } from '@ant-design/icons'
+import { ApartmentOutlined, AreaChartOutlined, ArrowRightOutlined, BankOutlined, BorderHorizontalOutlined, CheckOutlined, HeatMapOutlined, SmileOutlined } from '@ant-design/icons'
 import house from '../assets/images/house.jpg'
 import bg from '../assets/images/cardboard-house.jpg'
 import buildings from '/src/assets/images/buying-renting-selling-real-e.jpg'
@@ -74,7 +74,8 @@ function Projects() {
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg1 '>
                                 <section className='d-flex gap-3 pt-2'>
-                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    {/* <SmileOutlined  /> */}
+                                    <span style={{ fontSize: '25px' }} className='rounded-circle bg-warning p-1 text-white '>🦺</span>
                                     <h5 className='my-auto'>Engineering</h5>
                                 </section>
                                 <hr className='divider' />
@@ -89,7 +90,7 @@ function Projects() {
                         <div style={{ backgroundImage: `url(${sqs})`, }} className='hoverEffecct'>
                             <section className='cardimg2 '>
                                 <section className='d-flex gap-3 pt-2'>
-                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    <ApartmentOutlined style={{ fontSize: '28px' }} className='rounded-circle bg-warning p-2 text-white' />
                                     <h5 className='my-auto'>Construction</h5>
                                 </section>
                                 <hr className='divider' />
@@ -104,7 +105,7 @@ function Projects() {
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg3 '>
                                 <section className='d-flex gap-3 pt-2'>
-                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    <HeatMapOutlined style={{ fontSize: '30px' }} className='rounded-circle bg-warning p-2 text-white' />
                                     <h5 className='my-auto'>Architecture</h5>
                                 </section>
 
@@ -121,7 +122,7 @@ function Projects() {
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg4 '>
                                 <section className='d-flex gap-3 pt-2'>
-                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    <AreaChartOutlined style={{ fontSize: '30px' }} className='rounded-circle bg-warning p-2 text-white' />
                                     <h5 className='my-auto'>Real Estate</h5>
                                 </section>
                                 <hr className='divider' />
@@ -136,7 +137,7 @@ function Projects() {
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg5 '>
                                 <section className='d-flex gap-3 pt-2'>
-                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    <BorderHorizontalOutlined style={{ fontSize: '30px' }} className='rounded-circle bg-warning p-2 text-white' />
                                     <h5 className='my-auto'>Interior & Exterior</h5>
                                 </section>
                                 <hr className='divider' />
@@ -151,7 +152,7 @@ function Projects() {
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
                             <section className='cardimg6 '>
                                 <section className='d-flex gap-3 pt-2'>
-                                    <SmileOutlined className='rounded-circle bg-warning p-3 text-white' />
+                                    <BankOutlined style={{ fontSize: '30px' }} className='rounded-circle bg-warning p-2 text-white' />
                                     <h5 className='my-auto'>Land Sales</h5>
                                 </section>
 

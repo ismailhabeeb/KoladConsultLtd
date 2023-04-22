@@ -10,6 +10,7 @@ import bg from '../../assets/images/tools-table.jpg'
 import bg1 from '../../assets/images/building-n-h.jpg'
 import { ArrowRightOutlined, CheckOutlined, FallOutlined, HighlightOutlined, MailFilled, SmileOutlined } from '@ant-design/icons'
 import Projects from '../../components/projects'
+import Intouch from '../../components/intouch'
 
 function Architectural() {
     const [count, setCount] = useState(0)
@@ -40,7 +41,7 @@ function Architectural() {
                 </main>
             </section>
             <section>
-                <h1>...needs something here</h1>
+                <Intouch/>
             </section>
 
             <Projects />

@@ -9,8 +9,9 @@ import house1 from '../../assets/images/draw.jpg'
 import bg from '../../assets/images/construction-silhouette.jpg'
 import bg1 from '../../assets/images/building-n-h.jpg'
 import Projects from '../../components/projects'
-import { ArrowRightOutlined, HighlightOutlined } from '@ant-design/icons'
+import { AimOutlined, ArrowRightOutlined, HighlightOutlined } from '@ant-design/icons'
 import Review from '../../components/customers\'review'
+import Intouch from '../../components/intouch'
 
 function Main() {
     const [count, setCount] = useState(0)
@@ -40,7 +41,9 @@ function Main() {
             </section>
 
             <Projects />
-
+            <section>
+                <Intouch/>
+            </section>
             <section className='usbgimg' style={{ backgroundImage: `url(${bg})`, }}>
                 <div className='gy-2 gap-3'>
                    <div className='construction'>
@@ -53,12 +56,12 @@ function Main() {
                     <div className='d-flex g-5 usflex'>
                         <button className='w-50 btnget'>
                             <p>Completed project</p>
-                            <h3 className='text-warning'><HighlightOutlined /> 100+</h3>
+                            <h3 className='text-warning'><AimOutlined /> 100+</h3>
                         </button>
 
                         <button className='w-50 btnget'>
                             <p>Construction Workers</p>
-                            <h3 className='text-warning'><HighlightOutlined /> 150+</h3>
+                            <h3 className='text-warning'><AimOutlined /> 150+</h3>
                         </button>
                     </div>
                 </div>

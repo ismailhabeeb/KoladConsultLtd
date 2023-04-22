@@ -4,6 +4,7 @@ import house1 from '/src/assets/images/tools-table.jpg'
 import whitbghouse from '/src/assets/images/artchitecturedraw.avif'
 import { ArrowRightOutlined, PhoneFilled, EnvironmentFilled } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
+import Intouch from '../components/intouch';
 function Contact() {
     return (<>
         <div style={{ height: '80px' }} className='bg-info '></div>
@@ -43,7 +44,7 @@ function Contact() {
                 <section className=' d-flex flex-colume gap-3'>
                     <div className=' d-flex gap-2'>
                         <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' /></div>
-                        <a className='text-info' href="#">No.1 Ogunlana St, OLive G Es., Ogombo, Ajah Lagos.</a>
+                        <a className='text-info' href="#">No.1 Ogunlana St, OLive Garden Es., Ogombo, Ajah Lagos.</a>
                     </div>
                     <p>we offer construction planning and programming from our highly
                         experienced team of engirneer and planners.
@@ -59,7 +60,7 @@ function Contact() {
             <main className='d-flex flex-column gap-3 '>
 
                 <div className='construction d-flex'>
-                <div className='bg-warning span1 my-auto'></div> <span className='span2'> WE CAN FIND PROCCESS THAT WILL BEST HELP YOU MEET YOUR GOALS</span>
+                    <div className='bg-warning span1 my-auto'></div> <span className='span2'> WE CAN FIND PROCCESS THAT WILL BEST HELP YOU MEET YOUR GOALS</span>
                 </div>
                 <h2 className='globacontact'>
                     We have dedication to providing outstanding <strong>customer service and quality </strong>finished Projects
@@ -71,6 +72,9 @@ function Contact() {
             </main>
 
         </section>
+        <section>
+                <Intouch/>
+            </section>
         <div className='contacthead dbimg ' style={{ backgroundImage: `url(${whitbghouse})` }}>
             <section className='tosee'>
                 <header>YOU SHOULD TO SEE</header>

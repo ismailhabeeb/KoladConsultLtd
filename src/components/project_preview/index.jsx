@@ -1,4 +1,4 @@
-import { EnvironmentFilled } from "@ant-design/icons";
+import { ClockCircleOutlined, EnvironmentFilled } from "@ant-design/icons";
 import single from './images/pa2.jpg'
 // images//
 import a1 from './images/p3db1.jpg'
@@ -24,10 +24,10 @@ import { useState } from "react";
 
 
 function Project_preview(params) {
- const [project1, setProject1]=useState(a1,a2,a3,a4,a5,pr1,pr2,pr3,pr4,pr5,)
- const [project2, setProject2]=useState(b1,b2,pr1,pr2,pr3,pr4,pr5,)
- const [project3, setProject3]=useState(c1,c2,c3,c4,pr1,pr2,pr3,pr4,pr5,)
- 
+    const [project1, setProject1] = useState(a1, a2, a3, a4, a5, pr1, pr2, pr3, pr4, pr5,)
+    const [project2, setProject2] = useState(b1, b2, pr1, pr2, pr3, pr4, pr5,)
+    const [project3, setProject3] = useState(c1, c2, c3, c4, pr1, pr2, pr3, pr4, pr5,)
+
 
     return (
         <section className="menu p py-4 " id="menu">
@@ -35,87 +35,110 @@ function Project_preview(params) {
                 <div id="ad${i}" className="box card">
                     <img src={a1} alt="" />
                     <div className="content w-100">
-                        <a href="#ad${i}" className="btn border border-warning text-light fw-bold btn-hover">preview</a>
-                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-light fw-bold btn-hover">get quete</a>
+                        <a href="#ad${i}" className="btn border border-warning text-light bol btn-hover">preview</a>
+                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-light bol btn-hover">get quete</a>
+                    </div>
+                    <div className='card-img-overlay '>
+                        <h5>Details</h5>
+                        <div className='text-white  '>
+                            <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
+                            <a className='' href="location:lagos">Eyenkorin Kwara state Nigeria</a>
+                        </div>
+                        <div className='text-white  '>
+                            <div className='d-flex'><ClockCircleOutlined className='my-auto text-warning' />Year:</div>
+                            <span class="badge text-bg-primary">2023</span>
+                        </div>
+                        <div className="d-flex w-100 justify-content-between ">
+                            <a href="#ad${i}" className="btn border  border-warning text-primary bol btn-hover">preview</a>
+                            <a href="http://wa.me/2348069595110" className="btn border border-warning text-primary bol btn-hover">get quete</a>
+                        </div>
                     </div>
                 </div>
-                <div className=' w-25 d-block'>
-                    <h3>Details</h3>
-                    <div className='text-info  '>
-                        <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
-                        <a className='text-info' href="location:lagos">Eyenkorin Kwara state Nigeria</a>
-                    </div>
-                    <div className="d-flex w-100 justify-content-between ">
-                        <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">preview</a>
-                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-primary fw-bold btn-hover">get quete</a>
-                    </div>
-                </div>
+
             </div>
             <hr className='divider' />
             <div className="box-container" id="menu-items">
-                <div className=' '>
-                    <h3>Details</h3>
-                    <div className='text-info '>
-                        <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
-                        <a className='text-info' href="location:lagos">Umuezevum Village, Eziama-Oparanadim, Ahiazu Mbaise L.G.A, Imo State.</a>
-                    </div>
-                    <div className="d-flex w-100 justify-content-between ">
-                        <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">preview</a>
-                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-primary fw-bold btn-hover">get quete</a>
-                    </div>
-                </div>
+
                 <div id="ad${i}" className="box card ">
                     <img src={b1} alt="" />
                     <div className="content w-100 ">
-                        <a href="#ad${i}" className="btn border border-warning text-light fw-bold btn-hover">preview</a>
-                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-light fw-bold btn-hover">get quete</a>
+                        <a href="#ad${i}" className="btn border border-warning text-light bol btn-hover">preview</a>
+                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-light bol btn-hover">get quete</a>
+                    </div>
+                    <div className=' card-img-overlay'>
+                        <h5>Details</h5>
+                        <div className='text-light '>
+                            <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
+                            <a className='' href="location:lagos">Umuezevum Village, Eziama-Oparanadim, Ahiazu Mbaise L.G.A, Imo State.</a>
+                        </div>
+                        <div className='text-white  '>
+                            <div className='d-flex'><ClockCircleOutlined className='my-auto text-warning' />Year:</div>
+                            <span class="badge text-bg-primary">2023</span>
+                        </div>
+                        <div className="d-flex w-100 justify-content-between ">
+                            <a href="#ad${i}" className="btn border border-warning text-primary bol btn-hover">preview</a>
+                            <a href="http://wa.me/2348069595110" className="btn border border-warning text-primary bol btn-hover">get quete</a>
+                        </div>
                     </div>
                 </div>
+
             </div>
             <hr className='divider' />
             <div className="box-container" id="menu-items">
                 <div id="ad${i}" className="box card">
                     <img src={c1} alt="" />
                     <div className="content w-100">
-                        <a href="#ad${i}" className="btn border border-warning text-light fw-bold btn-hover">preview</a>
-                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-light fw-bold btn-hover">get quete</a>
+                        <a href="#ad${i}" className="btn border border-warning text-light bol btn-hover">preview</a>
+                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-light bol btn-hover">get quete</a>
+                    </div>
+
+                    <div className='card-img-overlay'>
+                        <h5>Details</h5>
+                        <div className='text-white  '>
+                            <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
+                            <a className='text-' href="location:lagos">Eyenkorin Kwara state Nigeria</a>
+                        </div>
+                        <div className='text-white  '>
+                            <div className='d-flex'><ClockCircleOutlined  className='my-auto text-warning' />Year:</div>
+                            <span class="badge text-bg-primary">2023</span>
+                        </div>
+                        <div className="d-flex w-100 justify-content-between ">
+                            <a href="#ad${i}" className="btn border border-warning text-primary bol btn-hover">preview</a>
+                            <a href="http://wa.me/2348069595110" className="btn border border-warning text-primary bol btn-hover">get quete</a>
+                        </div>
                     </div>
                 </div>
-                <div className=' w-25 d-block'>
-                    <h3>Details</h3>
-                    <div className='text-info  '>
-                        <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
-                        <a className='text-info' href="location:lagos">Eyenkorin Kwara state Nigeria</a>
-                    </div>
-                    <div className="d-flex w-100 justify-content-between ">
-                        <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">preview</a>
-                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-primary fw-bold btn-hover">get quete</a>
-                    </div>
-                </div>
+
             </div>
             <hr className='divider' />
             <div className="box-container" id="menu-items">
-                <div className=' '>
-                    <h3>Details</h3>
-                    <div className='text-info '>
-                        <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
-                        <a className='text-info' href="location:lagos">Umuezevum Village, Eziama-Oparanadim, Ahiazu Mbaise L.G.A, Imo State.</a>
-                    </div>
-                    <div className="d-flex w-100 justify-content-between ">
-                        <a href="#ad${i}" className="btn border border-warning text-primary fw-bold btn-hover">preview</a>
-                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-primary fw-bold btn-hover">get quete</a>
-                    </div>
-                </div>
+
                 <div id="ad${i}" className="box card ">
                     <img src={single} alt="" />
                     <div className="content w-100 ">
-                        <a href="#ad${i}" className="btn border border-warning text-light fw-bold btn-hover">preview</a>
-                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-light fw-bold btn-hover">get quete</a>
+                        <a href="#ad${i}" className="btn border border-warning text-light bol btn-hover">preview</a>
+                        <a href="http://wa.me/2348069595110" className="btn border border-warning text-light bol btn-hover">get quete</a>
+                    </div>
+
+                    <div className=' card-img-overlay'>
+                        <h5>Details</h5>
+                        <div className='text-white '>
+                            <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
+                            <a className='' href="location:lagos">Umuezevum Village, Eziama-Oparanadim, Ahiazu Mbaise L.G.A, Imo State.</a>
+                        </div>
+                        <div className='text-white  '>
+                            <div className='d-flex'><ClockCircleOutlined  className='my-auto text-warning' />Year:</div>
+                            <span class="badge text-bg-primary">2023</span>
+                        </div>
+                        <div className="d-flex w-100 justify-content-between ">
+                            <a href="#ad${i}" className="btn border border-warning text-primary bol btn-hover">preview</a>
+                            <a href="http://wa.me/2348069595110" className="btn border border-warning text-primary bol btn-hover">get quete</a>
+                        </div>
                     </div>
                 </div>
             </div>
             <button className="more btnget btn btn-hover rounded-circle mt-4">more</button>
-            
+
 
         </section>
     )

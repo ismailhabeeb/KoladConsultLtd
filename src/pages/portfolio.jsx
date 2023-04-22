@@ -7,8 +7,9 @@ import logo from '../assets/images/Untitled-1.svg'
 import sqs from '../assets/images/prgen5.jpg'
 import Why_us from '../components/why-us'
 import whitebg from '/src/assets/images/white-bg2.jpg'
-import { AimOutlined, CheckOutlined } from '@ant-design/icons'
-
+import whitetopbg from '/src/assets/images/grayscale-shot-lake.jpg'
+import { AimOutlined, CheckOutlined, FacebookFilled, InstagramFilled, TwitterCircleFilled, WhatsAppOutlined } from '@ant-design/icons'
+import Intouch from '../components/intouch'
 function Portfolio() {
 
     const [count, setCount] = useState(false)
@@ -60,12 +61,14 @@ function Portfolio() {
 
     return (
         <div>
-            <section className='dbimg bg-info p big_wrapper' style={{ backgroundImage: `url(${bg1})`, fontFamily: "Montserrat" }}>
+            <section className='dbimg bg-info p big_wrapper' style={{ backgroundImage: `url(${whitetopbg})`, fontFamily: "Montserrat" }}>
                 <section className="contain w-100" id="main-div">
                     <h2 className='d-flex flex-column gap-3'>
-                        <a className="navbar-bran " href="#" style={{ fontFamily: "Montserrat" }}>
+                        <a className="navbar-bran " href="#" style={{ fontFamily: "Montserra" }}>
 
-                            Kolad Consult Ltd<span className='text-warning h1'>.</span>
+                            Kolad Consult Ltd<span className='text-warning'>.</span>
+                            <div className='bg-warning span1 mx-end logodesign3' ></div>
+
                         </a>
                         <div id="info" className="info" style={{ fontFamily: "Montserrat" }}>We are Architectural and Engineering Companing changing the world and building
                             amazingthings one mide at a time, and providing high impact scalable solutions.
@@ -75,6 +78,13 @@ function Portfolio() {
                         <a href='http://wa.me/2348069595110' className='btn btnget btn-hover border' style={{ fontFamily: "Montserrat", width: "170px" }}>
                             Get Quote
                         </a>
+                        <div style={{ fontSize: '20px' }} className='d-flex gap-2 topicon'>
+
+                            <div className='d-flex'><FacebookFilled className='my-auto text-warning' /></div>
+                            <div className='d-flex'><TwitterCircleFilled className='my-auto text-warning' /></div>
+                            <a href='http://wa.me/2348069595110' className='d-flex'><WhatsAppOutlined className='my-auto text-warning' /></a>
+                            <div className='d-flex'><InstagramFilled className='my-auto text-warning' /></div>
+                        </div>
                     </h2>
 
                     <div id="hello" style={{ fontFamily: "Montserrat" }}>
@@ -126,7 +136,9 @@ function Portfolio() {
                     <a href='http://wa.me/2348069595110' className="btn border border-primary btn-hover ">Contact Us</a>
                 </section>
             </div>
-
+            <section>
+                <Intouch/>
+            </section>
             <Why_us />
         </div>
     );

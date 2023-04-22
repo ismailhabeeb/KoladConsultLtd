@@ -73,8 +73,7 @@ a {
 }
 
 .span1 {
-    width: 60px !important;
-    /* border-bottom-right-radius: 150%; */
+    width: 90px !important;
     height: 4px !important;
 }
 

@@ -9,6 +9,7 @@ import pmanage from '/src/assets/images/buying-renting-selling-real-e.jpg'
 import bg from '../assets/images/tools-table.jpg'
 import Review from '../components/customers\'review';
 import Project_preview from '../components/project_preview/index';
+import Intouch from '../components/intouch';
 
 
 
@@ -19,8 +20,8 @@ function Our_project() {
             <section className='dbimg' style={{ backgroundImage: `url(${bg})`, }}>
                 <main className='d-flex flex-column gap-3 '>
                     <div className='construction'>
-                    <div className='bg-warning span1'></div>
-                        
+                        <div className='bg-warning span1'></div>
+
                         CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE
                         {/* <div className='bg-warning span1'></div> */}
 
@@ -108,7 +109,10 @@ function Our_project() {
 
             </section>
             <hr className='divider' />
-            <Project_preview/>
+            <Project_preview />
+            <section>
+                <Intouch />
+            </section>
             <Review />
         </>);
 }

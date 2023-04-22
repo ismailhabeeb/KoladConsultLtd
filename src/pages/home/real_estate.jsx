@@ -5,6 +5,7 @@ import { Link, Outlet } from 'react-router-dom';
 import Why_us from '../../components/why-us';
 import Review from '../../components/customers\'review'
 import { useState } from 'react';
+import Intouch from '../../components/intouch';
 
 
 export default function Real_estate() {
@@ -55,6 +56,9 @@ export default function Real_estate() {
         </div>
       </section>
       <Why_us />
+      <section>
+        <Intouch />
+      </section>
       <Review />
 
     </main>
