@@ -1,5 +1,5 @@
 import house from '/src/assets/images/a22.jpg'
-import house2 from '/src/assets/images/3db44.jpg'
+import house2 from '/src/assets/images/house.jpg'
 import house3 from '/src/assets/images/3dc11.jpg'
 import { Link, Outlet } from 'react-router-dom';
 import Why_us from '../../components/why-us';
