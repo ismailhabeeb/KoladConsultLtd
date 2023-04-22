@@ -8,7 +8,7 @@ function Review() {
 
                 <div className="box-container ">
                     <div className="box car" >
-                        <img src={person} alt="" />
+                        <img loading='lazy' src={person} alt="" />
                         <div className="content">
                             <h3> Mr Heritage</h3>
                             <div className="stars">⭐⭐⭐⭐</div>
@@ -18,7 +18,7 @@ function Review() {
                         </div>
                     </div>
                     <div className="box car2">
-                        <img src={person} alt="" />
+                        <img loading='lazy' src={person} alt="" />
                         <div className="content">
                             <h3>Basnaj Auto</h3>
                             <div className="stars">⭐⭐⭐⭐⭐</div>
@@ -28,7 +28,7 @@ function Review() {
                         </div>
                     </div>
                     <div className="box car">
-                        <img src={person} alt="" />
+                        <img loading='lazy' src={person} alt="" />
                         <div className="content">
                             <h3>Mr Olalekan</h3>
                             <div className="stars">⭐⭐⭐⭐⭐</div>

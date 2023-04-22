@@ -33,7 +33,7 @@ function Project_preview(params) {
         <section className="menu p py-4 " id="menu">
             <div className="box-container" id="menu-items">
                 <div id="ad${i}" className="box card">
-                    <img src={a1} alt="" />
+                    <img loading="lazy" src={a1} alt="" />
                     <div className="content w-100">
                         <a href="#ad${i}" className="btn border border-warning text-light bol btn-hover">preview</a>
                         <a href="http://wa.me/2348069595110" className="btn border border-warning text-light bol btn-hover">get quete</a>
@@ -46,7 +46,7 @@ function Project_preview(params) {
                         </div>
                         <div className='text-white  '>
                             <div className='d-flex'><ClockCircleOutlined className='my-auto text-warning' />Year:</div>
-                            <span class="badge text-bg-primary">2023</span>
+                            <span className="badge text-bg-primary">2023</span>
                         </div>
                         <div className="d-flex w-100 justify-content-between ">
                             <a href="#ad${i}" className="btn border  border-warning text-primary bol btn-hover">preview</a>
@@ -60,7 +60,7 @@ function Project_preview(params) {
             <div className="box-container" id="menu-items">
 
                 <div id="ad${i}" className="box card ">
-                    <img src={b1} alt="" />
+                    <img loading="lazy" src={b1} alt="" />
                     <div className="content w-100 ">
                         <a href="#ad${i}" className="btn border border-warning text-light bol btn-hover">preview</a>
                         <a href="http://wa.me/2348069595110" className="btn border border-warning text-light bol btn-hover">get quete</a>
@@ -73,7 +73,7 @@ function Project_preview(params) {
                         </div>
                         <div className='text-white  '>
                             <div className='d-flex'><ClockCircleOutlined className='my-auto text-warning' />Year:</div>
-                            <span class="badge text-bg-primary">2023</span>
+                            <span className="badge text-bg-primary">2023</span>
                         </div>
                         <div className="d-flex w-100 justify-content-between ">
                             <a href="#ad${i}" className="btn border border-warning text-primary bol btn-hover">preview</a>
@@ -86,7 +86,7 @@ function Project_preview(params) {
             <hr className='divider' />
             <div className="box-container" id="menu-items">
                 <div id="ad${i}" className="box card">
-                    <img src={c1} alt="" />
+                    <img loading="lazy" src={c1} alt="" />
                     <div className="content w-100">
                         <a href="#ad${i}" className="btn border border-warning text-light bol btn-hover">preview</a>
                         <a href="http://wa.me/2348069595110" className="btn border border-warning text-light bol btn-hover">get quete</a>
@@ -100,7 +100,7 @@ function Project_preview(params) {
                         </div>
                         <div className='text-white  '>
                             <div className='d-flex'><ClockCircleOutlined  className='my-auto text-warning' />Year:</div>
-                            <span class="badge text-bg-primary">2023</span>
+                            <span className="badge text-bg-primary">2023</span>
                         </div>
                         <div className="d-flex w-100 justify-content-between ">
                             <a href="#ad${i}" className="btn border border-warning text-primary bol btn-hover">preview</a>
@@ -114,7 +114,7 @@ function Project_preview(params) {
             <div className="box-container" id="menu-items">
 
                 <div id="ad${i}" className="box card ">
-                    <img src={single} alt="" />
+                    <img loading="lazy" src={single} alt="" />
                     <div className="content w-100 ">
                         <a href="#ad${i}" className="btn border border-warning text-light bol btn-hover">preview</a>
                         <a href="http://wa.me/2348069595110" className="btn border border-warning text-light bol btn-hover">get quete</a>
@@ -128,7 +128,7 @@ function Project_preview(params) {
                         </div>
                         <div className='text-white  '>
                             <div className='d-flex'><ClockCircleOutlined  className='my-auto text-warning' />Year:</div>
-                            <span class="badge text-bg-primary">2023</span>
+                            <span className="badge text-bg-primary">2023</span>
                         </div>
                         <div className="d-flex w-100 justify-content-between ">
                             <a href="#ad${i}" className="btn border border-warning text-primary bol btn-hover">preview</a>

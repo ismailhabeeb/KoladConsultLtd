@@ -44,7 +44,7 @@ function Our_project() {
                 </h3>
                 <main className='d-flex flex-wrap gap-2 justify-content-center'>
                     <section className="card  text-white propertyh">
-                        <img src={property} className="card-img h-100" alt="..." />
+                        <img loading='lazy' src={property} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h4 className="card-title">New Interior & Exterior Design</h4>
                             <hr className='divider ' />
@@ -58,7 +58,7 @@ function Our_project() {
                         </div>
                     </section>
                     <section className="card  text-white propertyh">
-                        <img src={buildings} className="card-img h-100" alt="..." />
+                        <img loading='lazy' src={buildings} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h4 className="card-title">Building Construction</h4>
                             <hr className='divider' />
@@ -74,7 +74,7 @@ function Our_project() {
                         </div>
                     </section>
                     <section className="card  text-white propertyh">
-                        <img src={property} className="card-img h-100" alt="..." />
+                        <img loading='lazy' src={property} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h4 className="card-title">Real Estate</h4>
                             <hr className='divider' />
@@ -90,7 +90,7 @@ function Our_project() {
                         </div>
                     </section>
                     <section className="card  text-white propertyh">
-                        <img src={property} className="card-img h-100" alt="..." />
+                        <img loading='lazy' src={property} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h4 className="card-title">Architectural Design</h4>
                             <hr className='divider' />
