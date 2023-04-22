@@ -110,7 +110,7 @@ function Project_preview(params) {
                 </div>
 
             </div> */}
-            <hr className='divider' />
+            {/* <hr className='divider' /> */}
             <div className="box-container" id="menu-items">
 
                 <div id="ad${i}" className="box card ">
