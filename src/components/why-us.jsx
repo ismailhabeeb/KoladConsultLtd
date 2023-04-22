@@ -48,7 +48,7 @@ function Why_us() {
 
     return (
         <main>
-            <section className=' bg-light text-center pt-5 note'>
+            <section className=' bg-light text-center py-5 note'>
                 <h1>WHY US ?</h1>
                 <p className='Diffrientiated mb-4'>At Kolad Consult Ltd Real Estate Department, we believe that communication is key to creating strong, lasting relationships.
                     That's why our partners work closely
@@ -58,7 +58,7 @@ function Why_us() {
 
                 <div className='d-flex text-center whycard'>
                     <div className="card text-white whyh">
-                        <img src={largeB} className="card-img h-100" alt="..." />
+                        <img loading='lazy' src={largeB} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay  whyimg">
                             <h3 className="card-title">DESIGN</h3>
                             <p className="card-text ">At its core, Kolad cosult Ltd is committed to creating unique and innovative designs,
@@ -67,7 +67,7 @@ function Why_us() {
                         </div>
                     </div>
                     <div className="card bg-dark text-white whyh">
-                        <img src={house2} className="card-img h-100" alt="..." />
+                        <img loading='lazy' src={house2} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h3 className="card-title">DEVELOPMENT</h3>
                             <p className="card-text">We provide the best real estate development by offering comprehensive services
@@ -75,7 +75,7 @@ function Why_us() {
                         </div>
                     </div>
                     <div className="card bg-dark text-white whyh">
-                        <img src={pmanage} className="card-img h-100" alt="..." />
+                        <img loading='lazy' src={pmanage} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h3 className="card-title">DELIVER</h3>
                             <p className="card-text">We work closely with our clients to ensure
@@ -84,7 +84,7 @@ function Why_us() {
                         </div>
                     </div>
                     <div className={`card bg-dark text-white whyh `}>
-                        <img src={buildings} className="card-img h-100" alt="..." />
+                        <img loading='lazy' src={buildings} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h3 className="card-title">MANAGEMENT</h3>
                             <p className="card-text">Using modern principles and sophisticated technologies, Kolad consult Ltd. envisions being the primary preference at all times globally.</p>

@@ -98,6 +98,7 @@ export default function Blog() {
                   return (
                     <div key={index} className="post bg-white">
                       <img
+                      loading='lazy'
                         className="posting"
                         // src={blogimg}
                         src={`data:image/png;base64,${base64String}`}

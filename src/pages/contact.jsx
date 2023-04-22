@@ -10,14 +10,14 @@ function Contact() {
         <div style={{ height: '80px' }} className='bg-info '></div>
 
         <div className='contacthead p dbimg' style={{ backgroundImage: `url(${whitebg})` }}>
-            <section>
+            <section className='px-2'>
                 <h2>We Offer The Most Complete Construction Solutions</h2>
                 <div><strong>Home / </strong>Contact</div>
             </section>
         </div>
         <section className='safety'>
             <section className='d-flex contactbody'>
-                <section className='contactbody1 d-flex flex-colume gap-3'>
+                <section className='contactbody1 d-flex p-2 flex-colume gap-3'>
                     <h5>Free Consultation</h5>
                     <p>we offer construction planning and programming from our highly
                         experienced team of engirneer and planners.
@@ -27,7 +27,7 @@ function Contact() {
                         <ArrowRightOutlined className='my-auto ' />
                     </a>
                 </section>
-                <section className='d-flex flex-colume gap-4'>
+                <section className='d-flex flex-colume p-2 gap-4'>
                     <div className='text-info d-flex gap-2'>
                         <div className='d-flex'><PhoneFilled className='my-auto text-warning' /></div>
 
@@ -41,7 +41,7 @@ function Contact() {
                         <ArrowRightOutlined className='my-auto ' />
                     </a>
                 </section>
-                <section className=' d-flex flex-colume gap-3'>
+                <section className=' d-flex flex-colume p-2 gap-3'>
                     <div className=' d-flex gap-2'>
                         <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' /></div>
                         <a className='text-info' href="#">No.1 Ogunlana St, OLive Garden Es., Ogombo, Ajah Lagos.</a>

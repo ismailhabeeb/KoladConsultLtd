@@ -98,7 +98,7 @@ function Portfolio() {
             </section>
             <section className='safety d-flex p mt-2 row mx-auto'>
                 <main className=' col-lg-3'>
-                    <img className='border border-warning' src={sqs} alt="" />
+                    <img loading='lazy' className='border border-warning' src={sqs} alt="" />
                 </main>
 
                 <div className='gy-2 col-lg-6 ps-lg-5 d-flex flex-column gap-4'>

@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import '../../assets/styles/home.css'
-// import '../../assets/styles/app.css'
+
 
 import archbg from '../../assets/images/architect-bg.jpg'
 import logo2 from '../../assets/images/logor.png'
@@ -19,10 +19,7 @@ function Architectural() {
         <div className="App">
             <section className='dbimg' style={{ backgroundImage: `url(${archbg})`, }}>
 
-                {/* <div className='logo'>
-                    <img className='w-100' src={logo} alt="" />
-
-                </div> */}
+               
                 <main className='d-flex flex-column gap-3 '>
                     <div className='construction'>
                         <div className='bg-warning span1'></div>
@@ -48,7 +45,7 @@ function Architectural() {
 
             <section className='usbgimg' style={{ backgroundImage: `url(${bg})`, }}>
                 <main className='usimg'>
-                    <img style={{ width: '350px' }} className='border border-warning' src={house1} alt="" />
+                    <img loading='lazy' style={{ width: '350px' }} className='border border-warning' src={house1} alt="" />
                 </main>
                 <div>
                     <div className='construction'>

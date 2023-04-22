@@ -66,7 +66,7 @@ function Main() {
                     </div>
                 </div>
                 <main className='usimg'>
-                    <img className='border border-warning' src={house1} alt="" />
+                    <img loading='lazy' className='border border-warning' src={house1} alt="" />
                 </main>
             </section>
             <Review />
