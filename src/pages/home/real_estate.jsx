@@ -1,6 +1,6 @@
 import house from '/src/assets/images/a22.jpg'
 import house2 from '/src/assets/images/house.jpg'
-import house3 from '/src/assets/images/3dc11.jpg'
+// import house3 from '/src/assets/images/3dc11.jpg'
 import { Link, Outlet } from 'react-router-dom';
 import Why_us from '../../components/why-us';
 import Review from '../../components/customers\'review'
@@ -39,7 +39,7 @@ export default function Real_estate() {
               </div>
             </div>
             <div className="carousel-item">
-              <div className='listingcaro' style={{ backgroundImage: `url(${house3})` }}></div>
+              <div className='listingcaro' style={{ backgroundImage: `url(${house})` }}></div>
 
               <div className="carousel-caption d-none d-md-block">
                 <h4 className='text-warning'>Kolad Consult Ltd Real Estate Department</h4>
