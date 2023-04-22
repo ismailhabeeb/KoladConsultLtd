@@ -17,6 +17,9 @@
 .intouch{
   flex-direction: column;
 }
+.intouch >section{
+gap: 18px;
+}
 }
 /* 
 .logo {

@@ -4,6 +4,7 @@ import bg1 from '../assets/images/buying-renting-selling-real-e.jpg'
 import '../assets/styles/home.css'
 import '../assets/styles/portfolio.css'
 import '../assets/styles/contact.css'
+import '../assets/styles/navbar.css'
 import logo from '../assets/images/Untitled-1.svg'
 import sqs from '../assets/images/cardboard-house.jpg'
 import Why_us from '../components/why-us'
@@ -110,23 +111,23 @@ function Portfolio() {
                         We believe that every project is unique, and can customize our approach to fit your particular
                         project. We focus on delivering innovative and unique construction solutions.
                     </div>
-                    <div className='d-fl  gy-3' style={{ lineHeight: "50px" }}>
+                    <div className='d-flex   g-3' style={{ lineHeight: "50px", flexDirection:'column',gap:'10px' }}>
                         <div className=' d-flex  gap-3' >
                             <span className='d-flex '><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong className=''>Our goal is to creat solutions to meet our clients' requrements.</strong>
+                            <strong style={{lineHeight:'20px'}} className=''>Our goal is to creat solutions to meet our clients' requrements.</strong>
                         </div>
                         <div className=' d-flex   gap-3'>
                             <span className='d-flex'><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong className=''> Review functions of equipments and tools.</strong>
+                            <strong style={{lineHeight:'20px'}} className=''> Review functions of equipments and tools.</strong>
                         </div>
 
                         <div className=' d-flex  gap-3'>
                             <span className='d-flex '><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong className=''>Innovative manufacturing methods.</strong>
+                            <strong style={{lineHeight:'20px'}} className=''>Innovative manufacturing methods.</strong>
                         </div>
                         <div className=' d-flex   gap-3'>
                             <span className='d-flex'><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong className=''>A solid experience in iron and steel plants.</strong>
+                            <strong style={{lineHeight:'20px'}} className=''>A solid experience in iron and steel plants.</strong>
                         </div>
                     </div>
                 </div>
