@@ -10,6 +10,9 @@ import bg from '../assets/images/tools-table.jpg'
 import Review from '../components/customers\'review';
 import Project_preview from '../components/project_preview/index';
 import Intouch from '../components/intouch';
+import { Link } from 'react-router-dom';
+import sqs from '/src/assets/images/sqs.avif'
+import sqs2 from '/src/assets/images/cardboard-house.jpg'
 
 
 
@@ -50,15 +53,15 @@ function Our_project() {
                             <hr className='divider ' />
                             <p className="card-text d-none propertynote">Poles architecture and design includes a range of projects from around the globe.
                             </p>
-                            <a className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
+                            <Link to={'/architecture'} className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
                                 <div>Read More </div>
                                 <ArrowRightOutlined className='my-auto ' />
-                            </a>
+                            </Link>
                             {/* <a href="">Read More </a> */}
                         </div>
                     </section>
                     <section className="card  text-white propertyh">
-                        <img loading='lazy' src={buildings} className="card-img h-100" alt="..." />
+                        <img loading='lazy' src={sqs} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h4 className="card-title">Building Construction</h4>
                             <hr className='divider' />
@@ -66,10 +69,10 @@ function Our_project() {
                                 that their specific needs are met and that the final product
                                 is delivered on time and exceeds their expectations.
                             </p>
-                            <a className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
+                            <Link to={'/'} className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
                                 <div>Read More </div>
                                 <ArrowRightOutlined className='my-auto ' />
-                            </a>
+                            </Link>
                             {/* <a href="">Read More </a> */}
                         </div>
                     </section>
@@ -82,15 +85,15 @@ function Our_project() {
                                 that their specific needs are met and that the final product
                                 is delivered on time and exceeds their expectations.
                             </p>
-                            <a className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
+                            <Link to={'/real_estate'} className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
                                 <div>Read More </div>
                                 <ArrowRightOutlined className='my-auto ' />
-                            </a>
+                            </Link>
                             {/* <a href="">Read More </a> */}
                         </div>
                     </section>
                     <section className="card  text-white propertyh">
-                        <img loading='lazy' src={property} className="card-img h-100" alt="..." />
+                        <img loading='lazy' src={sqs2} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">
                             <h4 className="card-title">Architectural Design</h4>
                             <hr className='divider' />
@@ -98,10 +101,10 @@ function Our_project() {
                                 that their specific needs are met and that the final product
                                 is delivered on time and exceeds their expectations.
                             </p>
-                            <a className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
+                            <Link to={'/architecture'} className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
                                 <div>Read More </div>
                                 <ArrowRightOutlined className='my-auto ' />
-                            </a>
+                            </Link>
                             {/* <a href="">Read More </a> */}
                         </div>
                     </section>

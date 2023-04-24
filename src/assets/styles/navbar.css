@@ -158,6 +158,9 @@
     .topicon {
         display: none !important;
     }
+    .first_nav, .linh{
+        gap: 2px !important;
+    }
 
     .logodesign3 {
         margin-top: -8px;

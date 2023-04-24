@@ -16,22 +16,22 @@ function Top1() {
                     <div className='d-flex'><InstagramFilled className='my-auto text-info' /></div>
                 </div>
 
-                <div className='navbar gap-3'>
+                <div className='navbar gap-3 linh'>
                     <div className='text-info d-flex gap-2'>
                         <div className='d-flex'><PhoneFilled className='my-auto text-warning' /></div>
 
                         <a className='text-info' href='tel:09026674356'> (+123) 806-959-5110</a>
                     </div>
                     |
-                    <div className='text-info d-flex gap-2 topicon'>
+                    <div className='text-info d-flex gap-2 topico'>
                         <div className='d-flex'><MailFilled className='my-auto text-warning' /></div>
 
-                        <a className='text-info' href="mail:koladconsultltd@gmail.com"> Koladconsultltd@gmail.com</a>
+                        <a className='text-info' href="mailTo:koladconsultltd@gmail.com"> Koladconsultltd@gmail.com</a>
                     </div>
                     |
                     <div className='text-info d-flex gap-2'>
                         <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' /></div>
-                        <a className='text-info' href="location:lagos">No.1 Ogunlana St, OLive G Es., Ogombo, Ajah Lagos.</a>
+                        <a className='text-info' href="location:lagos">No.1 Ogunlana St, OLive G Est., Ogombo, Ajah Lagos.</a>
                     </div>
                 </div>
             </nav>

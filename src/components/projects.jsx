@@ -4,6 +4,7 @@ import bg from '../assets/images/cardboard-house.jpg'
 import buildings from '/src/assets/images/buying-renting-selling-real-e.jpg'
 import sqs from '/src/assets/images/sqs.avif'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 function Projects() {
     const [construct, setConstruct] = useState("In the constructural industry, experience counts. We offer total project solutions and integrating our expertise in all areas of the construction process.")
@@ -54,7 +55,7 @@ function Projects() {
                         </div>
                     </div>
                     <button className='btnget d-flex'>
-                        <div>Our Service</div>
+                        <Link to={'/portfolio'} className='text-white'>Our Service</Link>
                     </button>
                 </div>
             </section>
@@ -82,9 +83,9 @@ function Projects() {
                                 <section className='mb-2'>
                                     {construct}
                                 </section>
-                                <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
+                                <Link to={'/'} className='d-flex gap-1 align-items-center justify-content-center'>Learn More
                                     <ArrowRightOutlined className='my-auto text-warning' />
-                                </a>
+                                </Link>
                             </section>
                         </div>
                         <div style={{ backgroundImage: `url(${sqs})`, }} className='hoverEffecct'>
@@ -97,9 +98,9 @@ function Projects() {
                                 <section className='mb-2'>
                                     {construct}
                                 </section>
-                                <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
+                                <Link to={'/'} className='d-flex gap-1 align-items-center justify-content-center'>Learn More
                                     <ArrowRightOutlined className='my-auto text-warning' />
-                                </a>
+                                </Link>
                             </section>
                         </div>
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
@@ -113,9 +114,9 @@ function Projects() {
                                 <section className='mb-2'>
                                     {construct}
                                 </section>
-                                <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
+                                <Link to={'/architecture'} className='d-flex gap-1 align-items-center justify-content-center'>Learn More
                                     <ArrowRightOutlined className='my-auto text-warning' />
-                                </a>
+                                </Link>
                             </section>
                         </div>
 
@@ -129,9 +130,9 @@ function Projects() {
                                 <section className='mb-2'>
                                     {construct}
                                 </section>
-                                <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
+                                <Link to={'/real_estate'} className='d-flex gap-1 align-items-center justify-content-center'>Learn More
                                     <ArrowRightOutlined className='my-auto text-warning' />
-                                </a>
+                                </Link>
                             </section>
                         </div>
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
@@ -144,9 +145,9 @@ function Projects() {
                                 <section className='mb-2'>
                                     {construct}
                                 </section>
-                                <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
+                                <Link to={'/architecture'} className='d-flex gap-1 align-items-center justify-content-center'>Learn More
                                     <ArrowRightOutlined className='my-auto text-warning' />
-                                </a>
+                                </Link>
                             </section>
                         </div>
                         <div style={{ backgroundImage: `url(${bg})`, }} className='hoverEffecct'>
@@ -160,9 +161,9 @@ function Projects() {
                                 <section className='mb-2'>
                                     {construct}
                                 </section>
-                                <a href="" className='d-flex gap-1 align-items-center justify-content-center'>Learn More
+                                <Link to={'/real_estate'} className='d-flex gap-1 align-items-center justify-content-center'>Learn More
                                     <ArrowRightOutlined className='my-auto text-warning' />
-                                </a>
+                                </Link>
                             </section>
                         </div>
                         <section className='mt-3'>
