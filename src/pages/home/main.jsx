@@ -5,7 +5,7 @@ import '../../assets/styles/our_project.css'
 
 import logo from '../../assets/images/Untitled-1.svg'
 import logo2 from '../../assets/images/logor.png'
-import single from '../../assets/images/3dbff.jpg'
+import single from '../../assets/images/Dbff.jpg'
 
 import house1 from '../../assets/images/draw.jpg'
 import bg from '../../assets/images/construction-silhouette.jpg'
