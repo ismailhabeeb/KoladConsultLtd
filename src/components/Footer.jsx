@@ -106,7 +106,7 @@ function Footer() {
                   <div className='text-info d-flex gap-2'>
                     <div className='d-flex'><PhoneFilled className='my-auto text-warning' /></div>
 
-                    <a className='text-info' href="tel:08069595110"> (+123) 806-959-5110</a>
+                    <a className='text-info' href="tel:08069595110"> (+234) 806-959-5110</a>
                   </div>
                 </li>
                 <hr className="divider" />

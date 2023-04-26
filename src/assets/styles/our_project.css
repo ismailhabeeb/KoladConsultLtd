@@ -196,4 +196,8 @@
         padding: 2px;
         font-size: small;
     }
+    .menu .box-container .box .card-img-overlay{
+       padding-left: 1px;
+       padding-right: 1px;
+    }
 }

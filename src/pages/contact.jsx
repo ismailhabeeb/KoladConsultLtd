@@ -31,7 +31,7 @@ function Contact() {
                     <div className='text-info d-flex gap-2'>
                         <div className='d-flex'><PhoneFilled className='my-auto text-warning' /></div>
 
-                        <a className='text-info' href="tel:08069595110"> (+123) 806-959-5110</a>
+                        <a className='text-info' href="tel:08069595110"> (+234) 806-959-5110</a>
                     </div>
                     <p>we offer construction planning and programming from our highly
                         experienced team of engirneer and planners.
@@ -83,7 +83,7 @@ function Contact() {
             </section>
 
             <div className='card d-flex  flex-row gap-3 p-3 shadow'>
-                <input className='form-control ' disabled type="tel" name="" value={'(+123) 806-959-5110'} />
+                <input className='form-control ' disabled type="tel" name="" value={'(+234) 806-959-5110'} />
                 <a className='btnget btn-hover w-75' href="tel:08069595110">Call Back</a>
             </div>
         </div>
