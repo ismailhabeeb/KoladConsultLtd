@@ -147,9 +147,9 @@
     color: rgb(255,193,7); */
 }
 
-@media (max-width: 990px) {
+@media (max-width: 994px) {
     #navbarSupportedContent {
-        background-color: rgba(5, 18, 44, 0.795) !important;
+        background-color: rgba(3, 15, 39, 0.603) !important;
         padding: 0% 0 8px 8px;
     }
 }

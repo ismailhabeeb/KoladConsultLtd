@@ -28,7 +28,7 @@ const Home = React.lazy(()=>import("./pages/home"))
 
 const router = createBrowserRouter([
   {
-    path: '/', element: <Home />,
+    path: '/?', element: <Home />,
     errorElement: <h1>Page Not Found</h1>,
     children: [
       {

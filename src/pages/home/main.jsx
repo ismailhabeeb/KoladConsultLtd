@@ -82,7 +82,7 @@ function Main() {
                             <h5>Details</h5>
                             <div className='text-white '>
                                 <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' />Address:</div>
-                                <a className='' href="location:lagos">Umuezevum Village, Eziama-Oparanadim, Ahiazu Mbaise L.G.A, Imo State.</a>
+                                <a className='' href="location:lagos">Abraham Adesanya Lagos State Nigeria.</a>
                             </div>
                             <div className='text-white  '>
                                 <div className='d-flex'><ClockCircleOutlined className='my-auto text-warning' />Year:</div>
