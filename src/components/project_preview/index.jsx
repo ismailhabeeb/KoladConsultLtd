@@ -1,7 +1,7 @@
 import { ClockCircleOutlined, EnvironmentFilled } from "@ant-design/icons";
 import single from './images/pa2.jpg'
 // images//
-// import a1 from './images/p3db1.jpg'
+import a1 from './images/p3Db1.jpg'
 // import a2 from './images/p3db2.jpg'
 // import a3 from './images/p3db3.jpg'
 // import a4 from './images/p3db4.jpg'
@@ -31,7 +31,7 @@ function Project_preview(params) {
 
     return (
         <section className="menu p py-4 " id="menu">
-            {/* <div className="box-container" id="menu-items">
+           <div className="box-container" id="menu-items">
                 <div id="ad${i}" className="box card">
                     <img loading="lazy" src={a1} alt="" />
                     <div className="content w-100">
@@ -57,7 +57,7 @@ function Project_preview(params) {
 
             </div>
             <hr className='divider' />
-            <div className="box-container" id="menu-items">
+            {/*  <div className="box-container" id="menu-items">
 
                 <div id="ad${i}" className="box card ">
                     <img loading="lazy" src={b1} alt="" />
