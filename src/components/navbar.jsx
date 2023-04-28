@@ -108,22 +108,13 @@ export default function Navbar(params) {
                     </button>
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-white ">
-                            {/* <li className="nav-item l1">
-                                <Link to={'/'} style={{ borderBottom: navbar == 'Home' ? 'solid rgb(0, 102, 0) 2px' : '0', fontWeight: navbar == 'Home' ? 'bolder' : 'normal' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Home</Link>
-                            </li> */}
+                           
                             <li className=" nav-item l1">
-                                {/* <div className='btn-group'>
-                                    <Link ref={home} className="dropdown-toggle  nav-link" data-bs-toggle="dropdown" data-bs-display="static" aria-expanded="false" to={'/'} style={{ borderBottom: navbar == 'Construction' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Construction' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} >Construction</Link>
-                                    <ul style={{position:'absolute', left:'0px'}} className="dropdown-menu dropdown-menu-end ">
-                                        <li><Link to={'/'} className="dropdown-item d-flex justify-content-between" ></Link></li>
-                                        <li><Link to={'/architecture'} className="dropdown-item d-flex justify-content-between"></Link></li>
-                                        <li><Link to={'/real_estate'} className="dropdown-item d-flex justify-content-between">Real Estate</Link></li>
-                                    </ul>
-                                </div> */}
+                               
                                     <Link ref={home} className="nav-link"  data-bs-display="static" aria-expanded="false" to={'/'} style={{ borderBottom: navbar == 'Construction' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Construction' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} >Construction</Link>
                             </li>
                             <li className="nav-item l3">
-                                <Link ref={property} to={'/architecture'} style={{ borderBottom: navbar == 'Architectural' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Architectural' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Architectural</Link>
+                                <Link ref={property} to={'/architecture'} style={{ borderBottom: navbar == 'Architectural' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Architectural' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Design</Link>
                             </li>
                             <li className="nav-item l2">
                                 <Link ref={our} to={'/our_Project'} style={{ borderBottom: navbar == 'Our Projects' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Our Projects' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Our Projects</Link>

@@ -26,7 +26,7 @@ function Architectural() {
                         CONSTRUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE
                     </div>
                     <h2 className='global'>
-                        Architctural, Interior and Exterior Design
+                        Architectural, Interior and Exterior Design
                     </h2>
                     <div className='experience'>
                         We have designed and executed buildings construction using mechanical structures and engineering techniques

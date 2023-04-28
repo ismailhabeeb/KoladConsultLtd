@@ -29,6 +29,21 @@
     padding: 10px;
 
 }
+.contacthead{
+    text-align: center;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+    /* background-color: rgba(2, 11, 34, 0.712); */
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    /* padding: 170px 25px 70px 25px; */
+   
+}
 .big_wrapper{
     padding-left:25px;
     padding-right:25px;

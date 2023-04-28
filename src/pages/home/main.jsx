@@ -31,7 +31,7 @@ function Main() {
                     </h2>
                     <div className='experience'>
                         Experience and sustainablility — these are the keys to success of Kolad Consult Ltd for the
-                        realisation of large international constructionprojects.
+                        realization of large international construction projects.
                     </div>
                     <button className='btnget d-flex gap-2' style={{ width: "150px" }}>
                         <a className='text-light' href='http://wa.me/2349026674356'>Get started </a>
