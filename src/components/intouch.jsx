@@ -27,7 +27,7 @@ export default function Intouch(params) {
                             <span className='span2 text-primary'>HAVE A QUESTION?</span>
                             <div className='bg-primary span1'></div>
                         </div>
-                        <h5><strong><a className='' href='tel:09026674356'> (+123) 806-959-5110</a></strong></h5>
+                        <h5><strong><a className='' href='tel:08069595110'> (+234) 806-959-5110</a></strong></h5>
                     </div>
                 </section>
 
@@ -40,7 +40,7 @@ export default function Intouch(params) {
                             <span className='span2'>Our AADDRESS</span>
                             <div className='bg-warning span1'></div>
                         </div>
-                        <h5><strong><a className='text-light' href='tel:09026674356'>No.1 Ogunlana St, OLive Garden Es., Ogombo, Ajah Lagos.</a></strong></h5>
+                        <h5><strong><a className='text-light' href='tel:08069595110'>No.1 Ogunlana St, OLive Garden Es., Ogombo, Ajah Lagos.</a></strong></h5>
                     </div>
                 </section>
             </div>

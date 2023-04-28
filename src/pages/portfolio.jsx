@@ -3,12 +3,14 @@ import { useEffect, useState } from 'react'
 import bg1 from '../assets/images/buying-renting-selling-real-e.jpg'
 import '../assets/styles/home.css'
 import '../assets/styles/portfolio.css'
+import '../assets/styles/contact.css'
+import '../assets/styles/navbar.css'
 import logo from '../assets/images/Untitled-1.svg'
-import sqs from '../assets/images/prgen5.jpg'
+import sqs from '../assets/images/PRgen5.jpg'
 import Why_us from '../components/why-us'
 import whitebg from '/src/assets/images/white-bg2.jpg'
 import whitetopbg from '/src/assets/images/grayscale-shot-lake.jpg'
-import { AimOutlined, CheckOutlined, FacebookFilled, InstagramFilled, TwitterCircleFilled, WhatsAppOutlined } from '@ant-design/icons'
+import { AimOutlined, CheckOutlined, FacebookFilled, InstagramFilled, MailOutlined, TwitterCircleFilled, WhatsAppOutlined } from '@ant-design/icons'
 import Intouch from '../components/intouch'
 function Portfolio() {
 
@@ -79,9 +81,8 @@ function Portfolio() {
                             Get Quote
                         </a>
                         <div style={{ fontSize: '20px' }} className='d-flex gap-2 topicon'>
-
-                            <div className='d-flex'><FacebookFilled className='my-auto text-warning' /></div>
                             <div className='d-flex'><TwitterCircleFilled className='my-auto text-warning' /></div>
+                            <a href="mailTo:koladconsultltd@gmail.com" className='d-flex'> <MailOutlined className="my-auto text-warning" /></a>
                             <a href='http://wa.me/2348069595110' className='d-flex'><WhatsAppOutlined className='my-auto text-warning' /></a>
                             <div className='d-flex'><InstagramFilled className='my-auto text-warning' /></div>
                         </div>
@@ -109,23 +110,23 @@ function Portfolio() {
                         We believe that every project is unique, and can customize our approach to fit your particular
                         project. We focus on delivering innovative and unique construction solutions.
                     </div>
-                    <div className='d-fl  gy-3' style={{ lineHeight: "50px" }}>
+                    <div className='d-flex   g-3' style={{ lineHeight: "50px", flexDirection: 'column', gap: '10px' }}>
                         <div className=' d-flex  gap-3' >
                             <span className='d-flex '><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong className=''>Our goal is to creat solutions to meet our clients' requrements.</strong>
+                            <strong style={{ lineHeight: '20px' }} className=''>Our goal is to creat solutions to meet our clients' requrements.</strong>
                         </div>
                         <div className=' d-flex   gap-3'>
                             <span className='d-flex'><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong className=''> Review functions of equipments and tools.</strong>
+                            <strong style={{ lineHeight: '20px' }} className=''> Review functions of equipments and tools.</strong>
                         </div>
 
                         <div className=' d-flex  gap-3'>
                             <span className='d-flex '><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong className=''>Innovative manufacturing methods.</strong>
+                            <strong style={{ lineHeight: '20px' }} className=''>Innovative manufacturing methods.</strong>
                         </div>
                         <div className=' d-flex   gap-3'>
                             <span className='d-flex'><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong className=''>A solid experience in iron and steel plants.</strong>
+                            <strong style={{ lineHeight: '20px' }} className=''>A solid experience in iron and steel plants.</strong>
                         </div>
                     </div>
                 </div>
@@ -137,7 +138,7 @@ function Portfolio() {
                 </section>
             </div>
             <section>
-                <Intouch/>
+                <Intouch />
             </section>
             <Why_us />
         </div>

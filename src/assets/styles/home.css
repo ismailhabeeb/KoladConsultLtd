@@ -128,7 +128,7 @@ a {
 .btnget:hover {
     border: 2px solid rgb(4, 34, 71);
     background-color: rgb(201, 149, 38) !important;
-    transform: scale(0.90);
+    transform: scale(0.95);
 }
 
 .safety {
@@ -331,6 +331,9 @@ a {
 }
 
 @media (max-width: 995px) {
+    .p {
+        padding: 0 15px 0 15px;
+    }
     .dbimg main {
         width: 100%;
         padding-left: 30px;

@@ -26,12 +26,6 @@ export default function Navbar(params) {
             document.getElementById("secondtop").style.backgroundColor = "rgba(5, 18, 44, 0.795)";
             document.getElementById("secondtop").style.color = "white";
             document.getElementById("secondtop").style.boxShadow = "2px 1px 6px rgb(53, 53, 53)";
-            // home.current.style.color = "black";
-            // our.current.style.color = "black";
-            // portfolio.current.style.color = "black";
-            // property.current.style.color = "black";
-            // blog.current.style.color = "black";
-            // contact.current.style.color = "black"
             home.current.style.color = "white";
             our.current.style.color = "white";
             portfolio.current.style.color = "white";
@@ -107,12 +101,12 @@ export default function Navbar(params) {
                         <span className="navbar-toggler-icon bg-info rounded"></span>
                     </button>
                     <div className="collapse navbar-collapse " id="navbarSupportedContent">
-                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-white ">
-                           
+
+                        
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0 text-white " >
                             <li className=" nav-item l1">
-                               
-                                    <Link ref={home} className="nav-link"  data-bs-display="static" aria-expanded="false" to={'/'} style={{ borderBottom: navbar == 'Construction' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Construction' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} >Construction</Link>
-                            </li>
+                                <Link  ref={home} className="nav-link"  data-bs-display="static" aria-expanded="false" to={'/'} style={{ borderBottom: navbar == 'Construction' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Construction' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} >Construction</Link>
+             </li>
                             <li className="nav-item l3">
                                 <Link ref={property} to={'/architecture'} style={{ borderBottom: navbar == 'Architectural' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Architectural' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Design</Link>
                             </li>
@@ -122,7 +116,7 @@ export default function Navbar(params) {
                             <li className="nav-item l4">
                                 <Link ref={portfolio} to={'/portfolio'} style={{ borderBottom: navbar == 'Portfolio' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Portfolio' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Portfolio</Link>
                             </li>
-                            
+
                             <li className="nav-item l5">
                                 <Link ref={blog} to={'/real_estate'} style={{ borderBottom: navbar == 'Real Estate' ? 'solid rgb(114,127,162) 2px' : '0', fontWeight: navbar == 'Real Estate' ? '900' : 'bolder' }} onClick={(ev) => setNavbar(ev.target.innerText)} className="nav-link" >Real Estate</Link>
                             </li>
