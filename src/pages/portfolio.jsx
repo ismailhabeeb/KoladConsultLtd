@@ -72,9 +72,9 @@ function Portfolio() {
                             <div className='bg-warning span1 mx-end logodesign3' ></div>
 
                         </a>
-                        <div id="info" className="info" style={{ fontFamily: "Montserrat" }}>We are Architectural and Engineering Companing changing the world and building
-                            amazingthings one mide at a time, and providing high impact scalable solutions.
-                            We have organise and co-organise Constructional, Architectural, Real Estate Interior & Exterior, We enjoy speaking,
+                        <div id="info" className="info" style={{ fontFamily: "Montserrat" }}>We are Architectural and Engineering Company changing the world and building
+                            amazing things one mind at a time, and providing high impact scalable solutions.
+                            We have organised and co-organised Constructional, Architectural, Real Estate Interior & Exterior, We enjoy speaking,
                             meeting and collaborating with people. Looking for work around in the Globe.
                         </div>
                         <a href='http://wa.me/2348069595110' className='btn btnget btn-hover border' style={{ fontFamily: "Montserrat", width: "170px" }}>
@@ -131,7 +131,7 @@ function Portfolio() {
                     </div>
                 </div>
             </section>
-            <div className='contacthead  dbimg' style={{ backgroundImage: `url(${whitebg})` }}>
+            <div className='contacthead  ' style={{ backgroundImage: `url(${whitebg})` }}>
                 <section>
                     <h2><strong>Get started with us !</strong> We focus on the entire process, concept through completion</h2>
                     <a href='http://wa.me/2348069595110' className="btn border border-primary btn-hover ">Contact Us</a>

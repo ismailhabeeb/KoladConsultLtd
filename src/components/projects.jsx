@@ -168,7 +168,7 @@ function Projects() {
                         </div>
                         <section className='mt-3'>
                             From the removal of contamited soil to the demonition of legacy buildings, Kolad's proactive management approach provides
-                            the certainty you need for performance, schedule, cost and compiance.
+                            the certainty you need for performance, schedule, cost and compliance.
                         </section>
 
                     </div>
