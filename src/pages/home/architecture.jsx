@@ -71,19 +71,19 @@ function Architectural() {
                         </ul>
 
                         <div className="tab-content ">
-                            <div className="tab-pane container active p-4 " id="home">Our mission istoprovideour customers with yalue through the
+                            <div className="tab-pane container active p-4 " id="home">Our mission is to provide our customers with value through the
                                 provisioning of engineering services, procurement, construction,
                                 operation and management of infrastructure and power projects.
                                 We consider the empowerment of our human resources to be
                                 fundamental in building a permanent knowledge base.
                             </div>
-                            <div className="tab-pane container fade p-4" id="menu1">Our vision istoprovideour customers with yalue through the
+                            <div className="tab-pane container fade p-4" id="menu1">Our vision is to provide our customers with value through the
                                 provisioning of engineering services, procurement, construction,
                                 operation and management of infrastructure and power projects.
                                 We consider the empowerment of our human resources to be
                                 fundamental in building a permanent knowledge base.
                             </div>
-                            <div className="tab-pane container fade p-4" id="menu2">Our values istoprovideour customers with yalue through the
+                            <div className="tab-pane container fade p-4" id="menu2">Our values is to provide our customers with value through the
                                 provisioning of engineering services, procurement, construction,
                                 operation and management of infrastructure and power projects.
                                 We consider the empowerment of our human resources to be
@@ -98,7 +98,7 @@ function Architectural() {
             </section>
 
             <section className="menu bg-light p py-4 " id="menu">
-                <h1 className="hearding py-4 text-center">Our Recent <span className='text-warning'>Project</span></h1>
+                <h1 className="hearding py-4 text-center">Our Recent <span className='text-warning'>Projects</span></h1>
                 <div className="box-container" id="menu-items">
                     <div id="ad${i}" className="box card">
 

@@ -73,7 +73,7 @@ function Main() {
                 </main>
             </section>
             <section className="menu bg-light p py-4 " id="menu">
-                <h1 className="hearding py-4 text-center">Our Recent <span className='text-warning'>Project</span></h1>
+                <h1 className="hearding py-4 text-center">Our Recent <span className='text-warning'>Projects</span></h1>
                 <div className="box-container" id="menu-items">
                     <div id="ad${i}" className="box card">
 
