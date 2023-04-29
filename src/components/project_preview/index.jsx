@@ -88,7 +88,7 @@ function Project_preview(params) {
             </div>
             {/* 2 */}
             <hr className='divider' />
-            <div className="box-container " id="menu-items">
+            <div className="box-container d-flex justify-content-end" id="menu-items">
 
                 <div id="ad${i} " className="box card ">
                     <img loading="lazy" src={single} alt="" />
@@ -190,7 +190,7 @@ function Project_preview(params) {
             </div>
             {/* no.4 */}
             <hr className='divider' />
-            <div className="box-container" id="menu-items">
+            <div className="box-container d-flex justify-content-end" id="menu-items">
 
                 <div id="ad${i}" className="box card ">
                     <img loading="lazy" src={a1} alt="" />
