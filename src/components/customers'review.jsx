@@ -4,7 +4,7 @@ function Review() {
     return (
         <>
             <section className="review py-5" id="review">
-                <h1 className="hearding py-4 text-center">Our customers' <span className='text-warning'>reveiw</span></h1>
+                <h1 className="hearding py-4 text-center">Our customers' <span className='text-warning'>reveiws</span></h1>
 
                 <div className="box-container ">
                     <div className="box car" >

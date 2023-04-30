@@ -26,7 +26,7 @@ function Top1() {
                     <div className='text-info d-flex gap-2 topico'>
                         <div className='d-flex'><MailFilled className='my-auto text-warning' /></div>
 
-                        <a className='text-info' href="mailTo:koladconsultltd@gmail.com"> Koladconsultltd@gmail.com</a>
+                        <a className='text-info' href="mailTo:koladconsultltd@gmail.com"> koladconsultltd@gmail.com</a>
                     </div>
                     |
                     <div className='text-info d-flex gap-2'>

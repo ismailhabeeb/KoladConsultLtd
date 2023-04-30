@@ -83,7 +83,7 @@ function Architectural() {
                                 We consider the empowerment of our human resources to be
                                 fundamental in building a permanent knowledge base.
                             </div>
-                            <div className="tab-pane container fade p-4" id="menu2">Our values is to provide our customers with value through the
+                            <div className="tab-pane container fade p-4" id="menu2">Our value is to provide our customers with value through the
                                 provisioning of engineering services, procurement, construction,
                                 operation and management of infrastructure and power projects.
                                 We consider the empowerment of our human resources to be

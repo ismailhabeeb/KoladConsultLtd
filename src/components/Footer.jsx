@@ -13,7 +13,7 @@ function Footer() {
           <div className="row primary thisrow">
             <div className="column blog">
 
-              <h3 className="h-25 border bg-info ">
+              <h3 className="  ">
                 <a className="navbar-brand my-auto " href="#">
                   {/* <img src={logo} alt="" /> */}
                   Kolad Consult Ltd<span className='text-warning '>.</span>
@@ -25,7 +25,7 @@ function Footer() {
 
               <small>
                 We have completed over 30,000 projects. Specializing in design
-                build and turnkey construction, We are passionate about design
+                build and turnkey construction, We are passionate about design,
                 architecture and construction 🚧
               </small>
 
