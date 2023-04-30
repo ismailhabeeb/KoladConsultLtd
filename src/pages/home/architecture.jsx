@@ -51,7 +51,7 @@ function Architectural() {
                 <main className='usimg'>
                     <img loading='lazy' style={{ width: '350px' }} className='border border-warning' src={house1} alt="" />
                 </main>
-                <div>
+                <div className='d-flex flex-column gap-2'>
                     <div className='construction'>
                         <span className='span2'>WORK METHOD, TECHNOLOGY AND HUMAN RESOURCES</span>
                         <div className='bg-warning span1'></div>
@@ -90,8 +90,9 @@ function Architectural() {
                                 fundamental in building a permanent knowledge base.
                             </div>
                         </div>
+                        <div className='bg-warning span1'></div>
                     </div>
-                    <div className='bg-warning span1'></div>
+                    
 
                 </div>
 
