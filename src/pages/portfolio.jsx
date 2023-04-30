@@ -66,15 +66,14 @@ function Portfolio() {
             <section className='dbimg bg-info p big_wrapper' style={{ backgroundImage: `url(${whitetopbg})`, fontFamily: "Montserrat" }}>
                 <section className="contain w-100" id="main-div">
                     <h2 className='d-flex flex-column gap-3'>
-                        <a className="navbar-bran " href="#" style={{ fontFamily: "Montserra" }}>
-
-                            Kolad Consult Ltd<span className='text-warning'>.</span>
-                            <div className='bg-warning span1 mx-end logodesign3' ></div>
-
+                        <a className="navbar-bran d-flex " href="#" style={{ fontFamily: "Montserra" }}>
+                        <div className='bg-warning curve1'></div>
+                           <div> Kolad Consult Ltd<span className='text-warning'>.</span></div>
+                           
                         </a>
                         <div id="info" className="info" style={{ fontFamily: "Montserrat" }}>We are Architectural and Engineering Company changing the world and building
                             amazing things one mind at a time, and providing high impact scalable solutions.
-                            We have organised and co-organised Constructional, Architectural, Real Estate Interior & Exterior, We enjoy speaking,
+                            We have organised and co-organised Constructional, Architectural, Real Estate, Interior & Exterior, We enjoy speaking,
                             meeting and collaborating with people. Looking for work around in the Globe.
                         </div>
                         <a href='http://wa.me/2348069595110' className='btn btnget btn-hover border' style={{ fontFamily: "Montserrat", width: "170px" }}>

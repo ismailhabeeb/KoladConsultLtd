@@ -50,7 +50,7 @@ function Why_us() {
         <main>
             <section className=' bg-light text-center py-5 note'>
                 <h1>WHY US ?</h1>
-                <p className='Diffrientiated mb-4'>At Kolad Consult Ltd Real Estate Department, we believe that communication is key to creating strong, lasting relationships.
+                <p className='Diffrientiated mb-4'>At Kolad Consult Ltd Real Estate Department, we believe that communication is the key to creating strong, lasting relationships.
                     That's why our partners work closely
                     with you to make sure that all lines of communication are open and accessible. This ensures that our
                     clients feel comfortable and cared for every step of the way.

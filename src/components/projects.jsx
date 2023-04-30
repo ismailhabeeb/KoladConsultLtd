@@ -20,7 +20,7 @@ function Projects() {
                         <span className='span2'>CONSTRUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
                         <div className='bg-warning span1'></div>
                     </div>
-                    <h3 className=''>Safety, Quality and Sustainablility</h3>
+                    <h3 className=''>Safety, Quality and Sustainability</h3>
                     <div className='at'>At Kolad consult ltd, we have helped customers complete more than 1,000 projects,
                         in countries that have created jobs and grown economies, improved the resiliency of the
                         world's infrastructure, increased access to resources and vital services, and made the world a safer place.
@@ -167,7 +167,7 @@ function Projects() {
                             </section>
                         </div>
                         <section className='mt-3'>
-                            From the removal of contamited soil to the demonition of legacy buildings, Kolad's proactive management approach provides
+                            From the removal of contaminated soil to the demonition of legacy buildings, Kolad's proactive management approach provides
                             the certainty you need for performance, schedule, cost and compliance.
                         </section>
 

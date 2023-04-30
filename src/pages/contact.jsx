@@ -19,7 +19,7 @@ function Contact() {
             <section className='d-flex contactbody'>
                 <section className='contactbody1 d-flex p-2 flex-colume gap-3'>
                     <h5>Free Consultation</h5>
-                    <p>we offer construction planning and programming from our highly
+                    <p>We offer construction planning and programming from our highly
                         experienced team of engirneer and planners.
                     </p>
                     <a className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
@@ -33,7 +33,7 @@ function Contact() {
 
                         <a className='text-info' href="tel:08069595110"> (+234) 806-959-5110</a>
                     </div>
-                    <p>we offer construction planning and programming from our highly
+                    <p>We offer construction planning and programming from our highly
                         experienced team of engirneer and planners.
                     </p>
                     <a className='text-warning d-flex gap-2 ' style={{ width: "140px" }}>
@@ -46,7 +46,7 @@ function Contact() {
                         <div className='d-flex'><EnvironmentFilled className='my-auto text-warning' /></div>
                         <a className='text-info' href="#">No.1 Ogunlana St, OLive Garden Es., Ogombo, Ajah Lagos.</a>
                     </div>
-                    <p>we offer construction planning and programming from our highly
+                    <p>We offer construction planning and programming from our highly
                         experienced team of engirneer and planners.
                     </p>
                     <a className='text-warning d-flex gap-2 ' style={{ width: "140px" }}>
@@ -77,7 +77,7 @@ function Contact() {
             </section>
         <div className='contacthead dbimg ' style={{ backgroundImage: `url(${whitbghouse})` }}>
             <section className='tosee'>
-                <header>YOU SHOULD TO SEE</header>
+                <header>YOU SHOULD BE ABLE TO SEE</header>
                 <h1>12 years experience in the market</h1>
                 <Link to={'/portfolio'} className="btn border border-primary btn-hover ">View Portfolio</Link>
             </section>

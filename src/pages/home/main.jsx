@@ -27,13 +27,13 @@ function Main() {
                 <main className='d-flex flex-column gap-3 '>
                     <div className='construction'>
                         <div className='bg-warning span1'></div>
-                        <span className='span2'>CONSTUCTURE PROJECTS AND MODERN DESIGN.</span>
+                        <span className='span2'>CONSTRUCTION PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
                     </div>
                     <h2 className='global'>
-                        Global construction & engineering company
+                        Global Construction & Engineering Company
                     </h2>
                     <div className='experience'>
-                        Experience and sustainablility — these are the keys to success of Kolad Consult Ltd for the
+                        Experience and Sustainability — These are the keys to success of Kolad Consult Ltd for the
                         realization of large international construction projects.
                     </div>
                     <button className='btnget d-flex gap-2' style={{ width: "150px" }}>
@@ -50,15 +50,15 @@ function Main() {
             <section className='usbgimg' style={{ backgroundImage: `url(${bg})`, }}>
                 <div className='gy-2 gap-3'>
                     <div className='construction'>
-                        <div className='bg-warning span1'></div><span className='span2'>CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
+                        <div className='bg-warning span1'></div><span className='span2'>CONSTRUCTION PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
                     </div>
-                    <h3>Collaborating to achieve project excellence</h3>
+                    <h3>Collaborating to Achieve Project Excellence</h3>
                     <div className='at'>
-                        Construction and risk go hand-in-hand and projects are constantly dealing with chalenges that arise from budget, schedule, and staffing limitations.
+                        Construction and risk go hand-in-hand and projects are constantly dealing with challenges that arise from budget, schedule, and staffing limitations.
                     </div>
                     <div className='d-flex g-5 usflex'>
                         <button className='w-50 btnget'>
-                            <p>Completed project</p>
+                            <p>Completed projects</p>
                             <h3 className='text-warning'><AimOutlined /> 100+</h3>
                         </button>
 
@@ -73,7 +73,7 @@ function Main() {
                 </main>
             </section>
             <section className="menu bg-light p py-4 " id="menu">
-                <h1 className="hearding py-4 text-center">Our Recent <span className='text-warning'>Project</span></h1>
+                <h1 className="hearding py-4 text-center">Our Recent <span className='text-warning'>Projects</span></h1>
                 <div className="box-container" id="menu-items">
                     <div id="ad${i}" className="box card">
 
