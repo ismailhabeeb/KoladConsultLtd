@@ -52,7 +52,7 @@ function Main() {
                     <div className='construction'>
                         <div className='bg-warning span1'></div><span className='span2'>CONSTRUCTION PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
                     </div>
-                    <h3>Collaborating to achieve project excellence</h3>
+                    <h3>Collaborating to Achieve Project Excellence</h3>
                     <div className='at'>
                         Construction and risk go hand-in-hand and projects are constantly dealing with challenges that arise from budget, schedule, and staffing limitations.
                     </div>
