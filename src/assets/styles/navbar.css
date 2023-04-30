@@ -155,11 +155,22 @@
 }
 
 @media (max-width: 490px) {
+    *{
+        /* border:  red solid 1px; */
+    }
     .topicon {
         display: none !important;
     }
-    .first_nav, .linh{
+
+    .first_nav,
+    .linh {
         gap: 2px !important;
+        /* border:  red solid 1px; */
+        
+    }
+
+    .first_nav {
+        padding: 6px !important;
     }
 
     .logodesign3 {

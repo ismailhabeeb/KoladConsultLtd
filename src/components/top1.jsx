@@ -20,7 +20,7 @@ function Top1() {
                     <div className='text-info d-flex gap-2'>
                         <div className='d-flex'><PhoneFilled className='my-auto text-warning' /></div>
 
-                        <a className='text-info' href='tel:09026674356'> (+234) 806-959-5110</a>
+                        <a className='text-info' href='tel:2348069595110'> (+234)806-959-5110</a>
                     </div>
                     |
                     <div className='text-info d-flex gap-2 topico'>

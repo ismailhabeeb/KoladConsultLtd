@@ -27,7 +27,7 @@ function Main() {
                 <main className='d-flex flex-column gap-3 '>
                     <div className='construction'>
                         <div className='bg-warning span1'></div>
-                        <span className='span2'>CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
+                        <span className='span2'>CONSTUCTURE PROJECTS AND MODERN DESIGN.</span>
                     </div>
                     <h2 className='global'>
                         Global construction & engineering company
@@ -37,7 +37,7 @@ function Main() {
                         realization of large international construction projects.
                     </div>
                     <button className='btnget d-flex gap-2' style={{ width: "150px" }}>
-                        <a className='text-light' href='http://wa.me/2349026674356'>Get started </a>
+                        <a className='text-light' href='http://wa.me/2348069595110'>Get started </a>
                         <ArrowRightOutlined className='my-auto ' />
                     </button>
                 </main>

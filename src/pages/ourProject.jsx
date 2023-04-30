@@ -24,10 +24,7 @@ function Our_project() {
                 <main className='d-flex flex-column gap-3 '>
                     <div className='construction'>
                         <div className='bg-warning span1'></div>
-
-                        CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE
-                        {/* <div className='bg-warning span1'></div> */}
-
+                        CONSTUCTURE PROJECTS AND MODERN DESIGN.
                     </div>
                     <h2 className='global look'>
                         Looking for a quality and affordable service for <strong>your next project?</strong>
