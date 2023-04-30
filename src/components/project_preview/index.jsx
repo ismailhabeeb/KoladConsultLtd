@@ -63,11 +63,11 @@ function Project_preview(params) {
                 <section className="modal fade" id={`exampleModal1`} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-lg">
                         <div className="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">
+                            <div className="modal-header">
+                                <h5 className="modal-title">
                                     <span className="badge text-bg-primary">2023</span>
                                 </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             {
                                 project2.map((value, index) => {
@@ -115,11 +115,11 @@ function Project_preview(params) {
                 <section className="modal fade" id={`exampleModal2`} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-lg">
                         <div className="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">
+                            <div className="modal-header">
+                                <h5 className="modal-title">
                                     <span className="badge text-bg-primary">2023</span>
                                 </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
 
                             <div className="modal-body">
@@ -165,11 +165,11 @@ function Project_preview(params) {
                 <section className="modal fade" id={`exampleModal3`} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-lg">
                         <div className="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">
+                            <div className="modal-header">
+                                <h5 className="modal-title">
                                     <span className="badge text-bg-primary">2023</span>
                                 </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             {
                                 project3.map((value, index) => {
@@ -219,11 +219,11 @@ function Project_preview(params) {
                 <section className="modal fade" id={`exampleModal4`} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-lg">
                         <div className="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">
+                            <div className="modal-header">
+                                <h5 className="modal-title">
                                     <span className="badge text-bg-primary">2023</span>
                                 </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             {
                                 project.map((value, index) => {
@@ -272,11 +272,11 @@ function Project_preview(params) {
                 <section className="modal fade" id={`exampleModal5`} tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div className="modal-dialog modal-lg">
                         <div className="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title">
+                            <div className="modal-header">
+                                <h5 className="modal-title">
                                     <span className="badge text-bg-primary">2023</span>
                                 </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             {
                                 project4.map((value, index) => {

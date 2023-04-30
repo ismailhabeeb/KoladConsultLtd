@@ -17,7 +17,7 @@ function Projects() {
 
                 <div className='gy-2 col-lg-6 ps-lg-5 d-flex flex-column gap-4'>
                     <div className='construction'>
-                        <span className='span2'>CONSTRUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
+                        <span className='span2'>CONSTRUCTION PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
                         <div className='bg-warning span1'></div>
                     </div>
                     <h3 className=''>Safety, Quality and Sustainability</h3>
@@ -68,7 +68,7 @@ function Projects() {
                     </div>
                     <h3>Our customers' projects are an investment in the future</h3>
                     <div className='Diffrientiated mt-3 mb-5'>
-                        Diffrientiated by the quality of our people and our relentless drive to deliver the most successful outcomes, we relign our capabilities to our customers' objectives to create a positive impact.
+                        Differentiated by the quality of our people and our relentless drive to deliver the most successful outcomes, we relign our capabilities to our customers' objectives to create a positive impact.
                     </div>
 
                     <div className=' d-fle listimg'>

@@ -73,9 +73,10 @@ a {
 }
 
 .curve1 {
-    width: 15px !important;
-    height: 15px !important;
-    border-bottom-right-radius: 50px;
+    margin-top: 10px;
+    width: 18px !important;
+    height: 18px !important;
+    border-bottom-right-radius: 100%;
     
 }
 .span1 {
@@ -548,6 +549,9 @@ a {
 @media(max-width:460px) {
     .global {
         font-size: 30px;
+    }
+    .curve1 {
+        margin-top: 5px;
     }
 }
 
