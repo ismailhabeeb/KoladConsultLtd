@@ -25,7 +25,7 @@ function Our_project() {
                     <div className='construction'>
                         <div className='bg-warning span1'></div>
 
-                        CONSTUCTURE PROJECTS AND TECHNOLOGY INFRASTRUCTURE
+                        CONSTRUCTION PROJECTS AND TECHNOLOGY INFRASTRUCTURE
                         {/* <div className='bg-warning span1'></div> */}
 
                     </div>

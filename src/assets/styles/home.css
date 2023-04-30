@@ -72,6 +72,12 @@ a {
     /* bor */
 }
 
+.curve1 {
+    width: 15px !important;
+    height: 15px !important;
+    border-bottom-right-radius: 50px;
+    
+}
 .span1 {
     width: 90px !important;
     height: 4px !important;
