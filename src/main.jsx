@@ -18,7 +18,7 @@ const ErrorPage = React.lazy(()=>import('./components/error_page'))
 
 const router = createBrowserRouter([
   {
-    path: '/?', element: <Home />,
+    path: '/', element: <Home />,
     errorElement: <ErrorPage/>,
     children: [
       {

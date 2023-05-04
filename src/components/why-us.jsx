@@ -61,7 +61,7 @@ function Why_us() {
                         <img loading='lazy' src={largeB} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay  whyimg">
                             <h3 className="card-title">DESIGN</h3>
-                            <p className="card-text ">At its core, Kolad cosult Ltd is committed to creating unique and innovative designs,
+                            <p className="card-text ">At its core, Kolad consult Ltd is committed to creating unique and innovative designs,
                                 modernizing and redefining the real estate architecture industry to be more efficient and sustainable
                             </p>
                         </div>

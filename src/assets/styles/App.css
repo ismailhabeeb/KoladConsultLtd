@@ -1,26 +1,36 @@
-.intouch{
+.intouch {
   padding: 2px;
 }
-.intouch >section{
+
+.intouch>section {
   width: 100%;
   color: white !important;
   gap: 10px;
   align-items: center;
   /* text-align: center; */
 }
-.intouchicon{
+
+.intouchicon {
   font-size: 50px;
 }
+.errimg{
 
+}
 
 @media (max-width: 640px) {
-.intouch{
-  flex-direction: column;
+  .intouch {
+    flex-direction: column;
+  }
+
+  .intouch>section {
+    gap: 18px;
+  }
+.errimg{
+  width: 100%;
 }
-.intouch >section{
-gap: 18px;
+
 }
-}
+
 /* 
 .logo {
   height: 6em;
