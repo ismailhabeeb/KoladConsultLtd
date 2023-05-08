@@ -21,44 +21,23 @@ function Architectural() {
 
     return (
         <div className="App">
-            <section className='dbimg' style={{ backgroundImage: `url(${archbg})`, }}>
-
-               
-                <main className='d-flex flex-column gap-3 '>
-                    <div className='construction'>
-                        <div className='bg-warning span1'></div>
-                        CONSTRUCTION PROJECTS AND TECHNOLOGY INFRASTRUCTURE
-                    </div>
-                    <h2 className='global'>
-                        Architectural, Interior and Exterior Design
-                    </h2>
-                    <div className='experience'>
-                        We have designed and executed buildings construction using mechanical structures and engineering techniques
-                    </div>
-                    <button className='btnget d-flex gap-2' style={{ width: "140px" }}>
-                        <div>Get started </div>
-                        <ArrowRightOutlined className='my-auto ' />
-                    </button>
-                </main>
-            </section>
-            <section>
-                <Intouch/>
-            </section>
-
-            <Projects />
-
-            <section className='usbgimg' style={{ backgroundImage: `url(${bg})`, }}>
+            {/* <h2 className='global'>
+                Architectural, Interior and Exterior Design
+            </h2>
+             */}
+            <section className='usbgimg bg-white' >
                 <main className='usimg'>
                     <img loading='lazy' style={{ width: '350px' }} className='border border-warning' src={house1} alt="" />
                 </main>
                 <div className='d-flex flex-column gap-2'>
-                    <div className='construction'>
+                    {/* <div className='construction'>
                         <span className='span2'>WORK METHOD, TECHNOLOGY AND HUMAN RESOURCES</span>
                         <div className='bg-warning span1'></div>
-                    </div>
-                    <h4 className=''>A strong experience in engineering</h4>
-                    <div className="containe  tabspy">
-                        <ul className="nav nav-tabs bg-info text-white" role="tablist">
+                    </div> */}
+                    <h1 className='text-black style'>A strong experience in engineering</h1>
+
+                    <div className="contain  tabsp">
+                        <ul className="nav nav-tabs bg-inf text-whit" role="tablist">
                             <li className="nav-item ">
                                 <a className="nav-link active " data-bs-toggle="tab" href="#home">Our Mission</a>
                             </li>
@@ -70,7 +49,7 @@ function Architectural() {
                             </li>
                         </ul>
 
-                        <div className="tab-content ">
+                        <div className="tab-content text-black">
                             <div className="tab-pane container active p-4 " id="home">Our mission is to provide our customers with value through the
                                 provisioning of engineering services, procurement, construction,
                                 operation and management of infrastructure and power projects.
@@ -90,16 +69,18 @@ function Architectural() {
                                 fundamental in building a permanent knowledge base.
                             </div>
                         </div>
-                        <div className='bg-warning span1'></div>
+                        <hr className="divider m-1 border border-1" />
                     </div>
-                    
-
                 </div>
-
             </section>
 
             <section className="menu bg-light p py-4 " id="menu">
-                <h1 className="hearding py-4 text-center">Our Recent <span className='text-warning'>Projects</span></h1>
+                <div className='navbar'>
+                    <h4>Our portfolio</h4>
+                    <Link className='btnget d-flex gap-2 more btn btn-hover mt-4 d-flex' style={{ width: "150px" }} to={'/our_Project'} >View All
+                        <ArrowRightOutlined className='my-auto ' />
+                    </Link>
+                </div>
                 <div className="box-container" id="menu-items">
                     <div id="ad${i}" className="box card">
 
@@ -121,9 +102,7 @@ function Architectural() {
                         </div>
                     </div>
                 </div>
-                <Link className='btnget d-flex gap-2 more btn btn-hover mt-4 d-flex' style={{ width: "150px" }} to={'/our_Project'} >more 
-                <ArrowRightOutlined className='my-auto ' />
-                </Link>
+
 
             </section>
 

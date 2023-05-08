@@ -1,6 +1,3 @@
-.sticky-topp {
-    top: -40px;
-}
 
 /* //////////// */
 .sticky-bottom .btn {
@@ -58,6 +55,7 @@
     color: white !important;
     position: absolute;
     width: 100%;
+    border-bottom: solid 0.5px rgba(255, 255, 255, 0.575);
 
 }
 

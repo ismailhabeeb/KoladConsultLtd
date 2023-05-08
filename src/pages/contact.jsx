@@ -9,14 +9,14 @@ function Contact() {
     return (<>
         <div style={{ height: '80px' }} className='bg-info '></div>
 
-        <div className='contacthead p dbimg' style={{ backgroundImage: `url(${whitebg})` }}>
+        <div className='contacthead p bg-info' >
             <section className='px-2'>
-                <h2>We Offer The Most Complete Construction Solutions</h2>
-                <div><strong>Home / </strong>Contact</div>
+                <h2 className='text-light'>We Offer The Most Complete Construction Solutions</h2>
+                <div className='text-light'><strong>Home / </strong>Contact</div>
             </section>
         </div>
-        <section className='safety'>
-            <section className='d-flex contactbody'>
+        <section className='safety dbimg' style={{ backgroundImage: `url(${whitebg})` }}>
+            <section className='d-flex contactbody ' >
                 <section className='contactbody1 d-flex p-2 flex-colume gap-3'>
                     <h5>Free Consultation</h5>
                     <p>We offer construction planning and programming from our highly
@@ -72,13 +72,10 @@ function Contact() {
             </main>
 
         </section>
-        <section>
-                <Intouch/>
-            </section>
         <div className='contacthead dbimg ' style={{ backgroundImage: `url(${whitbghouse})` }}>
             <section className='tosee'>
                 <header>YOU SHOULD BE ABLE TO SEE</header>
-                <h1>12 years experience in the market</h1>
+                <h1 className='style'>12 years experience in the market</h1>
                 <Link to={'/portfolio'} className="btn border border-primary btn-hover ">View Portfolio</Link>
             </section>
 

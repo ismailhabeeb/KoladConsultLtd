@@ -21,6 +21,11 @@
     transform: scale(0.90);
     cursor: pointer;
 }
+
+.style{
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
 .service {
     background-color: rgba(0, 0, 0, 0.466);
     color: white;
@@ -52,7 +57,7 @@ a {
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
-    background-color: rgba(2, 11, 34, 0.712);
+    background-color: rgba(105, 113, 131, 0.712);
     display: flex;
     justify-content: center;
     justify-items: center;

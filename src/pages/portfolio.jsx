@@ -9,9 +9,11 @@ import logo from '../assets/images/Untitled-1.svg'
 import sqs from '../assets/images/PRgen5.jpg'
 import Why_us from '../components/why-us'
 import whitebg from '/src/assets/images/white-bg2.jpg'
-import whitetopbg from '/src/assets/images/grayscale-shot-lake.jpg'
+import whitetopbg from '/src/assets/images/tools-table.jpg'
 import { AimOutlined, CheckOutlined, FacebookFilled, InstagramFilled, MailOutlined, TwitterCircleFilled, WhatsAppOutlined } from '@ant-design/icons'
-import Intouch from '../components/intouch'
+import Our_project from './ourProject'
+import Project_preview from '../components/project_preview'
+
 function Portfolio() {
 
     const [count, setCount] = useState(false)
@@ -45,21 +47,6 @@ function Portfolio() {
 
     const hiddenelement = document.querySelectorAll('.hidden')
     hiddenelement.forEach((el) => observer.observe(el))
-    // const [textArray, setTextArray] = useState(["I'm Azeez Habeeb, Architectural and Engineeri."])
-    // // let textDispla = 
-    // let [textDisplay, setTextDisplay] = useState('')
-    // // let i = 0
-    // let [i, setI] = useState(0)
-    // // let move = 0
-    // let [move, setMove] = useState(0)
-    // // let phase = []
-    // let [phase, setPhase] = useState([])
-    // // let deleteOne = false
-    // let [deleteOne, setDeleteOne] = useState(false)
-    // // color = "red"
-
-
-
 
     return (
         <div>
@@ -79,8 +66,7 @@ function Portfolio() {
                         <a href='http://wa.me/2348069595110' className='btn btnget btn-hover border' style={{ fontFamily: "Montserrat", width: "170px" }}>
                             Get Quote
                         </a>
-                        <div style={{ fontSize: '20px' }} className='d-flex gap-2 topicon'>
-                            <div className='d-flex'><TwitterCircleFilled className='my-auto text-warning' /></div>
+                        <div style={{ fontSize: '20px' }} className='d-flex gap-2 topicon ms-5'>
                             <a href="mailTo:koladconsultltd@gmail.com" className='d-flex'> <MailOutlined className="my-auto text-warning" /></a>
                             <a href='http://wa.me/2348069595110' className='d-flex'><WhatsAppOutlined className='my-auto text-warning' /></a>
                             <div className='d-flex'><InstagramFilled className='my-auto text-warning' /></div>
@@ -96,7 +82,7 @@ function Portfolio() {
                     </div>
                 </section>
             </section>
-            <section className='safety d-flex p mt-2 row mx-auto'>
+            {/* <section className='safety d-flex p mt-2 row mx-auto '>
                 <main className=' col-lg-3'>
                     <img loading='lazy' className='border border-warning' src={sqs} alt="" />
                 </main>
@@ -129,17 +115,16 @@ function Portfolio() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <div className='contacthead  ' style={{ backgroundImage: `url(${whitebg})` }}>
                 <section>
                     <h2><strong>Get started with us !</strong> We focus on the entire process, concept through completion</h2>
                     <a href='http://wa.me/2348069595110' className="btn border border-primary btn-hover ">Contact Us</a>
                 </section>
             </div>
-            <section>
-                <Intouch />
-            </section>
             <Why_us />
+            <Project_preview />
+
         </div>
     );
 }

@@ -18,8 +18,9 @@ a{
   overflow: hidden;
   width: 100%;
   background-color: rgb(3,15,39);
-  color: #a7a7a7;
-  font-size: 16px;
+  color: #ffffff;
+  font-size: 15px;
+  
 }
 
 footer * {
@@ -29,22 +30,18 @@ footer * {
   outline: none;
 }
 
-.thisrow {
-  padding: 1em;
-}
-
 .thisrow.primary {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 45% 45% 5%;
   align-items: stretch;
+  gap: 30px;
 }
 
 .thisrow .column {
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0 1em;
-  min-height: 15em;
+  /* min-height: 15em; */
 }
 
 .links ul {
@@ -53,10 +50,6 @@ footer * {
   flex-direction: column;
   padding: 0;
   margin: 0;
-}
-.links h3{
-  color: #ffffff;
-  font-size: larger;
 }
 .links{
   align-items: start;
@@ -88,26 +81,23 @@ div.social {
 
 .social .i {
   margin: 10px 5px;
-  color: #e7e5e5;
-  font-size: 18px !important;
+  color: #ffffff;
+  font-size: 25px !important;
 }
 
-.copyright {
-  padding: 0.1em 1em;
-}
 
 .footer-menu {
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .footer-menu a {
-  color: #cfd2d6;
+  color: #ffffff;
   padding: 6px;
   text-decoration: none;
 }
 
 .footer-menu a:hover {
-  color: rgb(240, 206, 13);
+  color: rgb(253, 253, 250);
 
 }
 .copyright p{
@@ -120,7 +110,7 @@ div.social {
 
 @media(max-width: 1000px) {
 .row.primary {
-    grid-template-columns: 1fr 1fr;
+  grid-template-columns: 100% ;
   }
 
  .column h3 {
