@@ -9,7 +9,7 @@ import logo from '../assets/images/Untitled-1.svg'
 import sqs from '../assets/images/PRgen5.jpg'
 import Why_us from '../components/why-us'
 import whitebg from '/src/assets/images/white-bg2.jpg'
-import whitetopbg from '/src/assets/images/tools-table.jpg'
+import whitetopbg from '/src/assets/images/building-n-h.jpg'
 import { AimOutlined, CheckOutlined, FacebookFilled, InstagramFilled, MailOutlined, TwitterCircleFilled, WhatsAppOutlined } from '@ant-design/icons'
 import Our_project from './ourProject'
 import Project_preview from '../components/project_preview'
@@ -49,11 +49,11 @@ function Portfolio() {
     hiddenelement.forEach((el) => observer.observe(el))
 
     return (
-        <div>
-            <section className='dbimg bg-info p big_wrapper' style={{ backgroundImage: `url(${whitetopbg})`, fontFamily: "Montserrat" }}>
+        <div className='pb-4'>
+            <section className='dbimg big_wrapper' style={{ backgroundImage: `url(${whitetopbg})`, fontFamily: "Montserrat" }}>
                 <section className="contain w-100" id="main-div">
                     <h2 className='d-flex flex-column gap-3'>
-                        <a className="navbar-bran d-flex " href="#" style={{ fontFamily: "Montserra" }}>
+                        <a className="navbar-bran d-flex " href="#" style={{ fontFamily: "Montserrat" }}>
                         <div className='bg-warning curve1'></div>
                            <div> Kolad Consult Ltd<span className='text-warning'>.</span></div>
                            
@@ -73,7 +73,7 @@ function Portfolio() {
                         </div>
                     </h2>
 
-                    <div id="hello" style={{ fontFamily: "Montserrat" }}>
+                    <div id="hello" >
                         <div className={`hidde show ${add}`} id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' > <AimOutlined /> </span>Architectural Design</div>
                         <div className={`hidden show ${add}`} id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' ><AimOutlined /> </span>Real Estate</div>
                         <div className={`hidden show ${add}`} id="message" style={{ fontFamily: "Montserrat" }}><span className='text-warning ' ><AimOutlined /> </span>Building Construction</div>

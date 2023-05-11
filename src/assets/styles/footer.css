@@ -108,16 +108,18 @@ div.social {
   color: white !important;
 }
 
-@media(max-width: 1000px) {
+@media(max-width: 850px) {
 .row.primary {
   grid-template-columns: 100% ;
   }
 
- .column h3 {
-    block-size: auto;
+  div.social {
+    display: flex;
+    flex-direction: row;
+  }div.social {
+    display: none;
   }
-/* .thisrow{
-  display: flex !important;
+}
+@media screen {
   
-} */
 }

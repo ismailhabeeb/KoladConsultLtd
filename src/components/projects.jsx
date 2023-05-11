@@ -17,13 +17,13 @@ function Projects() {
                     <img loading='lazy' className='border border-warning' src={sqs} alt="" />
                 </main>
 
-                <div className='gy-2 col-lg-6 ps-lg-5 d-flex flex-column gap-4'>
+                <div className='gy-2 col-lg-6 pb-3 ps-lg-5 d-flex flex-column gap-4'>
                     <div className='construction'>
                         <span className='span2'>CONSTRUCTION PROJECTS AND TECHNOLOGY INFRASTRUCTURE</span>
                         <div className='bg-warning span1'></div>
                     </div>
                     <h3 className=''>Style, Quality and Sustainability</h3>
-                    <div className='at'>At Kolad consult ltd, we have helped customers complete more than 1,000 projects,
+                    <div className='at'>At Kolad consult ltd, we have helped customers complete more than 100 projects,
                         in countries that have created jobs and grown economies, improved the resiliency of the
                         world's infrastructure, increased access to resources and vital services, and made the world a safer place.
                     </div>
@@ -56,7 +56,7 @@ function Projects() {
                             <strong className=''>Interior & Exterior Design</strong>
                         </div>
                     </div>
-                    <button className='btnget d-flex'>
+                    <button className='btnget d-flex list'>
                         <Link to={'/portfolio'} className='text-white'>Our Service</Link>
                     </button>
                 </div>

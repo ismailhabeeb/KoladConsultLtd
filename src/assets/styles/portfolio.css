@@ -12,11 +12,10 @@
     background-color: rgba(114, 127, 162, 0.712);
     width: 500px;
     height: 400px;
+    font-family: 'Times New Roman', Times, serif;
     margin-left: auto;
     font-size: x-large;
-    color: aliceblue;
-    /* border-top: solid .20px rgb(3, 15, 41); */
-    /* border-left: solid 10px rgb(3,15,39); */
+    color: rgb(255, 255, 255);
     border-top-left-radius: 40%;
     border-top-right-radius: 40%;
     border-bottom-left-radius: 50%;
@@ -25,7 +24,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
 
 }
 .contacthead{
@@ -35,12 +33,10 @@
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center;
-    /* background-color: rgba(2, 11, 34, 0.712); */
     display: flex;
     justify-content: center;
     justify-items: center;
     align-items: center;
-    /* padding: 170px 25px 70px 25px; */
    
 }
 .big_wrapper{
@@ -51,9 +47,6 @@
 #message {
     color: aliceblue;
     min-height: 40px;
-    /* font-size: large; */
-    /* font-family: Georgia, 'Times New Roman', Times, serif !important; */
-
 }
 
 #info {
@@ -63,8 +56,6 @@
     font-size: 16px;
     font-family: monospace;
     font-family: serif ;
-
-    /* font-weight: bold; */
 }
 @media(max-width:998px){
 #main-div {
@@ -81,6 +72,21 @@
     .big_wrapper{
         padding-left:15px;
         padding-right:15px;
+    }
+
+    #hello {
+        /* background-color: rgba(114, 127, 162, 0.712); */
+        width: 100%;
+        height: auto;
+        /* margin-left: auto; */
+        /* font-size: x-large; */
+        border-radius: 0%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* padding: 10px; */
+    
     }
 }
 @media(max-width:425px){

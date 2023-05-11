@@ -12,17 +12,19 @@ function Our_project() {
 
     return (
         <>
-            <section className='diverse'>
-               
-                <div className='navbar'>
-                <h5 className=''>
-                    Looking for a quality and affordable service for <strong>your next project?</strong>
-                </h5>
-                    <Link className='btnget d-flex gap-2 more btn btn-hover mt-4 d-flex' style={{ width: "150px" }} to={'/our_Project'} >View All
-                        <ArrowRightOutlined className='my-auto ' />
-                    </Link>
+            <section className='diverse p-0 m-0'>
+
+                <div className='navbar '>
+                    <h5 className=''>
+                        <strong>For Your Next Project?</strong>
+                    </h5>
+                    <h5>
+                        <Link className='btnget d-flex gap-2 more btn btn-hover mt-4 d-flex' style={{ width: "150px" }} to={'/our_Project'} >View All
+                            <ArrowRightOutlined className='my-auto ' />
+                        </Link>
+                    </h5>
                 </div>
-                <main className='d-flex flex-wrap gap-2 justify-content-center'>
+                <main className='d-flex flex-wrap gap-2 justify-content-center each'>
                     <section className="card  text-white propertyh  hoverEffecct">
                         <img loading='lazy' src={property} className="card-img h-100" alt="..." />
                         <div className="card-img-overlay whyimg">

@@ -56,8 +56,10 @@
 
     .contactbody {
         width: 100% !important;
-        margin: auto !important;
-        margin-bottom: 0px;
+        /* margin: auto !important; */
+        /* margin-bottom: 0px; */
+        margin-bottom: -120px;
+
         flex-direction: column;
     }
 
@@ -78,7 +80,7 @@
 }
 
 @media(max-width:320px) {
-    .contactbody > section{
+    .contactbody>section {
         width: 100% !important;
     }
 }

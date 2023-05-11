@@ -20,8 +20,8 @@ function Footer() {
                 </a>
                 <div style={{ marginTop: '-6px' }} className='bg-warning span1 mx-end '></div>
               </h3>
-              <small>
-                We have completed over 30,000 projects. Specializing in design
+              <small className="d-">
+                We have completed over 100 projects. Specializing in design
                 build and turnkey construction, We are passionate about design,
                 architecture and construction 🚧
               </small>
@@ -62,14 +62,14 @@ function Footer() {
           </div>
 
           <div className="row copyright">
-            <div className="footer-menu w-100">
+            <div className="footer-menu w-100 ">
               <Link to={'/'}>Home</Link>
               <a href="">About</a>
               <Link to={'/contact'}>Contact</Link>
               <Link to={'/portfolio'}>Portfolio</Link>
             </div>
             <hr />
-            <p className="text-white">Copyright <a href="mailTo:koladconsultltd@gmail.com">©2023 Kolad Consult Ltd by Azeez Habeeb. All Rights Reserved </a>  | <a href="">Privacy Policy</a> | <a href="">Terms and Conditions.</a></p>
+            <p className="text-white">Copyright <a href="mailTo:koladconsultltd@gmail.com">©2023 Kolad Consult Ltd by Azeez Habeeb.</a></p>
           </div>
 
 

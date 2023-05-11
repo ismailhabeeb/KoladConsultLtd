@@ -7,15 +7,15 @@ import { Link } from 'react-router-dom';
 import Intouch from '../components/intouch';
 function Contact() {
     return (<>
-        <div style={{ height: '80px' }} className='bg-info '></div>
+        <div style={{ height: '80px' }} className='bg-primary '></div>
 
-        <div className='contacthead p bg-info' >
+        <div className='contacthead p bg-primary' >
             <section className='px-2'>
                 <h2 className='text-light'>We Offer The Most Complete Construction Solutions</h2>
                 <div className='text-light'><strong>Home / </strong>Contact</div>
             </section>
         </div>
-        <section className='safety dbimg' style={{ backgroundImage: `url(${whitebg})` }}>
+        <section className='safety dbimg h-100' style={{ backgroundImage: `url(${whitebg})` }}>
             <section className='d-flex contactbody ' >
                 <section className='contactbody1 d-flex p-2 flex-colume gap-3'>
                     <h5>Free Consultation</h5>
