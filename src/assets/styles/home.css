@@ -1,6 +1,8 @@
-/* *{
-    border:  red solid 1px;
-} */
+*{
+    /* border:  red solid 1px; */
+    font-family: 'Times New Roman', Times, serif;
+
+}
 
 
 .linktowhatsapp{
@@ -24,6 +26,8 @@
 
 .style{
     font-family: 'Times New Roman', Times, serif !important;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
 .service {
@@ -72,8 +76,8 @@ a {
 
 .construction {
     font-family: 'Montserrat';
-    font-size: small;
-    color: rgb(245, 173, 13);
+    font-size: medium;
+    color: rgb(238, 169, 41);
     /* bor */
 }
 
@@ -93,7 +97,7 @@ a {
 .global {
     color: white;
     font-size: 60px;
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .experience {
@@ -421,7 +425,7 @@ a {
 
 @media(max-width:647px) {
     .global {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .dbimg {
@@ -448,9 +452,9 @@ a {
 }
 
 @media(max-width:550px) {
-    .global {
+    /* .global {
         font-size: 40px;
-    }
+    } */
     .list{
         display: none !important;
     }
@@ -552,7 +556,7 @@ a {
 
 @media(max-width:460px) {
     .global {
-        font-size: 30px;
+        font-size: 42px;
     }
     .curve1 {
         margin-top: 5px;
@@ -560,9 +564,9 @@ a {
 }
 
 @media(max-width:320px) {
-    .global {
+    /* .global {
         font-size: 20px;
-    }
+    } */
 }
 @media(max-width:320px) {
     .usimg {
