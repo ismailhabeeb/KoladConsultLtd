@@ -12,7 +12,7 @@ function Projects() {
     const [construct, setConstruct] = useState("In the constructural industry, experience counts. We offer total project solutions and integrating our expertise in all areas of the construction process.")
     return (
         <>
-            <section className='safety d-flex p mt-2 row mx-auto'>
+            <section className='safety d-flex mt-2 row mx-auto'>
                 <main className=' col-lg-3 '>
                     <img loading='lazy' className='border border-warning' src={sqs} alt="" />
                 </main>
