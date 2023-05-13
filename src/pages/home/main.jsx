@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import '../../assets/styles/home.css'
 import '../../assets/styles/our_project.css'
-// import '../../assets/styles/app.css'
 import single from '../../assets/images/Dbff.jpg'
 
 import house1 from '../../assets/images/draw.jpg'

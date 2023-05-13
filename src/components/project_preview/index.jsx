@@ -28,12 +28,12 @@ import { useState } from "react";
 
 
 function Project_preview(params) {
+    
     const [project, setProject1] = useState([a1, a2, a3, a4, a5, pr1, pr3, pr4, pr5])
     const [project2, setProject2] = useState([b1, b2, pr1, pr3, pr4, pr5])
     const [project3, setProject3] = useState([c1, c2, c3, c4, pr1, pr2, pr3, pr4, pr5])
     const [project4, setProject4] = useState([d2,d3,d1, pr3, pr4, pr5])
 
-    console.log(project)
 
     return (
         <section className="menu p py-4 " id="menu">
