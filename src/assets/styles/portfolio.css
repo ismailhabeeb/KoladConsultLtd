@@ -4,10 +4,17 @@
     /* overflow: hidden; */
     gap: 50px;
 }
-#main-div .navbar-bran{
-    font-size: 60px ;
+
+#main-div .navbar-bran {
+    font-size: 60px;
     color: white;
 }
+
+#main-div h2>.topico {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
 #hello {
     background-color: rgba(114, 127, 162, 0.712);
     width: 500px;
@@ -26,7 +33,8 @@
     align-items: center;
 
 }
-.contacthead{
+
+.contacthead {
     text-align: center;
     min-height: 300px;
     background-repeat: no-repeat;
@@ -37,11 +45,12 @@
     justify-content: center;
     justify-items: center;
     align-items: center;
-   
+
 }
-.big_wrapper{
-    padding-left:25px;
-    padding-right:25px;
+
+.big_wrapper {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 #message {
@@ -55,50 +64,59 @@
     color: rgb(247, 247, 253);
     font-size: 16px;
     font-family: monospace;
-    font-family: serif ;
+    font-family: serif;
 }
-@media(max-width:998px){
-#main-div {
-    margin-top: 90px;
 
-}
-}
-@media(max-width:610px){
-    #main-div .navbar-bran{
-        font-size: 40px;
+@media(max-width:998px) {
+    #main-div {
+        margin-top: 90px;
+
     }
 }
-@media(max-width:575.5px){
-    .big_wrapper{
-        padding-left:15px;
-        padding-right:15px;
+
+@media(max-width:1200px) {
+    #hello{
+        display: none !important;
+    
+        }
+}
+@media(max-width:610px) {
+    #main-div .navbar-bran {
+        font-size: 40px;
+    }
+    
+}
+
+@media(max-width:575.5px) {
+    .big_wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     #hello {
-        /* background-color: rgba(114, 127, 162, 0.712); */
         width: 100%;
         height: auto;
-        /* margin-left: auto; */
-        /* font-size: x-large; */
         border-radius: 0%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        /* padding: 10px; */
-    
+
     }
 }
-@media(max-width:425px){
-    #main-div .navbar-bran{
+
+@media(max-width:425px) {
+    #main-div .navbar-bran {
         font-size: 33px;
     }
 }
-@media(max-width:359px){
-    #main-div .navbar-bran{
+
+@media(max-width:359px) {
+    #main-div .navbar-bran {
         font-size: 25px;
     }
-    #message{
+
+    #message {
         font-size: medium;
     }
 }

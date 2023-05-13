@@ -1,5 +1,5 @@
 import house from '/src/assets/images/3d-electric-car.avif'
-import  largeB from '/src/assets/images/cardboard-house.jpg'
+import largeB from '/src/assets/images/cardboard-house.jpg'
 import pmanage from '/src/assets/images/buying-renting-selling-real-e.jpg'
 import land from '/src/assets/images/house-symbol-with-location-pin.avif'
 import property from '/src/assets/images/property.avif'
@@ -26,7 +26,7 @@ function Why_us() {
                 // console.log(add);
 
             }
-             else {
+            else {
                 setCount(false)
                 // console.log(add);
 
@@ -35,9 +35,9 @@ function Why_us() {
     })
 
     add = count ? ' show' : ' '
-    
+
     useEffect(() => {
-    setAdd(add)
+        setAdd(add)
 
     }, [])
 
@@ -50,10 +50,11 @@ function Why_us() {
         <main style={{ fontFamily: "Montserrat" }}>
             <section className=' bg-light text-center py-5 note'>
                 <h1>WHY US ?</h1>
-                <p style={{ fontFamily: "Montserrat" }} className='Diffrientiated mb-4'>At Kolad Consult Ltd Real Estate Department, we believe that communication is the key to creating strong, lasting relationships.
-                    That's why our partners work closely
-                    with you to make sure that all lines of communication are open and accessible. This ensures that our
-                    clients feel comfortable and cared for every step of the way.
+                <p style={{ fontFamily: "Montserrat" }} className='Diffrientiated mb-4'>
+                    We are Architectural and Engineering Company changing the world and building
+                    amazing things one mind at a time, and providing high impact scalable solutions.
+                    We have organised and co-organised Constructional, Architectural, Real Estate, Interior & Exterior, We enjoy speaking,
+                    meeting and collaborating with people. Looking for work around in the Globe.
                 </p>
 
                 <div className='d-flex text-center whycard'>

@@ -1,17 +1,15 @@
-// import bg1 from '../../assets/images/building-n-h.jpg'
 import { useEffect, useState } from 'react'
 import bg1 from '../assets/images/buying-renting-selling-real-e.jpg'
 import '../assets/styles/home.css'
 import '../assets/styles/portfolio.css'
 import '../assets/styles/contact.css'
 import '../assets/styles/navbar.css'
-import logo from '../assets/images/Untitled-1.svg'
+// import logo from '../assets/images/Untitled-1.svg'
 import sqs from '../assets/images/PRgen5.jpg'
 import Why_us from '../components/why-us'
 import whitebg from '/src/assets/images/white-bg2.jpg'
-import whitetopbg from '/src/assets/images/building-n-h.jpg'
+import whitetopbg from '/src/assets/images/port.jpg'
 import { AimOutlined, CheckOutlined, FacebookFilled, InstagramFilled, MailOutlined, TwitterCircleFilled, WhatsAppOutlined } from '@ant-design/icons'
-import Our_project from './ourProject'
 import Project_preview from '../components/project_preview'
 
 function Portfolio() {
@@ -52,24 +50,23 @@ function Portfolio() {
         <div className='pb-4'>
             <section className='dbimg big_wrapper' style={{ backgroundImage: `url(${whitetopbg})`, fontFamily: "Montserrat" }}>
                 <section className="contain w-100" id="main-div">
-                    <h2 className='d-flex flex-column gap-3'>
-                        <a className="navbar-bran d-flex " href="#" style={{ fontFamily: "Montserrat" }}>
-                        <div className='bg-warning curve1'></div>
-                           <div> Kolad Consult Ltd<span className='text-warning'>.</span></div>
-                           
-                        </a>
-                        <div id="info" className="info" style={{ fontFamily: "Montserrat" }}>We are Architectural and Engineering Company changing the world and building
-                            amazing things one mind at a time, and providing high impact scalable solutions.
-                            We have organised and co-organised Constructional, Architectural, Real Estate, Interior & Exterior, We enjoy speaking,
-                            meeting and collaborating with people. Looking for work around in the Globe.
-                        </div>
-                        <a href='http://wa.me/2348069595110' className='btn btnget btn-hover border' style={{ fontFamily: "Montserrat", width: "170px" }}>
+                    <h2 className='d-flex flex-column gap-3 '>
+                        {/* <a className="navbar-bran d-flex " href="#" style={{ fontFamily: "Montserrat" }}>
+                            <div className='bg-warning curve1'></div>
+                            <div> Kolad Consult Ltd<span className='text-warning'>.</span></div>
+
+                        </a> */}
+                        {/* <div id="info" className="info" style={{ fontFamily: "Montserrat" }}> </div> */}
+                        <h2 className='global'>
+                            You dream it, We design it.
+                        </h2>
+                        <a href='http://wa.me/2348069595110' className='btn btnget btn-hover border topico' style={{ fontFamily: "Montserrat", width: "170px",borderRadius:'0' }}>
                             Get Quote
                         </a>
-                        <div style={{ fontSize: '20px' }} className='d-flex gap-2 topicon ms-5'>
-                            <a href="mailTo:koladconsultltd@gmail.com" className='d-flex'> <MailOutlined className="my-auto text-warning" /></a>
-                            <a href='http://wa.me/2348069595110' className='d-flex'><WhatsAppOutlined className='my-auto text-warning' /></a>
-                            <div className='d-flex'><InstagramFilled className='my-auto text-warning' /></div>
+                        <div style={{ fontSize: '20px' }} className='d-flex gap-3  ms-5'>
+                            <a href="mailTo:koladconsultltd@gmail.com" className='d-flex'> <MailOutlined className="my-auto text-white" /></a>
+                            <a href='http://wa.me/2348069595110' className='d-flex'><WhatsAppOutlined className='my-auto text-white' /></a>
+                            <div className='d-flex'><InstagramFilled className='my-auto text-white' /></div>
                         </div>
                     </h2>
 

@@ -36,7 +36,7 @@ function Main() {
                     <div className='experience'>
                         We have designed and executed buildings construction using mechanical structures and engineering techniques
                     </div>
-                    <button className='btnget d-flex gap-2' style={{ width: "150px" }}>
+                    <button className='btnget d-flex gap-2' style={{ width: "150px",borderRadius:'0' }}>
                         <a className='text-light' href='http://wa.me/2348069595110'>Get started </a>
                         <ArrowRightOutlined className='my-auto ' />
                     </button>
@@ -57,12 +57,12 @@ function Main() {
                     <div className='at'>
                         Every design is tailored to each client’s needs. In addition to high-quality standards, we aim to make every design a conversation piece.                    </div>
                     <div className='d-flex g-5 usflex'>
-                        <button className='w-50 btnget'>
+                        <button className='w-50 btnget' style={{borderRadius:'0'}}>
                             <p>Completed projects</p>
                             <h3 className='text-warning'><AimOutlined /> 100+</h3>
                         </button>
 
-                        <button className='w-50 btnget'>
+                        <button className='w-50 btnget' style={{borderRadius:'0'}}>
                             <p>Construction Workers</p>
                             <h3 className='text-warning'><AimOutlined /> 150+</h3>
                         </button>
