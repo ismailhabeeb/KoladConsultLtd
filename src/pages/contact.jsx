@@ -1,6 +1,6 @@
 import whitebg from '/src/assets/images/white-bg2.jpg'
 import '../assets/styles/contact.css'
-import house1 from '/src/assets/images/tools-table.jpg'
+import house1 from '/src/assets/images/About-3.jpg'
 import whitbghouse from '/src/assets/images/artchitecturedraw.avif'
 import { ArrowRightOutlined, PhoneFilled, EnvironmentFilled } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
