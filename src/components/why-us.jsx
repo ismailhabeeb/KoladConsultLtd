@@ -51,10 +51,8 @@ function Why_us() {
             <section className=' bg-light text-center py-5 note'>
                 <h1>WHY US ?</h1>
                 <p style={{ fontFamily: "Montserrat" }} className='Diffrientiated mb-4'>
-                    We are Architectural and Engineering Company changing the world and building
-                    amazing things one mind at a time, and providing high impact scalable solutions.
                     We have organised and co-organised Constructional, Architectural, Real Estate, Interior & Exterior, We enjoy speaking,
-                    meeting and collaborating with people. Looking for work around in the Globe.
+                    meeting and collaborating with people.
                 </p>
 
                 <div className='d-flex text-center whycard'>
