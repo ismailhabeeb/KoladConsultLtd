@@ -4,7 +4,6 @@ import '../assets/styles/home.css'
 import '../assets/styles/portfolio.css'
 import '../assets/styles/contact.css'
 import '../assets/styles/navbar.css'
-// import logo from '../assets/images/Untitled-1.svg'
 import sqs from '../assets/images/PRgen5.jpg'
 import Why_us from '../components/why-us'
 import whitebg from '/src/assets/images/white-bg2.jpg'
@@ -51,12 +50,6 @@ function Portfolio() {
             <section className='dbimg big_wrapper' style={{ backgroundImage: `url(${whitetopbg})`, fontFamily: "Montserrat" }}>
                 <section className="contain w-100" id="main-div">
                     <h2 className='d-flex flex-column gap-3 '>
-                        {/* <a className="navbar-bran d-flex " href="#" style={{ fontFamily: "Montserrat" }}>
-                            <div className='bg-warning curve1'></div>
-                            <div> Kolad Consult Ltd<span className='text-warning'>.</span></div>
-
-                        </a> */}
-                        {/* <div id="info" className="info" style={{ fontFamily: "Montserrat" }}> </div> */}
                         <h2 className='global'>
                             You dream it, We design it.
                         </h2>
@@ -79,40 +72,6 @@ function Portfolio() {
                     </div>
                 </section>
             </section>
-            {/* <section className='safety d-flex p mt-2 row mx-auto '>
-                <main className=' col-lg-3'>
-                    <img loading='lazy' className='border border-warning' src={sqs} alt="" />
-                </main>
-
-                <div className='gy-2 col-lg-6 ps-lg-5 d-flex flex-column gap-4'>
-
-                    <div className='bg-warning span1'></div>
-                    <h3 className='bold'>Our goal is to provide efficiency and quality on time projects</h3>
-                    <div className='constructios at'>
-                        We believe that every project is unique, and can customize our approach to fit your particular
-                        project. We focus on delivering innovative and unique construction solutions.
-                    </div>
-                    <div className='d-flex   g-3' style={{ lineHeight: "50px", flexDirection: 'column', gap: '10px' }}>
-                        <div className=' d-flex  gap-3' >
-                            <span className='d-flex '><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong style={{ lineHeight: '20px' }} className=''>Our goal is to creat solutions to meet our clients' requrements.</strong>
-                        </div>
-                        <div className=' d-flex   gap-3'>
-                            <span className='d-flex'><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong style={{ lineHeight: '20px' }} className=''> Review functions of equipments and tools.</strong>
-                        </div>
-
-                        <div className=' d-flex  gap-3'>
-                            <span className='d-flex '><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong style={{ lineHeight: '20px' }} className=''>Innovative manufacturing methods.</strong>
-                        </div>
-                        <div className=' d-flex   gap-3'>
-                            <span className='d-flex'><CheckOutlined className='my-auto text-light bg-warning rounded-circle p-1' /></span>
-                            <strong style={{ lineHeight: '20px' }} className=''>A solid experience in iron and steel plants.</strong>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
             <div className='contacthead  ' style={{ backgroundImage: `url(${whitebg})` }}>
                 <section>
                     <h2><strong>Get started with us !</strong> We focus on the entire process, concept through completion</h2>

@@ -93,9 +93,6 @@
 }
 
 .navbar-brand {
-    /* width: 70px;
-    height: 70px; */
-    /* background: #000; */
     color: white !important;
     color: white;
     font-family: serif;
@@ -118,11 +115,6 @@
     width: 300px !important;
     height: 4.5px;
 }
-
-/* .navbar-brand img{
-    width: 70px;
-    height: 70px;
-} */
 
 .navsearch {
     width: 300px;

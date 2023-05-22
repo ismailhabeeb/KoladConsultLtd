@@ -4,7 +4,6 @@ import house1 from '/src/assets/images/About-3.jpg'
 import whitbghouse from '/src/assets/images/artchitecturedraw.avif'
 import { ArrowRightOutlined, PhoneFilled, EnvironmentFilled } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
-import Intouch from '../components/intouch';
 function Contact() {
     return (<>
         <div style={{ height: '80px' }} className='bg-primary '></div>

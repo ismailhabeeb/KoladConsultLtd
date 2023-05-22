@@ -1,15 +1,11 @@
 import { useState } from 'react'
 import '../../assets/styles/home.css'
 import '../../assets/styles/our_project.css'
-import single from '../../assets/images/Dbff.jpg'
-
 import house1 from '../../assets/images/draw.jpg'
 import bg from '../../assets/images/construction-silhouette.jpg'
-import bg1 from '../../assets/images/About-2.jpg'
+import bg1 from '../../assets/images/vd4.jpg'
 import Projects from '../../components/projects'
 import { AimOutlined, ArrowRightOutlined, ClockCircleOutlined, EnvironmentFilled, HighlightOutlined } from '@ant-design/icons'
-import Review from '../../components/customers\'review'
-import Intouch from '../../components/intouch'
 import { Link } from 'react-router-dom'
 import Architectural from './architecture'
 

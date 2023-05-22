@@ -1,11 +1,7 @@
-import { ApartmentOutlined, AreaChartOutlined, ArrowRightOutlined, BankOutlined, BorderHorizontalOutlined, CheckOutlined, HeatMapOutlined, SmileOutlined } from '@ant-design/icons'
-import house from '../assets/images/house.jpg'
-import bg from '../assets/images/cardboard-house.jpg'
-import buildings from '/src/assets/images/buying-renting-selling-real-e.jpg'
+import {  CheckOutlined } from '@ant-design/icons'
 import sqs from '/src/assets/images/sqs.avif'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import Project_preview from './project_preview'
 import Our_project from '../pages/ourProject'
 
 function Projects() {
@@ -56,9 +52,7 @@ function Projects() {
                             <strong className=''>Interior & Exterior Design</strong>
                         </div>
                     </div>
-                    <button className='btnget d-flex list'>
-                        <Link to={'/portfolio'} className='text-white'>Our Service</Link>
-                    </button>
+                   
                 </div>
             </section>
 

@@ -1,5 +1,7 @@
 import { ClockCircleOutlined, EnvironmentFilled } from "@ant-design/icons";
 import single from './images/pa2.jpg'
+import '../../assets/styles/home.css'
+import '../../assets/styles/our_project.css'
 // images//
 import a1 from './images/p3Db1.jpg'
 import a2 from './images/p3Db2.jpg'

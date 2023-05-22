@@ -1,24 +1,17 @@
 import '/src/assets/styles/navbar.css';
-import logo from '../assets/images/Untitled-1.svg'
-import logo2 from '../assets/images/logort.png'
 import { Link, useNavigate } from 'react-router-dom';
-import { useContext, useRef, useState } from 'react';
-import { Textcontext } from './context';
-import { SaveOutlined, SearchOutlined } from '@ant-design/icons';
+import { useRef, useState } from 'react';
 import { Alert } from 'bootstrap';
 
 
 export default function Navbar(params) {
     const [navbar, setNavbar] = useState('Construction')
-    const { mode, setMode } = useContext(Textcontext)
     const navigate = useNavigate()
 
     const home = useRef(null);
-    const our = useRef(null);
     const portfolio = useRef(null);
-    const property = useRef(null);
-    const blog = useRef(null);
     const contact = useRef(null);
+
     window.onscroll = function () { scrollFunc() };
     function scrollFunc() {
         if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
