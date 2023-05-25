@@ -1,4 +1,3 @@
-import '../assets/styles/App.css'
 import '../assets/styles/home.css'
 import error from '../assets/images/error.jpg'
 import { Link } from 'react-router-dom'
