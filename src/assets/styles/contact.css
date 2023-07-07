@@ -53,6 +53,7 @@
     * {
         /* border: red solid; */
     }
+   
 
     .contactbody {
         width: 100% !important;
@@ -74,8 +75,20 @@
         background-blend-mode: multiply;
         text-align: center;
     }
-}
+   
+    .contactbody>section {
+        margin: auto;
+        width: 90% !important;
+       
+    }
+    .con{
+        padding-left: 0 !important;
 
+    }
+}
+@media(max-width:520px) {
+    
+}
 @media(max-width:320px) {
     .contactbody>section {
         width: 100% !important;

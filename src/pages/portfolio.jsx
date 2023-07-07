@@ -19,15 +19,12 @@ function Portfolio() {
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
-            // console.log(entry);
             if (entry.isIntersecting) {
                 setCount(true)
-                // console.log(add);
 
             }
             else {
                 setCount(false)
-                // console.log(add);
 
             }
         })
@@ -59,7 +56,7 @@ function Portfolio() {
                         <div style={{ fontSize: '20px' }} className='d-flex gap-3  ms-5'>
                             <a href="mailTo:koladconsultltd@gmail.com" className='d-flex'> <MailOutlined className="my-auto text-white" /></a>
                             <a href='http://wa.me/2348069595110' className='d-flex'><WhatsAppOutlined className='my-auto text-white' /></a>
-                            <div className='d-flex'><InstagramFilled className='my-auto text-white' /></div>
+                            <a href="http://WWW.instagram.com/KoladConsultLtd" className='d-flex'><InstagramFilled className='my-auto text-white' /></a>
                         </div>
                     </h2>
 

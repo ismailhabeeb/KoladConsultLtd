@@ -18,9 +18,9 @@ function Our_project() {
                         <strong>Our Project</strong>
                     </h5>
                     <h5>
-                        <Link className='btnget d-flex gap-2 more btn btn-hover mt-4 d-flex' style={{ width: "150px" }} to={'/our_Project'} >Contact Us
+                        <a className='btnget d-flex gap-2 more btn btn-hover mt-4 d-flex' style={{ width: "150px" }} href="http://wa.me/2348069595110" >Contact Us
                             <ArrowRightOutlined className='my-auto ' />
-                        </Link>
+                        </a>
                     </h5>
                 </div>
                 <main className='d-flex flex-wrap gap-2 justify-content-center each'>
@@ -33,10 +33,6 @@ function Our_project() {
                                 that their specific needs are met and that the final product
                                 is delivered on time and exceeds their expectations.
                             </p>
-                            {/* <Link to={'/contact'} className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
-                                <div>Read More </div>
-                                <ArrowRightOutlined className='my-auto ' />
-                            </Link> */}
                         </div>
                     </section>
 
@@ -49,10 +45,6 @@ function Our_project() {
                                 that their specific needs are met and that the final product
                                 is delivered on time and exceeds their expectations.
                             </p>
-                            {/* <Link to={'/'} className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
-                                <div>Read More </div>
-                                <ArrowRightOutlined className='my-auto ' />
-                            </Link> */}
                         </div>
                     </section>
 
@@ -63,10 +55,6 @@ function Our_project() {
                             <hr className='divider ' />
                             <p className="card-text d-none propertynote">Poles architecture and design includes a range of projects from around the globe.
                             </p>
-                            {/* <Link to={'/architecture'} className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
-                                <div>Read More </div>
-                                <ArrowRightOutlined className='my-auto ' />
-                            </Link> */}
                         </div>
                     </section>
                     
@@ -79,10 +67,6 @@ function Our_project() {
                                 that their specific needs are met and that the final product
                                 is delivered on time and exceeds their expectations.
                             </p>
-                            {/* <Link to={'/real_estate'} className='text-light d-flex gap-2 ' style={{ width: "140px" }}>
-                                <div>Read More </div>
-                                <ArrowRightOutlined className='my-auto ' />
-                            </Link> */}
                         </div>
                     </section>
 

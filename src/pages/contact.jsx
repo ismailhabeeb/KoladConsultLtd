@@ -14,7 +14,7 @@ function Contact() {
                 <div className='text-light'><strong>Home / </strong>Contact</div>
             </section>
         </div>
-        <section className='safety dbimg h-100' style={{ backgroundImage: `url(${whitebg})` }}>
+        <section className='safety dbimg h-100 pe-0 con' style={{ backgroundImage: `url(${whitebg})` }}>
             <section className='d-flex contactbody ' >
                 <section className='contactbody1 d-flex p-2 flex-colume gap-3'>
                     <h5>Free Consultation</h5>

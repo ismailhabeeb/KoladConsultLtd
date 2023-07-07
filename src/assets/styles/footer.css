@@ -28,9 +28,16 @@ div.social {
   color: #ffffff;
   font-size: 25px !important;
 }
+.social{
+  width: 100%;
+  justify-content: center;
+  margin: auto;
+
+}
 .copyright p{
-  text-align: right;
-  font-size: 0.8em;
+
+  text-align: center;
+  font-size: 0.9em;
 }
 .copyright p a{
   color: white !important;
@@ -47,7 +54,4 @@ div.social {
   }div.social {
     display: none;
   }
-}
-@media screen {
-  
 }

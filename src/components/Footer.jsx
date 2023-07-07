@@ -11,7 +11,7 @@ function Footer() {
 
          <div>
             <div className="social my-auto mx-auto">
-              <InstagramOutlined className="i text-warning" />
+            <a href="http://WWW.instagram.com/KoladConsultLtd"><InstagramOutlined className="i text-warning" /></a>
               <a href="mailTo:koladconsultltd@gmail.com"> <MailOutlined className="i" /></a>
               <a href="http://wa.me/2348069595110"><WhatsAppOutlined className="i" /></a>
             </div>
